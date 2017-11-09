@@ -2,7 +2,7 @@
     {
         "nume": "Alex Călin",
         "sectiune": ["coregrafi, dansatori, profesori"],
-        "social-media:": [
+        "social-media": [
             {
                 "type": "facebook",
                 "value": "https://www.facebook.com/alexcalinactor/"
@@ -13,6 +13,8 @@
             }
 
         ],
+        "foto": "",
+        "foto_credit": "",
         "bio": "Am făcut dans sportiv timp de 6 ani.\n\nÎn 2012 am absolvit UNATC, secția actorie, iar în 2014, tot la UNATC am absolvit Masterul (Actorie).\n\nÎn ultimii8 ani am lucrat alături de coregrafi ca Gigi Căciuleanu, Răzvan Mazilu, Arcadie Rusu, Ioana Marchidan, Andreea Belu, Timea Kovacs, Catrinel Catană, Konstantin Mihos.\n\nParticip de asemenea, regulat, la ateliere de contact improvisation, tap dancing sau dans contemporan.",
         "proiecte": "Babel (Linotip)\nD'ale noastre\nFolia (Teatrul Național București)\n#Emojiplay (Teatrul Excelsior)\nOui Ba Da\nWest Side Story (Musical - Festivalul Internațional de Teatru de la Sibiu)",
         "proiecte_viitoare": "",
