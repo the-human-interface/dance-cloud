@@ -69,3 +69,29 @@ Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
 
 Ca exemplu poate fi folosit `Formă_și_sunet.json` din directorul `_raw_data/publications`. Tot acolo vor fi salvate și celelalte publicații, una câte una.
 
+## Spectacole
+
+Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
+
+* `Numărul rândului`: id
+* `Timestamp`: nimic
+* `Titlul`: titlu
+* `Anul producției`: an
+* `Durata`: durata
+* `Regizor/Coregraf`: regizor
+* `Echipa de creație/producție`: echipa
+* `Distribuție`: distributie
+* `Producători/coproducători`: producatori
+* `Afiș/foto reprezentativă (max 1 mb)`: foto_afis
+* `Credit foto (dacă este cazul)`: foto_credit
+* `Link trailer/video prezentare`: trailer
+* `Descriere (max. 150 de cuvinte)`: descriere
+* `Data, ora și locul reprezentațiilor viitoare (dacă e cazul)`: date_reprezentatii
+
+**ATENȚIE**:
+
+1. Textul din câmpurile `echipa` și `descriere` trebuie formatate înainte cu <http://textmechanic.com/text-tools/basic-text-tools/addremove-line-breaks/>
+1. Câmpul `date_reprezentatii` este o listă cu toate datele
+1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
+
+Ca exemplu poate fi folosit `COUNTERBODY.json` din directorul `_raw_data/shows`. Tot acolo vor fi salvate și celelalte publicații, una câte una.
