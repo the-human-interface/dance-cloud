@@ -18,6 +18,11 @@ layout: default
     {% endfor %}
   </ul>
 
+  {% assign image_files = site.static_files | where: "image", true %}
+  {% for myimage in image_files %}
+    {{ myimage.path }}
+  {% endfor %}
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

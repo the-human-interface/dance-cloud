@@ -19,3 +19,9 @@ markdown: kramdown
 permalink: none
 user: devel
 exclude: [sandbox, fabfile.py]
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true

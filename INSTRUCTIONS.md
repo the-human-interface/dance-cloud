@@ -120,3 +120,36 @@ Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
 1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
 
 Ca exemplu poate fi folosit `Ansamblul_Nagyvárad.json` din directorul `_raw_data/organisations`. Tot acolo vor fi salvate și celelalte organizații, una câte una.
+
+
+## Filme
+
+Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
+
+* `Numărul rândului`: id
+* `Timestamp`: nimic
+* `Titlu`: titlu
+* `Anul producției`: an
+* `Durata`: durata
+* `Regie`: regie
+* `Coregrafie`: coregrafie
+* `Producători/coproducători`: producatori
+* `Scenariu`: scenariu
+* `Imagine`: imagine
+* `Montaj`: montaj
+* `Sound design`: sound
+* `Light design`: lights
+* `Scenografie`: scenografie
+* `Distributie`: distributie
+* `Afiș/foto reprezentativă (max 1 mb)`: foto_afis
+* `Link trailer/video prezentare`: trailer
+* `Descriere (max. 150 de cuvinte)`: descriere
+* `Data, locul și ora difuzărilor viitoare (dacă e cazul)`: date
+* `Email contact (privat, va fi folosit doar de dancecloud.ro)`: contact_privat
+
+**ATENȚIE**:
+
+1. Textul din câmpul `descriere` trebuie formatat înainte cu <http://textmechanic.com/text-tools/basic-text-tools/addremove-line-breaks/>
+1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
+
+Ca exemplu poate fi folosit `anotimpuri.json` din directorul `_raw_data/films`. Tot acolo vor fi salvate și celelalte filme, unul câte unul.
