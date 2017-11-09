@@ -18,4 +18,4 @@ github_username:  nico4
 markdown: kramdown
 permalink: none
 user: devel
-exclude: fabfile.py
+exclude: [sandbox, fabfile.py]

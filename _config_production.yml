@@ -18,4 +18,4 @@ github_username:  nico4
 markdown: kramdown
 permalink: none
 user: php
-exclude: fabfile.py
+exclude: [fabfile.py]
