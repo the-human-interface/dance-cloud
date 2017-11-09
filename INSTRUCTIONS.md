@@ -95,3 +95,28 @@ Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
 1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
 
 Ca exemplu poate fi folosit `COUNTERBODY.json` din directorul `_raw_data/shows`. Tot acolo vor fi salvate și celelalte publicații, una câte una.
+
+## Organizații
+
+Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
+
+* `Numărul rândului`: id
+* `Timestamp`: nimic
+* `Denumire`: denumire
+* `Secțiunea la care va fi înscris profilul`: sectiune
+* `Fotografie reprezentativă (max1mb)`: foto
+* `Credit foto`: foto_credit
+* `Link-uri către site propriu și/sau rețele de socializare`: social-media
+* `Descriere (max.200 de cuvinte)`: descriere
+* `Proiecte relevante trecute sau încă în derulare (evenimente, prezentări, ateliere etc.)`: proiecte
+* `Proiecte viitoare (evenimente, prezentări, ateliere etc.)`: proiecte_viitoare
+* `Detalii de contact (public)`: contact
+* `Email de contact (privat, va fi folosit doar de dancecloud.ro)`: contact_privat
+
+**ATENȚIE**:
+
+1. Textul din câmpurile `descriere`, `proiecte`, `proiecte_viitoare` și `contact` trebuie formatate înainte cu <http://textmechanic.com/text-tools/basic-text-tools/addremove-line-breaks/>
+1. Câmpul `date_reprezentatii` este o listă cu toate datele
+1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
+
+Ca exemplu poate fi folosit `Ansamblul_Nagyvárad.json` din directorul `_raw_data/organisations`. Tot acolo vor fi salvate și celelalte organizații, una câte una.
