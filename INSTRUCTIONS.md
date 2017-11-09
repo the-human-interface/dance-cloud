@@ -4,6 +4,7 @@
 
 Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
 
+* `Numărul rândului`: id
 * `Timestamp`: nimic
 * `Secțiunea la care va fi înscris profilul`: sectiune
 * `Prenume și nume`: nume
@@ -23,4 +24,48 @@ Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
 1. Textul din câmpurile `bio`, `proiecte`, `proiecte_viitoare` și `presa` trebuie formatate înainte cu <http://textmechanic.com/text-tools/basic-text-tools/addremove-line-breaks/>
 1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
 
-Ca exemplu poate fi folosit `AlexCălin.json` din directorul `_raw_data/artists`. Tot acolo vor fi salvate și celelalte valori din Excel.
+Ca exemplu poate fi folosit `AlexCălin.json` din directorul `_raw_data/artists`. Tot acolo vor fi salvate și celelalți artiști, unul câte unul.
+
+## Festivaluri
+
+Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
+
+* `Numărul rândului`: id
+* `Timestamp`: nimic
+* `Titlu`: titlu
+* `Link-uri către site-ul festivalului și/sau rețele de socializare`: website
+* `Organizatori/coorganizatori`: organizatori
+* `Descriere (max. 200 de cuvinte)`: descriere
+* `Afiș/foto reprezentativă (max 1 mb)`: foto_afis
+* `Credit foto`: foto_credit
+* `Email de contact (privat, va fi folosit doar de dancecloud.ro)`: email
+
+**ATENȚIE**:
+
+1. Textul din câmpul `descriere` trebuie formatat înainte cu <http://textmechanic.com/text-tools/basic-text-tools/addremove-line-breaks/>
+1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
+
+Ca exemplu poate fi folosit `EHTET.json` din directorul `_raw_data/festivals`. Tot acolo vor fi salvate și celelalte festivaluri, unul câte unul.
+
+## Publicații
+
+Coloanele din excel vor fi mapate pe următoarele câmpuri din JSON:
+
+* `Numărul rândului`: id
+* `Timestamp`: nimic
+* `Titlul`: titlu
+* `Autorul/ redactorul-șef`: autor
+* `Editura`: editura
+* `Data și locul apariţiei`: data_publicarii
+* `Fotografie de copertă/ fotografie reprezentativă (max. 1mb)`: foto_coperta
+* `Credit foto copertă`: foto_credit
+* `Descriere a cărţii/ publicației și sursa descrierii (max. 100 de cuvinte)`: descriere și descriere_sursa
+* `Email de contact (privat, va fi folosit doar de dancecloud.ro)`: contact
+
+**ATENȚIE**:
+
+1. Textul din câmpul `descriere` trebuie formatat înainte cu <http://textmechanic.com/text-tools/basic-text-tools/addremove-line-breaks/>
+1. Inainte de a fi salvat fișierul trebuie verificat cu <https://jsonlint.com/>
+
+Ca exemplu poate fi folosit `Formă_și_sunet.json` din directorul `_raw_data/publications`. Tot acolo vor fi salvate și celelalte publicații, una câte una.
+
