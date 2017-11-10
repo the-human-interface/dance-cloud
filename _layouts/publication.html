@@ -26,20 +26,26 @@ layout: default
         {{ page.descriere_sursa }}
     </dd>
 
+    {% if page.author %}
     <dt>Autor</dt>
     <dd>
         {{ page.autor }}
     </dd>
+    {% endif %}
 
+    {% if page.editura %}
     <dt>Editura</dt>
     <dd>
         {{ page.editura }}
     </dd>
+    {% endif %}
 
+    {% if page.data_publicarii %}
     <dt>Data publicării</dt>
     <dd>
         {{ page.data_publicarii }}
     </dd>
+    {% endif %}
 
 </dl>
 
