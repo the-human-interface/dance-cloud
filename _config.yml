@@ -21,16 +21,16 @@ page_gen:
     template: 'artist'
     name: 'nume'
     dir: 'azi/artisti'
-  # - data: 'pet'
-  #   template: 'profile'
-  #   name: 'full_name'
-  #   dir: 'pets'
+  - data: 'spectacole'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'azi/spectacole'
 
 # Build settings
 markdown: kramdown
 permalink: none
 user: devel
-exclude: [sandbox, fabfile.py]
+exclude: ['sandbox', 'fabfile.py']
 
 defaults:
   - scope:

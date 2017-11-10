@@ -16,20 +16,56 @@ layout: default
     <a href="{{ site.baseurl }}/azi/artisti/"
        class="category"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Artiști</span>
+      <span class="category-label">Coregrafi/Dansatori</span>
     </a>
   </li>
 
   
-  {% assign artist = site.data.artists | first %}
+  {% assign colectiv = site.data.colective | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:artist.foto %}
+     append:colectiv.foto %}
   <li>
-    <a href="{{ site.baseurl }}/azi/artisti/"
+    <a href="{{ site.baseurl }}/azi/colective/"
        class="category"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Artiști</span>
+      <span class="category-label">Colective</span>
+    </a>
+  </li>
+  
+  {% assign organizatie = site.data.organizatii | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:organizatie.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/organizatii/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Organizatii</span>
+    </a>
+  </li>
+  
+  {% assign om = site.data.oameni_ai_dansului | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:om.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/oameni_ai_dansului/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Oameni ai dansului</span>
+    </a>
+  </li>
+    
+  {% assign spectacol = site.data.spectacole | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:spectacol.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/spectacole/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Spectacole</span>
     </a>
   </li>
 </ul>

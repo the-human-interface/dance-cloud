@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Colective</h1>  
+
+{% for colectiv in site.data.colective %}
+  {{ colectiv.nume }}
+  <a href="{{ colectiv.nume | datapage_url: '.' }}">{{ colectiv.nume | datapage_url: 'colective' }}</a>
+{% endfor %}
+
