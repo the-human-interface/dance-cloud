@@ -7,7 +7,12 @@ layout: default
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
 
 
-{% for artist in site.data.artists %}
-  {{ artist.nume }}
-  <a href="{{ artist.nume | datapage_url: 'artisti' }}">{{ artist.nume | datapage_url: 'artisti' }}</a>
-{% endfor %}
+<ul>
+  {% assign artist = site.data.artists | first %}
+  <li>
+    <a href="{{ site.baseurl }}artisti/">
+      <img src="{{ site.baseurl }}assets/photos/{{ artist.foto }}" alt="">
+    </a>
+  </li>
+
+</ul>
