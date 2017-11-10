@@ -1,9 +1,9 @@
---- 
-layout: default 
+---
+layout: default
 ---
 
 <h1>Spectacole</h1>
 
-{% for spectacol in site.data.spectacole %} {{ spectacol.titlu }}
-<a href="{{ spectacol.id | datapage_url: '.' }}">{{ spectacol.id | datapage_url: 'spectacole' }}</a>
+{% for show in site.data.shows %} {{ show.titlu }}
+<a href="{{ show.id | datapage_url: '.' }}">{{ show.id | datapage_url: 'spectacole' }}</a>
 {% endfor %}

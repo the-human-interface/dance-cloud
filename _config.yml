@@ -42,8 +42,8 @@ page_gen:
     name: 'id'
     dir: 'azi/festivale'
 
-  - data: 'spectacole'
-    template: 'spectacole'
+  - data: 'shows'
+    template: 'show'
     name: 'id'
     dir: 'azi/spectacole'
 
