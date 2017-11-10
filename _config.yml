@@ -12,7 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Platforma online a dansului contemporan românesc
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alfa.dancecloud.ro" # the base hostname & protocol for your site
-github_username:  nico4
 
 # Page generation
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
@@ -22,25 +21,25 @@ page_gen:
     name: 'nume'
     dir: 'azi/artisti'
   - data: 'organisations'
-    template: 'spectacole'
+    template: 'organisation'
     name: 'id'
     dir: 'azi/organizatii'
+  - data: 'shows'
+    template: 'show'
+    name: 'id'
+    dir: 'azi/spectacole'
   - data: 'films'
-    template: 'spectacole'
+    template: 'film'
     name: 'id'
     dir: 'azi/filme'
   - data: 'publications'
-    template: 'spectacole'
+    template: 'publication'
     name: 'id'
     dir: 'azi/publicatii'
   - data: 'festivals'
-    template: 'spectacole'
+    template: 'festival'
     name: 'id'
     dir: 'azi/festivale'
-  - data: 'spectacole'
-    template: 'spectacole'
-    name: 'id'
-    dir: 'azi/spectacole'
   - data: 'colective'
     template: 'spectacole'
     name: 'id'

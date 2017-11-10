@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "title ": "Formă, sunet și imagine în dansul contemporan",
+        "titlu": "Formă, sunet și imagine în dansul contemporan",
         "autor": "Andreea-Raluca Tănăsescu",
         "editura": "Editura Muzicală, Bucuresti",
         "data_publicarii": "București 2015",
@@ -12,7 +12,7 @@
     },
     {
         "id": "2",
-        "title ": "Dansul - Arhetip cultural",
+        "titlu": "Dansul - Arhetip cultural",
         "autor": "Sergiu Anghel",
         "editura": "ProArte ",
         "data_publicarii": "2002 - Constanta",
@@ -23,13 +23,13 @@
     },
     {
         "id": "3",
-        "title ": "Șcena și șcenariul",
+        "titlu": "Scena și scenariul",
         "autor": "Sergiu Anghel",
         "editura": "",
         "data_publicarii": "2009 - București",
         "foto_coperta": "3 Scena si Scenariul - Sergiu Anghel.jpg",
         "foto_credit": "Sergiu Anghel",
-        "descriere": "Introducere în șcenotehnică și compendiu de șcenarii coregrafice",
+        "descriere": "Introducere în scenotehnică și compendiu de scenarii coregrafice",
         "descriere_sursa": ""
     }
 ]
