@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1>Oameni ai Dansului</h1>  
+<h1>Oameni ai Dansului</h1>
 
-{% for om in site.data.oameni_ai_dansului %}
-  {{ om.nume }}
-  <a href="{{ om.id | datapage_url: '.' }}">{{ om.id | datapage_url: 'oameni_ai_dansului' }}</a>
+{% for artist in site.data.old_artists %}
+  {{ artist.nume }}
+  <a href="{{ artist.id | datapage_url: '.' }}">{{ artist.id | datapage_url: 'oameni_ai_dansului' }}</a>
 {% endfor %}
 

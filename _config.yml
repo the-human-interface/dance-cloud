@@ -61,8 +61,8 @@ page_gen:
     name: 'id'
     dir: 'ieri/organizatii'
 
-  - data: 'oameni_ai_dansului'
-    template: 'spectacole'
+  - data: 'old_artists'
+    template: 'old_artist'
     name: 'id'
     dir: 'ieri/oameni_ai_dansului'
 

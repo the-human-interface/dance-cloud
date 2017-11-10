@@ -45,10 +45,10 @@ layout: default
     </a>
   </li>
 
-  {% assign om = site.data.oameni_ai_dansului | first %}
+  {% assign artist = site.data.old_artists | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
-     append:om.fotografii[0] %}
+     append:artist.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/oameni_ai_dansului/"
        class="category"
