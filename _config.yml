@@ -24,7 +24,7 @@ page_gen:
 
   - data: 'organisations'
     template: 'organisation'
-    name: 'denumire'
+    name: 'id'
     dir: 'azi/organizatii'
 
   - data: 'films'
