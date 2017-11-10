@@ -1,0 +1,9 @@
+--- 
+layout: default 
+---
+
+<h1>Spectacole</h1>
+
+{% for spectacol in site.data.spectacole %} {{ spectacol.titlu }}
+<a href="{{ spectacol.id | datapage_url: '.' }}">{{ spectacol.id | datapage_url: 'spectacole' }}</a>
+{% endfor %}

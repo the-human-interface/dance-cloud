@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Artiști</h1>  
+
+{% for artist in site.data.artists %}
+  {{ artist.nume }}
+  <a href="{{ artist.nume | datapage_url: '.' }}">{{ artist.nume | datapage_url: 'artisti' }}</a>
+{% endfor %}
+

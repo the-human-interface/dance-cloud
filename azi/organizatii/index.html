@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Organizatii</h1>  
+
+{% for organizatie in site.data.organisations %}
+  {{ organizatie.nume }}
+  <a href="{{ organizatie.id | datapage_url: '.' }}">{{ organizatie.id | datapage_url: 'organizatii' }}</a>
+{% endfor %}
+

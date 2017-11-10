@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<h1>Azi</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
+
+
+<ul class="list-categories">
+  {% assign artist = site.data.artists | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:artist.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/artisti/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Artisti</span>
+    </a>
+  </li>
+  
+  {% assign organizatie = site.data.organisations | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:organizatie.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/organizatii/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Organizatii</span>
+    </a>
+  </li>
+    
+  {% assign spectacol = site.data.spectacole | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:spectacol.foto_afis %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/spectacole/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Spectacole</span>
+    </a>
+  </li>
+
+      
+  {% assign film = site.data.films | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:film.foto_afis %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/filme/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Filme/Emisiuni</span>
+    </a>
+  </li>
+
+      
+  {% assign publicatie = site.data.publications | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:publicatie.foto_coperta %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/publicatii/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Publicatii</span>
+    </a>
+  </li>
+
+      
+  {% assign festival = site.data.festivals | last %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:festival.foto_afis %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/festivale/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Festivaluri</span>
+    </a>
+  </li>
+</ul>

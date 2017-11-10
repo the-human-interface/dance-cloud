@@ -14,11 +14,39 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alfa.dancecloud.ro" # the base hostname & protocol for your site
 github_username:  nico4
 
+# Page generation
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'artists'
+    template: 'artist'
+    name: 'nume'
+    dir: 'azi/artisti'
+  - data: 'organisations'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'azi/organizatii'
+  - data: 'films'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'azi/filme'
+  - data: 'publications'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'azi/publicatii'
+  - data: 'festivals'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'azi/festivale'
+  - data: 'spectacole'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'azi/spectacole'
+
 # Build settings
 markdown: kramdown
 permalink: none
 user: devel
-exclude: [sandbox, fabfile.py]
+exclude: ['sandbox', 'fabfile.py']
 
 defaults:
   - scope:

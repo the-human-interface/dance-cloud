@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Oameni ai Dansului</h1>  
+
+{% for om in site.data.oameni_ai_dansului %}
+  {{ om.nume }}
+  <a href="{{ om.nume | datapage_url: '.' }}">{{ om.nume | datapage_url: 'oameni_ai_dansului' }}</a>
+{% endfor %}
+
