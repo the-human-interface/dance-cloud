@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h1>Colective</h1>  
+<h1>Colective</h1>
 
-{% for colectiv in site.data.colective %}
-  {{ colectiv.titlu }}
-  <a href="{{ colectiv.id | datapage_url: '.' }}">{{ colectiv.id | datapage_url: 'colective' }}</a>
+{% for col in site.data.collective %}
+  {{ col.titlu }}
+  <a href="{{ col.id | datapage_url: '.' }}">{{ col.id | datapage_url: 'colective' }}</a>
 {% endfor %}

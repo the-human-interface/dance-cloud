@@ -21,10 +21,10 @@ layout: default
   </li>
 
 
-  {% assign colectiv = site.data.colective | first %}
+  {% assign collective = site.data.collective | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
-     append:colectiv.fotografii[0] %}
+     append:collective.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/colective/"
        class="category"
