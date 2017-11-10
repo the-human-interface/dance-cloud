@@ -7,12 +7,29 @@ layout: default
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
 
 
-<ul>
+<ul class="list-categories">
   {% assign artist = site.data.artists | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:artist.foto %}
   <li>
-    <a href="{{ site.baseurl }}artisti/">
-      <img src="{{ site.baseurl }}assets/photos/{{ artist.foto }}" alt="">
+    <a href="{{ site.baseurl }}/azi/artisti/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Artiști</span>
     </a>
   </li>
 
+  
+  {% assign artist = site.data.artists | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:artist.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/azi/artisti/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Artiști</span>
+    </a>
+  </li>
 </ul>

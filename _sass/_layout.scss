@@ -317,6 +317,80 @@
     font-size: 24px;
 }
 
+/**
+ * Numbered category cards
+ */
+.list-categories {
+  list-style: none;
+  margin: 2rem auto;
+  padding-left: 0;
+  counter-reset: category;
+}
+.list-categories > li {
+  float: left;
+}
+@media (max-width: 1079px) {
+  .list-categories {
+    overflow: hidden;
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  .list-categories > li {
+    margin: 0 2rem 4rem;
+  }
+}
+@media (min-width: 1080px) {
+  .list-categories {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+  .list-categories > li {
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+.category {
+  counter-increment: category;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 36rem;
+  max-width: 100%;
+  
+
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.category::before {
+  content: '';
+  display: block;
+  padding-bottom: 100%; 
+}
+.category::after {
+  content: counter(category, decimal-leading-zero);
+  font-size: 12rem;
+  font-weight: 900;
+  line-height: 1;
+  position: absolute;
+  bottom: -.2em;
+  right: -.2em;
+  color: #FFFF43;
+  opacity: .9;
+  user-select: none;
+}
+.category-label {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 4rem;
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #fff;
+}
+
 
 
 /**
