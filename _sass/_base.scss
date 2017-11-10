@@ -9,22 +9,23 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
+:root {
+  font-size: 10px;
+}
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
+  font-family: $base-font-family;
+  font-size: 2rem;
+  line-height: 1.33334;
+  letter-spacing: .02em;
 }
 
+small,
+.small {
+  font-size: 1.5rem;
+}
 
 
 /**
@@ -100,7 +101,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        // text-decoration: underline;
     }
 }
 
@@ -187,20 +188,18 @@ pre {
 }
 
 
-
 /**
- * Icons
+ * Utils
  */
-.icon {
+.no-br {
+  white-space: nowrap;
+}
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
+.sr,
+.sr-only { 
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
 }
