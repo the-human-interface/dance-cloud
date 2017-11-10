@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Coregrafi/Dansatori</h1>  
+
+{% for coregraf in site.data.coregrafi %}
+  {{ coregraf.nume }}
+  <a href="{{ artist.nume | datapage_url: '.' }}">{{ coregraf.nume | datapage_url: 'coregrafi' }}</a>
+{% endfor %}
+

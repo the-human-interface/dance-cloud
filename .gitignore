@@ -3,3 +3,4 @@ _site
 .vscode
 sandbox
 *.pyc
+.DS_Store
