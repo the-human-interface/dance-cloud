@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1>Coregrafi/Dansatori</h1>  
+<h1>Coregrafi/Dansatori</h1>
 
-{% for coregraf in site.data.coregrafi %}
-  {{ coregraf.nume }}
-  <a href="{{ coregraf.id | datapage_url: '.' }}">{{ coregraf.id | datapage_url: 'coregrafi' }}</a>
+{% for choreograph in site.data.choreographers %}
+  {{ choreograph.nume }}
+  <a href="{{ choreograph.id | datapage_url: '.' }}">{{ choreograph.id | datapage_url: 'coregrafi' }}</a>
 {% endfor %}
 

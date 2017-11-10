@@ -20,38 +20,47 @@ page_gen:
     template: 'artist'
     name: 'nume'
     dir: 'azi/artisti'
+
   - data: 'organisations'
     template: 'organisation'
     name: 'id'
     dir: 'azi/organizatii'
+
   - data: 'shows'
     template: 'show'
     name: 'id'
     dir: 'azi/spectacole'
+
   - data: 'films'
     template: 'film'
     name: 'id'
     dir: 'azi/filme'
+
   - data: 'publications'
     template: 'publication'
     name: 'id'
     dir: 'azi/publicatii'
+
   - data: 'festivals'
     template: 'festival'
     name: 'id'
     dir: 'azi/festivale'
+
   - data: 'colective'
     template: 'spectacole'
     name: 'id'
     dir: 'ieri/colective'
-  - data: 'coregrafi'
-    template: 'spectacole'
+
+  - data: 'choreographers'
+    template: 'choreograph'
     name: 'id'
     dir: 'ieri/coregrafi'
+
   - data: 'oameni_ai_dansului'
     template: 'spectacole'
     name: 'id'
     dir: 'ieri/oameni_ai_dansului'
+
   - data: 'organizatii_ieri'
     template: 'spectacole'
     name: 'id'

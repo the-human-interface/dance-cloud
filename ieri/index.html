@@ -8,10 +8,10 @@ layout: default
 
 
 <ul class="list-categories">
-  {% assign coregraf = site.data.coregrafi | first %}
-  {% assign thumbnail = "/assets/photos/" | 
-     prepend:site.baseurl | 
-     append:coregraf.fotografii[0] %}
+  {% assign choreograph = site.data.choreographers | first %}
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
+     append:choreograph.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/coregrafi/"
        class="category"
@@ -20,10 +20,10 @@ layout: default
     </a>
   </li>
 
-  
+
   {% assign colectiv = site.data.colective | first %}
-  {% assign thumbnail = "/assets/photos/" | 
-     prepend:site.baseurl | 
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
      append:colectiv.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/colective/"
@@ -32,10 +32,10 @@ layout: default
       <span class="category-label">Colective</span>
     </a>
   </li>
-  
+
   {% assign organizatie = site.data.organizatii_ieri | first %}
-  {% assign thumbnail = "/assets/photos/" | 
-     prepend:site.baseurl | 
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
      append:organizatie.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/organizatii/"
@@ -44,10 +44,10 @@ layout: default
       <span class="category-label">Organizatii</span>
     </a>
   </li>
-  
+
   {% assign om = site.data.oameni_ai_dansului | first %}
-  {% assign thumbnail = "/assets/photos/" | 
-     prepend:site.baseurl | 
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
      append:om.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/oameni_ai_dansului/"
