@@ -2,10 +2,106 @@
 layout: default
 ---
 
-{{ page.nume }}
 
-{{ page }}
 
-{% for media in page.social-media %}
-  {{ media.type }}
-{% endfor %}
+
+<h1>{{ page.nume }}</h1>
+
+<dl class="dl">
+  <dt>Bio</dt>
+  <dd>
+    {{ page.bio }}
+  </dd>
+
+  <dt>Proiecte</dt>
+  <dd>
+    {{ page.proiecte }}
+  </dd>
+
+  {% if page.proiecte_viitoare != empty %}
+  <dt>Proiecte viitoare</dt>
+  <dd>{{ page.proiecte_viitoare | default: "–" }}</dd>
+  {% endif %}
+
+  <!-- Presă -->
+  {% if page.presa != empty %}
+  <dt>Presă</dt>
+  {% for presa in page.presa %}
+  <dd>
+    <a href="{{ presa }}">{{ presa }}</a>
+  </dd>
+  {% endfor %}
+  {% endif %}
+
+  <!-- Contact -->
+  <dt>Contact</dt>
+  {% for contact in page.contact %}
+  <dd>
+    {% if contact.type == "email" %}
+      <a href="mailto:{{ contact.value }}">{{ contact.value }}</a>
+    {% elsif contact.type == "telefon" %}
+      <a href="tel:{{ contact.value }}">{{ contact.value }}</a>
+    {% else %}
+      {{ contact.value }}
+    {% endif %}
+  </dd>
+  {% endfor %}
+</dl>
+
+
+
+<style>
+  .dl dt {
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+
+  .dl a {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    background: rgba(17, 8, 132, 0.9);
+    color: #fff;
+      vertical-align: top;
+      line-height: 3rem;
+  }
+  .dl a:hover {
+    background: rgba(26, 115, 249, 0.9);
+  }
+
+  @media (max-width: 768px) {
+    .dl dt {
+      display: inline-block;
+      background: #ffff43;
+      margin-top: 3rem;
+      min-width: 10rem;
+    }
+  }
+  @media (min-width: 769px) {
+    .dl {
+      overflow: hidden;
+    }
+    .dl dt {
+      box-sizing: border-box;
+      float: left;
+      clear: left;
+      width: 20rem;
+      text-align: right;
+      padding-right: 8rem;
+      line-height: 3rem;
+      box-shadow: inset -10rem 0 0 #ffff43;
+    }
+    .dl dd {
+      margin-left: 20rem;
+    }
+    .dl dt,
+    .dl dt + dd {
+      margin-top: 3rem;
+    }
+  }
+
+
+
+</style>
