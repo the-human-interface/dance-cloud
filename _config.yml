@@ -38,7 +38,7 @@ page_gen:
     dir: 'azi/filme'
 
   - data: 'publications'
-    template: 'spectacole'
+    template: 'publication'
     name: 'id'
     dir: 'azi/publicatii'
 
