@@ -2,7 +2,7 @@
 layout: post
 title:  "Timár Timea"
 date:   2017-11-09 12:43:29 +0200
-categories: jekyll update
+categories: azi coregrafi
 image: 18 IMG_4700_1 - Timea Timar.jpg
 sectiune: Dansator/performer, Muzician
 ---

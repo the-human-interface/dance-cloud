@@ -2,7 +2,7 @@
 layout: post
 title:  "Vanda Ștefănescu"
 date:   2017-11-09 12:43:29 +0200
-categories: jekyll update
+categories: azi coregrafi
 image: 11 profil vanda - vanda stefanescu.jpg
 sectiune: Coregraf, Dansator/performer
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Vlad Iachim"
 date:   2017-11-09 12:43:29 +0200
-categories: jekyll update
+categories: azi coregrafi
 image: 19 Vlad Iachim - Vlad Iachim.jpg
 sectiune: Coregraf, Dansator/performer, Profesor
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Romulus Neagu"
 date:   2017-11-09 12:43:29 +0200
-categories: jekyll update
+categories: azi coregrafi
 image: 20 Romulus Neagu.jpg
 sectiune: Coregraf, Dansator/performer
 ---

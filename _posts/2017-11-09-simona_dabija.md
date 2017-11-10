@@ -2,7 +2,7 @@
 layout: post
 title:  "Simona Dabija"
 date:   2017-11-09 12:43:29 +0200
-categories: jekyll update
+categories: azi coregrafi
 image: 4 21686792_1472033446183775_9044922862162538535_o (2) - Simona Dabija.jpg
 sectiune: Coregraf, Dansator/performer
 ---
