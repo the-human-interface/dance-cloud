@@ -27,8 +27,13 @@ page_gen:
     name: 'id'
     dir: 'azi/organizatii'
 
+  - data: 'shows'
+    template: 'show'
+    name: 'id'
+    dir: 'azi/spectacole'
+
   - data: 'films'
-    template: 'spectacole'
+    template: 'film'
     name: 'id'
     dir: 'azi/filme'
 
@@ -41,11 +46,6 @@ page_gen:
     template: 'spectacole'
     name: 'id'
     dir: 'azi/festivale'
-
-  - data: 'shows'
-    template: 'show'
-    name: 'id'
-    dir: 'azi/spectacole'
 
 # Build settings
 markdown: kramdown
