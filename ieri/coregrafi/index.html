@@ -1,0 +1,18 @@
+--- 
+layout: default 
+---
+
+<div class="home">
+
+        <ul class="posts">
+            {% for post in site.posts %} {% if post.categories contains 'ieri' and post.categories contains 'coregrafi' %}
+            <li>
+                <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+            </li>
+            {% endif %} {% endfor %}
+        </ul>
+
+
+</div>
