@@ -43,7 +43,7 @@ page_gen:
     dir: 'azi/publicatii'
 
   - data: 'festivals'
-    template: 'spectacole'
+    template: 'festival'
     name: 'id'
     dir: 'azi/festivale'
 
