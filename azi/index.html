@@ -31,10 +31,10 @@ layout: default
       <span class="category-label">Organizatii</span>
     </a>
   </li>
-    
+
   {% assign spectacol = site.data.shows | first %}
-  {% assign thumbnail = "/assets/photos/" | 
-     prepend:site.baseurl | 
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
      append:spectacol.foto_afis %}
   <li>
     <a href="{{ site.baseurl }}/azi/spectacole/"
