@@ -1,8 +1,71 @@
---- 
-layout: default 
+---
+layout: default
 ---
 
-<h1>Ieri</h1>
+<h1>ieri</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus
-    ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
+
+
+<ul class="list-categories">
+  {% assign artist = site.data.artists | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:artist.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/ieri/artisti/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Coregrafi/Dansatori</span>
+    </a>
+  </li>
+
+  
+  {% assign colectiv = site.data.colective | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:colectiv.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/ieri/colective/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Colective</span>
+    </a>
+  </li>
+  
+  {% assign organizatie = site.data.organizatii | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:organizatie.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/ieri/organizatii/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Organizatii</span>
+    </a>
+  </li>
+  
+  {% assign om = site.data.oameni_ai_dansului | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:om.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/ieri/oameni_ai_dansului/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Oameni ai dansului</span>
+    </a>
+  </li>
+    
+  {% assign spectacol = site.data.spectacole | first %}
+  {% assign thumbnail = "/assets/photos/" | 
+     prepend:site.baseurl | 
+     append:spectacol.foto %}
+  <li>
+    <a href="{{ site.baseurl }}/ieri/spectacole/"
+       class="category"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="category-label">Spectacole</span>
+    </a>
+  </li>
+</ul>
