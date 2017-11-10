@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Festivaluri</h1>  
+
+{% for festival in site.data.festivaluri %}
+  {{ festival.nume }}
+  <a href="{{ festival.nume | datapage_url: '.' }}">{{ festival.nume | datapage_url: 'festivaluri' }}</a>
+{% endfor %}
+

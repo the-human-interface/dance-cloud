@@ -24,7 +24,7 @@ page_gen:
   - data: 'spectacole'
     template: 'spectacole'
     name: 'id'
-    dir: 'azi/spectacole'
+    dir: 'ieri/spectacole'
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Publicatii</h1>  
+
+{% for publicatie in site.data.publicatii %}
+  {{ publicatie.nume }}
+  <a href="{{ publicatie.nume | datapage_url: '.' }}">{{ publicatie.nume | datapage_url: 'publicatii' }}</a>
+{% endfor %}
+
