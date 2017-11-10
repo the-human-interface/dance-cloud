@@ -8,10 +8,10 @@ layout: default
 
 
 <ul class="list-categories">
-  {% assign artist = site.data.artists | first %}
+  {% assign coregraf = site.data.coregrafi | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:artist.foto %}
+     append:coregraf.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/coregrafi/"
        class="category"
@@ -24,7 +24,7 @@ layout: default
   {% assign colectiv = site.data.colective | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:colectiv.foto %}
+     append:colectiv.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/colective/"
        class="category"
@@ -33,10 +33,10 @@ layout: default
     </a>
   </li>
   
-  {% assign organizatie = site.data.organizatii | first %}
+  {% assign organizatie = site.data.organizatii_ieri | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:organizatie.foto %}
+     append:organizatie.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/organizatii/"
        class="category"
@@ -48,24 +48,12 @@ layout: default
   {% assign om = site.data.oameni_ai_dansului | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:om.foto %}
+     append:om.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/oameni_ai_dansului/"
        class="category"
        style="background-image: url('{{ thumbnail }}')">
       <span class="category-label">Oameni ai dansului</span>
-    </a>
-  </li>
-    
-  {% assign spectacol = site.data.spectacole | first %}
-  {% assign thumbnail = "/assets/photos/" | 
-     prepend:site.baseurl | 
-     append:spectacol.foto %}
-  <li>
-    <a href="{{ site.baseurl }}/ieri/spectacole/"
-       class="category"
-       style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Spectacole</span>
     </a>
   </li>
 </ul>

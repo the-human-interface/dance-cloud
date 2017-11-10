@@ -6,6 +6,6 @@ layout: default
 
 {% for om in site.data.oameni_ai_dansului %}
   {{ om.nume }}
-  <a href="{{ om.nume | datapage_url: '.' }}">{{ om.nume | datapage_url: 'oameni_ai_dansului' }}</a>
+  <a href="{{ om.id | datapage_url: '.' }}">{{ om.id | datapage_url: 'oameni_ai_dansului' }}</a>
 {% endfor %}
 

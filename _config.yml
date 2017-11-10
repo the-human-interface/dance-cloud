@@ -41,6 +41,22 @@ page_gen:
     template: 'spectacole'
     name: 'id'
     dir: 'azi/spectacole'
+  - data: 'colective'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'ieri/colective'
+  - data: 'coregrafi'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'ieri/coregrafi'
+  - data: 'oameni_ai_dansului'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'ieri/oameni_ai_dansului'
+  - data: 'organizatii_ieri'
+    template: 'spectacole'
+    name: 'id'
+    dir: 'ieri/organizatii'
 
 # Build settings
 markdown: kramdown
