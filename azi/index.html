@@ -20,7 +20,7 @@ layout: default
     </a>
   </li>
   
-  {% assign organizatie = site.data.organizatii | first %}
+  {% assign organizatie = site.data.organisations | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
      append:organizatie.foto %}
@@ -35,7 +35,7 @@ layout: default
   {% assign spectacol = site.data.spectacole | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:spectacol.foto %}
+     append:spectacol.foto_afis %}
   <li>
     <a href="{{ site.baseurl }}/azi/spectacole/"
        class="category"
@@ -45,23 +45,23 @@ layout: default
   </li>
 
       
-  {% assign film = site.data.filme | first %}
+  {% assign film = site.data.films | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:film.foto %}
+     append:film.foto_afis %}
   <li>
     <a href="{{ site.baseurl }}/azi/filme/"
        class="category"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Filme Emisiuni</span>
+      <span class="category-label">Filme/Emisiuni</span>
     </a>
   </li>
 
       
-  {% assign publicatie = site.data.publicatii | first %}
+  {% assign publicatie = site.data.publications | first %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:publicatie.foto %}
+     append:publicatie.foto_coperta %}
   <li>
     <a href="{{ site.baseurl }}/azi/publicatii/"
        class="category"
@@ -71,12 +71,12 @@ layout: default
   </li>
 
       
-  {% assign festival = site.data.festivaluri | first %}
+  {% assign festival = site.data.festivals | last %}
   {% assign thumbnail = "/assets/photos/" | 
      prepend:site.baseurl | 
-     append:festival.foto %}
+     append:festival.foto_afis %}
   <li>
-    <a href="{{ site.baseurl }}/azi/spectacole/"
+    <a href="{{ site.baseurl }}/azi/festivale/"
        class="category"
        style="background-image: url('{{ thumbnail }}')">
       <span class="category-label">Festivaluri</span>

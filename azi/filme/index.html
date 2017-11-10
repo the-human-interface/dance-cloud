@@ -4,8 +4,8 @@ layout: default
 
 <h1>Filme/Emisiuni</h1>  
 
-{% for film in site.data.filme %}
-  {{ film.nume }}
-  <a href="{{ film.nume | datapage_url: '.' }}">{{ film.nume | datapage_url: 'filme' }}</a>
+{% for film in site.data.films %}
+  {{ film.titlu }}
+  <a href="{{ film.id | datapage_url: '.' }}">{{ film.id | datapage_url: 'filme' }}</a>
 {% endfor %}
 

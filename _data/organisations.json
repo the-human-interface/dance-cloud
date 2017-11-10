@@ -1,9 +1,9 @@
 [
     {
-        "id": "2",
+        "id": "1",
         "denumire": "Ansamblul Nagyvárad - Teatrul Szigligeti",
         "sectiune": ["organizatie"],
-        "foto": "",
+        "foto": "1 Danse macabre - Ansamblul Nagyvarad1 - Táncegyüttes Nagyvárad.jpg",
         "foto_credit": "Oláh Gergõ-Péter",
         "social-media": [
             {
@@ -16,5 +16,27 @@
         "proiecte_viitoare": "",
         "contact": "Ansamblul Nagyvárad - Teatrul Szigligeti\n\nAdresa: 410021 - Oradea, P-ța Regele Ferdinand I., nr. 6., jud. Bihor, România\nEmail: nagyvaradtancegyuttes@gmail.com \nNr tel:\n * Levente Dimeny, director: 0040/772-298-983\n * Emília Martina Kraus, consultant artistic: 0040/772-215-371\n * Szőke Zsolt, organizator spectacole: 0040/770-867-145\n",
         "contact_privat": "nagyvaradtancegyuttes@gmail.com"
+    },
+    {
+        "id": "2",
+        "denumire": "",
+        "sectiune": ["organizatie", "companie de dans"],
+        "foto": "2 Denis+Alexandra2_pollakpo - Tangaj Dance.jpg",
+        "foto_credit": "Lavinia Pollak",
+        "social-media": [
+            {
+                "type": "website",
+                "value": "http://www.tangajdance.com/"
+            },
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/tangajdance/"
+            }
+        ],
+        "descriere": "Asociația Tangaj Dance s-a înființat în 2013 la inițiativa coregrafei Simona Deaconescu și are două direcții de dezvoltare: o companie de dans independentă (Tangaj Dance Collective) și o organizație care produce proiecte care pun dansul într-un raport de hibridizare cu celelalte arte, ambele direcții fiind influențate de aportul  științei în artă.\nTangaj a produs și prezentat spectacole: COUNTERBODY (2017), Aftertase (2016), Birdville (2014) și Fabrica de Vise (2013) și 2 filme de dans: Sonder (2016) și Silent Places (2013).\nDirecția artistică a companiei este îndreptată către mutualism în artă, vizuni la limita dintre utopie și distopie, producții de tip science fiction și site-specific, în care corpul este pus în raport cu spațiul văzut din perspectivă socială și filozofică.\nSpectacolele și atelierele marca Tangaj au fost prezentate în București și în țară precum și în Austria, SUA, Turcia și Ungaria.\nFilmele Tangaj au fost selectate în peste 35 de festivaluri internaționale din toată lumea.\nAsociația produce din 2015 Bucharest International Dance Film Festival, singurul festival de film de dans din România, precum și alte proiecte de cooperare internațională în sistem de parteneriat și co-producție.\nAnual, Tangaj lucrează în parteneriat cu studiouri de creație multimedia pentru a dezvolta proiecte hibride în care arta și tehnologia sunt puse într-o ecuație cu multe necunoscute.",
+        "proiecte": "Bucharest International Dance Film Festival\nCOUNTERBODY\nAftertase\nBirdville\nFabrica de Vise\nSonder\nSilent Places",
+        "proiecte_viitoare": "",
+        "contact": "tangajdance@gmail.com // 0741113365",
+        "contact_privat": "simona.deaconescu@hotmail.com"
     }
 ]
