@@ -1,38 +1,78 @@
 <footer class="site-footer">
+  <div class="text-right">
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </div>
 
-  <div class="wrapper">
+  <div class="mobile-footer">
+    <div class="mobile-footer-links">
+      <a href="">Contact</a>
+      &emsp;
+      <a href="">Termeni și condiții</a>
+    </div>
+    <div class="mobile-footer-credits">
+      Un proiect <a href="#todo-cndb" title="Despre Centrul Național al Dansului">CNDB</a>
+      <a href="http://www.cndb.ro/" class="logo-cndb"
+         title="Centrul Național al Dansului">
+        <img src="{{ site.baseurl }}/assets/logo-cndb-inverted@2x.png"
+             alt="Logo Centrul Național al Dansului"
+             width="176" height="70">
+      </a>
+      <br>
+      finanțat în cadrul programului
+      <span class="no-br">“București – Oraș participativ”</span>
+      <br>
+      <a href="https://arcub.ro/program/proiecte-bucuresti-oras-participativ/" class="logo-arcub"
+         title="București – Oraș participativ" rel="external">
+        <img src="{{ site.baseurl }}/assets/logo-arcub-finantare-mono.png"
+             alt="Logo ARCUB"
+             width="249" height="50">
+      </a>
+      <!--
+      <a href="http://pmb.ro/" class="logo-pmb"
+         title="Primăria Municipiului București" rel="external">
+        <img src="{{ site.baseurl }}/assets/logo-pmb-inverted@2x.png"
+             alt="Logo Primăria Municipiului București"
+             width="122" height="50">
+      </a>
+      <a href="https://arcub.ro/" class="logo-arcub"
+         title="ARCUB" rel="external">
+        <img src="{{ site.baseurl }}/assets/logo-arcub-mono-inverted@2x.png"
+             alt="Logo ARCUB"
+             width="86" height="50">
+      </a>-->
+    </div>
+  </div>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
+    <!--
     <div class="footer-col-wrapper">
+
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
+        <p>{{ site.description }}</p>
       </div>
 
       <div class="footer-col footer-col-2">
+        <h4>Ieri</h4>
         <ul class="social-media-list">
-          {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <a href="{{ '/ieri/coregrafi/ | prepend: site.baseurl}}">Coregrafi/Dansatori</a>
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            <a href="{{ '/ieri/colective/ | prepend: site.baseurl}}">Colective</a>
           </li>
-          {% endif %}
+          <li>
+            <a href="{{ '/ieri/organizatii/ | prepend: site.baseurl}}">Organizații</a>
+          </li>
+          <li>
+            <a href="{{ '/ieri/oameni_ai_dansului/ | prepend: site.baseurl}}">Oameni ai dansului</a>
+          </li>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
+    -->
 
-  </div>
 
 </footer>

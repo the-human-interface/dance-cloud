@@ -53,7 +53,7 @@
   color: #FFFF43;
 }
 
-/* navmenu-footer */
+/* navmenu footer */
 .navmenu-footer {
   padding: 1rem 2rem;
   font-size: 1.3rem;
@@ -245,8 +245,72 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+  background: #ffff43;
+  padding: 2rem;
+}
+@media (min-width: 1080px) {
+  .site-footer {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.site-footer a {
+  display: inline-block;
+  padding: 0 .25em;
+  background: #000;
+  color: #fff;
+}
+
+
+.mobile-footer {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  margin: -2rem;
+  margin-top: 2rem;
+  background: #000;
+  color: #fff;
+}
+.mobile-footer a {
+  color: inherit;
+}
+.mobile-footer a:hover {
+  color: #FFFF43;
+}
+.mobile-footer-links {
+  margin-top: -2rem;
+}
+.mobile-footer-links::before,
+.mobile-footer-links::after {
+  margin-bottom: 2rem;
+  content: "";
+  display: block;
+  height: .3rem;
+  // width: 10rem;
+  background: #FFFF43;
+}
+.mobile-footer-links::after {
+  margin-top: 1.5rem;
+}
+.mobile-footer-credits {
+  vertical-align: bottom;
+}
+.mobile-footer-credits a {
+  display: inline-block;
+  color: #FFFF43;
+  vertical-align: bottom;
+}
+.mobile-footer-credits img {
+  margin: 1rem;
+  vertical-align: bottom;
+}
+.mobile-footer-credits .logo-arcub {
+  margin-left: -1rem;
+}
+@media (min-width: 481px) {
+  .mobile-footer {
+    display: none;
+  }
 }
 
 .footer-heading {
