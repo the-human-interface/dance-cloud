@@ -16,8 +16,7 @@ breadcrumbs:
 <div class="leaf-social-media">
 {% for media in page.social-media %}
   {% assign url = media.value %}
-  {% unless media.value contains 'http' or
-            media.value contains 'www.' %}
+  {% unless media.value contains 'http' %}
     {% assign url = media.value | prepend:'https://' %}
   {% endunless %}
 
