@@ -697,11 +697,24 @@
 }
 .header-artist .leaf-title span {
   background: rgba(0,0,0,.4);
-  // box-shadow: inset 0 -1em 0 rgba(0,0,0,.4);
+}
+.header-artist .breadcrumbs {
+  position: absolute;
+  background: rgba(0,0,0,.4);
+  top: 2rem;
+  overflow: visible;
+  color: #fff;
+  z-index: 20;
+}
+.header-artist .breadcrumbs a:hover {
+  color: #ffff43;
 }
 @media (max-width: 1079px) {
   .header-artist .leaf-title {
     margin-top: -3em;
+  }
+  .header-artist .breadcrumbs {
+    top: 7rem;
   }
 }
 @media (min-width: 1080px) {
