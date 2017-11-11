@@ -42,7 +42,7 @@ layout: default
     </a>
   </li>
 
-  {% assign organisation = site.data.old_organisations | first %}
+  {% assign organisation = site.data.old_organisations[3] %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:organisation.fotografii[0] %}
