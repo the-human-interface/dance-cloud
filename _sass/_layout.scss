@@ -796,8 +796,6 @@
   }
   .dl dt {
     box-sizing: border-box;
-    float: left;
-    clear: left;
     width: 20rem;
     text-align: right;
     padding-right: 8rem;
@@ -807,9 +805,9 @@
     margin-left: 20rem;
     max-width: 32em;
   }
-  .dl dt,
-  .dl dt + dd {
+  .dl dt {
     margin-top: 3rem;
+    margin-bottom: -3rem;
   }
   .dl dt:first-child {
     margin-top: 0;
