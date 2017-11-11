@@ -1,0 +1,15 @@
+<header class="header-gallery {% unless include.gallery == empty %}no-cover{% endunless %}">
+  {% if include.gallery != empty %}
+  <div class="leaf-cover with-gallery">
+    {% for foto in page.fotografii %}
+      <img src="{{ site.baseurl }}/assets/photos/{{ foto }}">
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% include breadcrumbs.html %}
+
+  <h1 class="leaf-title">
+    <span>{{ page.nume }}</span> 
+  </h1>
+</header>

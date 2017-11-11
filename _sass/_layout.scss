@@ -6,7 +6,19 @@
   box-sizing: border-box;
   background: #000;
   color: #fff;
+  overflow: auto;
 }
+// this repeat 3 times already
+.navmenu::-webkit-scrollbar {
+  width: 1rem;
+}
+.navmenu::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, .2);
+}
+.navmenu::-webkit-scrollbar-thumb {
+  background-color: #ffff43;
+}
+
 .navmenu a {
   font-weight: 600;
 }
@@ -138,7 +150,6 @@
     top: 0;
     left: 0;
     bottom: 0;
-    overflow: auto;
     width: 360px;
   }
   .navmenu-toggle { display: none; }
@@ -639,6 +650,7 @@
   overflow: hidden;
   overflow-x: auto;
   height: 20rem;
+  background: #f2f2f2;
 }
 .leaf-cover.with-gallery::-webkit-scrollbar {
   width: 1rem;
@@ -811,7 +823,7 @@
   width: auto;
   max-width: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 1079px) {
   .dd-gallery {
     margin-left: -2rem;
     margin-right: -2rem;

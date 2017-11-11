@@ -1,19 +1,20 @@
 ---
 layout: default
+breadcrumbs:
+  Home: "/"
+  Ieri: "/ieri/"
+  Organizații: "../"
 ---
 
 
-{{ page.fotografii }}
-
-
-<h1 class="leaf-title">
-    <span>{{ page.nume }}</span>
-</h1>
+{% include header-gallery.html gallery=page.fotografii %}
 
 <dl class="dl">
-    <dt>Descriere</dt>
-    <dd>
-        {{ page.descriere }}
-    </dd>
+  {% if page.descriere != empty %}
+  <dt>Descriere</dt>
+  <dd>
+    {{ page.descriere }}
+  </dd>
+  {% endif %}
 </dl>
 

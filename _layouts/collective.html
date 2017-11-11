@@ -1,52 +1,76 @@
 ---
 layout: default
+breadcrumbs:
+  Home: "/"
+  Ieri: "/ieri/"
+  Colective: "../"
 ---
 
-
-{{ page.fotografii }}
-{{ page.documente_foto }}
-
-
-<h1 class="leaf-title">
-    <span>{{ page.nume }}</span>
-</h1>
+{% include header-gallery.html gallery=page.fotografii %}
 
 <dl class="dl">
-    <dt>Descriere</dt>
-    <dd>
-        {{ page.descriere }}
-    </dd>
+  {% if page.descriere != empty %}
+  <dt>Descriere</dt>
+  <dd>
+    {{ page.descriere }}
+  </dd>
+  {% endif %}
 
+  {% if page.fondat != empty %}
     <dt>Fondat</dt>
     <dd>
         {{ page.fondat }}
     </dd>
+  {% endif %}
 
+
+  {% if page.fondatori != empty %}
     <dt>Fondatori</dt>
     <dd>
         {{ page.fondatori }}
     </dd>
+  {% endif %}
 
+  {% if page.membri != empty %}
     <dt>Membri</dt>
     <dd>
-        {{ page.membri }}
+      {{ page.membri }}
     </dd>
+  {% endif %}
 
+  {% if page.documente_foto != empty %}
+  <dt>Documente foto</dt>
+  <dd class="full-dd">
+    <div class="dd-gallery">
+      {% for foto in page.documente_foto %}
+        <img src="{{ site.baseurl }}/assets/photos/{{ foto }}">
+      {% endfor %}
+    </div>
+  </dd>
+  {% endif %}
+
+  {% if page.istoric != empty %}
     <dt>Istoric</dt>
     <dd>
-        {{ page.istoric }}
+      {{ page.istoric }}
     </dd>
+  {% endif %}
 
+
+  {% if page.spectacole != empty %}
     <dt>Spectacole</dt>
     {% for spectacol in page.spectacole %}
     <dd>
         {{ spectacol }}
     </dd>
     {% endfor %}
+  {% endif %}
 
+  {% if page.bibliografie != empty %}
     <dt>Bibliografie</dt>
     <dd>
         {{ page.bibliografie }}
     </dd>
+  {% endif %}
 
 </dl>

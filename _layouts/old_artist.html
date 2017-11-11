@@ -1,31 +1,35 @@
 ---
 layout: default
+breadcrumbs:
+  Home: "/"
+  Ieri: "/ieri/"
+  Oameni ai dansului: "../"
 ---
 
-
-{{ page.fotografii }}
-
-
-<h1 class="leaf-title">
-    <span>{{ page.nume }}</span>
-</h1>
+{% include header-gallery.html gallery=page.fotografii %}
 
 <dl class="dl">
-    <dt>Descriere</dt>
-    <dd>
-        {{ page.descriere }}
-    </dd>
+  {% if page.descriere != empty %}
+  <dt>Descriere</dt>
+  <dd>
+    {{ page.descriere }}
+  </dd>
+  {% endif %}
 
-    <dt>Bio</dt>
-    <dd>
-        {{ page.bio }}
-    </dd>
+  {% if page.bio != empty %}
+  <dt>Bio</dt>
+  <dd>
+    {{ page.bio }}
+  </dd>
+  {% endif %}
 
+  {% if page.spectacole != empty %}
     <dt>Spectacole</dt>
     {% for spectacol in page.spectacole %}
     <dd>
-        {{ spectacol }}
+      {{ spectacol }}
     </dd>
     {% endfor %}
+  {% endif %}
 </dl>
 
