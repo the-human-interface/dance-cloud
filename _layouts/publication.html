@@ -26,7 +26,7 @@ breadcrumbs:
   </dd>
   {% endif %}
 
-  {% if page.editura %}
+  {% if page.editura and page.editura != empty %}
   <dt>Editura</dt>
   <dd>
     {{ page.editura }}
