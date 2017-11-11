@@ -370,20 +370,6 @@
     "contact_privat": ["andrea_gavriliu@hotmail.com"]
 },
 {
-    "id": "13",
-    "nume": "Corina Mitrovici",
-    "sectiune": ["coregrafi", "dansatori"],
-    "social-media": [],
-    "foto": "",
-    "foto_credit": "",
-    "bio": "",
-    "proiecte": "",
-    "proiecte_viitoare": "",
-    "presa": [],
-    "contact":[],
-    "contact_privat": ["corina.mitrovici@gmail.com"]
-},
-{
     "id": "14",
     "nume": "Alexandra Girbea",
     "sectiune": ["coregrafi", "dansatori"],
