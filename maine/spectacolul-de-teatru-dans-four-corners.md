@@ -22,9 +22,9 @@ După un succes cu toate biletele vândute, BLINK organizează un turneu a produ
   <dd>Halima Habil</dd>
 
   <dt>LINK/ MAI MULTE INFORMAȚII</dt>
-  <dd>http://www.blinkdancetheatre.org/</dd>
-  <dd>http://www.blinkdancetheatre.org/fourcorners/</dd>
-  <dd>http://www.reservr.net/u/Blink-Dance-Theatre/</dd>
+  <dd><a href="http://www.blinkdancetheatre.org/">http://www.blinkdancetheatre.org/</a></dd>
+  <dd><a href="http://www.blinkdancetheatre.org/fourcorners/">http://www.blinkdancetheatre.org/fourcorners/</a></dd>
+  <dd><a href="http://www.reservr.net/u/Blink-Dance-Theatre/">http://www.reservr.net/u/Blink-Dance-Theatre/</a></dd>
 
   <dt>PERIOADA</dt>
   <dd>6 decembrie , ora 19.00 – Cluj  </dd>

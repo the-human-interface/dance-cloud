@@ -21,7 +21,7 @@ Acest curs se adresează dansatorilor care au calități specifice artei dansulu
   <dd>MARIO DANCE ATELIER</dd>
 
   <dt>LINK/ MAI MULTE DETALII</dt>
-  <dd>https://www.facebook.com/events/1409401625842083/</dd>
+  <dd><a href="https://www.facebook.com/events/1409401625842083/">https://www.facebook.com/events/1409401625842083/</a></dd>
 
   <dt>PERIOADA</dt>
   <dd>2, 3 decembrie,   11.00- 16.00</dd>
