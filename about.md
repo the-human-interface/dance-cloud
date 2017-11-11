@@ -1,15 +1,20 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: Despre DanceCloud.ro
+permalink: /despre/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# Despre DanceCloud.ro
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+DanceCloud este un spaţiu al diversităţii informative și educative în dansul contemporan și în formele de dans pre-contemporane, unde orice interpret, viitor interpret, amator, cercetător, profesor sau coregraf să poată găsi informaţii despre trecut, despre prezentul social al câmpului de activitate, despre dinamica şi perspectivele acestui domeniu.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+DanceCloud a fost conceput pentru a sprijini:
+
+1. o comunitate cu un grad de coeziune mai ridicat, în care acceptarea şi respectarea diversităţii, accesul la informaţii, cercetarea prin chestionare și formularea unor concluzii să constituie un scop comun,
+
+2. demersul de profesionalizare a tinerilor artişti, critici şi manageri   culturali din domeniu
+
+3. demersul de profesionalizare a tinerilor artişti, critici şi manageri   culturali din domeniu
+
+
+DanceCloud este un proiect sub egida [Centrului Naţional al Dansului București](http://www.cndb.ro/). Este un proiect finanțat de Primăria Capitalei prin [Arcub](https://arcub.ro/) în cadrul Programului [Bucureşti - Oraş participativ 2017](https://arcub.ro/program/proiecte-bucuresti-oras-participativ/).
