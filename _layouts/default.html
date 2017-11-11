@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html>
+---
+layout: blank
+---
 
-  {% include head.html %}
+<div class="page-content">
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</div>
 
-  <body>
-
-    {% include navmenu.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+{% include footer.html %}

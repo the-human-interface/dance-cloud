@@ -1,28 +1,120 @@
 ---
-layout: default
+layout: blank
 ---
 
-<div class="home">
+<div class="sections">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="section section-ieri" 
+       style="background-image: url({{ site.baseurl }}/assets/bg-ieri.jpg)">
+    <a href="{{ site.baseurl }}/ieri/">
+      <span class="section-years">1900 – 2000</span>
+      <h4 class="section-name">Ieri</h4>
+      <p class="section-description">Secţiune dedicată trecutului dansului contemporan românesc, IERI propune spre consultare o selecţie de documente inedite.</p>
+    </a>
+  </div>
 
-  <!-- <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="section"
+       style="background-image: url({{ site.baseurl }}/assets/bg-azi.jpg)">
+    <a href="{{ site.baseurl }}/azi/">
+      <span class="section-years">2000 – 2017</span>
+      <h4 class="section-name">Azi</h4>
+      <p class="section-description">AZI se află într-un proces continuu de conectare a artiştilor şi evenimentelor care au contribuit şi contribuie la vizibilitatea dansului contemporan din Romania.</p>
+    </a>
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul> -->
-
-  {% assign image_files = site.static_files | where: "image", true %}
-  {% for myimage in image_files %}
-    <img src="{{ site.url}}/{{ myimage.path}}" title="Artist" />
-  {% endfor %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="section"
+       style="background-image: url({{ site.baseurl }}/assets/bg-maine.jpg)">
+    <a href="{{ site.baseurl }}/maine/">
+      <span class="section-years">2017 – <span class="inviz">2050</span></span>
+      <h4 class="section-name">Mâine</h4>
+      <p class="section-description">Secțiune de calendar/ agendă culturală, care înglobează evenimentele viitoare din domeniul dansului contemporan.</p>
+    </a>
+  </div>
 
 </div>
+
+
+<style>
+  .section {
+    overflow: hidden;
+    text-align: center;
+    background-repeat: none;
+    background-position: center;
+    background-size: auto 100%;
+  }
+  .section-ieri{
+    background-position: right;
+  }
+  .section a {
+    box-sizing: border-box;
+    padding: 1rem;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    text-decoration: none !important;
+  }
+  .section-name {
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+  }
+  .section-years {
+    font-size: 6rem;
+    white-space: nowrap;
+    letter-spacing: -.02em;
+  }
+
+  .section-years,
+  .section-name,
+  .section-description {
+    transition: transform 2s;
+  }
+  .section:hover .section-years {
+    transform: translate(0, -10%);
+  }
+  .section:hover .section-name {
+    transform: scale(1.1);
+  }
+  .section:hover .section-description {
+    transform: translate(0, 10%);
+  }
+  
+  @media (max-width: 480px) {
+    .section {
+      background-size: cover;
+    }
+  }
+  @media (max-width: 768px) {
+    .section a {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: 30rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .sections {
+      overflow: hidden;
+    }
+    .section {
+      float: left;
+      width: 33.33334%;
+    }
+    .section a {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100vh;
+      min-height: 50rem;
+    }
+    .section-description {
+      min-height: 7.5em;
+    }
+  }
+  .inviz {
+    opacity: 0;
+    user-select: none;
+  }
+</style>
