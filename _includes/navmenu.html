@@ -1,13 +1,11 @@
-<div class="navmenu">
+<div class="navmenu" id="navmenu">
   <div class="navmenu-header">
     <a class="navmenu-logo" href="{{ site.baseurl }}/">
       <img src="{{ site.baseurl }}/assets/logo-dancecloud-inverted@2x.png"
            alt="DanceCloud.ro Logo"
            width="222" height="30">
     </a>
-    <button class="navmenu-toggle">
-      ☰
-      <!-- × -->
+    <button class="navmenu-toggle" id="navmenu-toggle">
       <span class="sr-only">Navigare</span>
     </button>
   </div>
@@ -15,7 +13,7 @@
   <div class="navmenu-body">
     <p class="navmenu-description">
       {{ site.description }}
-      <a href="#todo-about">Despre proiect</a>
+      <a class="no-br" href="#todo-about">Despre proiect</a>
     </p>
 
     <nav class="navmenu-nav">
@@ -49,6 +47,13 @@
       finanțat în cadrul programului
       <span class="no-br">“București – Oraș participativ”</span>
       <br>
+      <a href="https://arcub.ro/program/proiecte-bucuresti-oras-participativ/" class="logo-arcub"
+         title="București – Oraș participativ" rel="external">
+        <img src="{{ site.baseurl }}/assets/logo-arcub-finantare-mono.png"
+             alt="Logo ARCUB"
+             width="249" height="50">
+      </a>
+      <!--
       <a href="http://pmb.ro/" class="logo-pmb"
          title="Primăria Municipiului București" rel="external">
         <img src="{{ site.baseurl }}/assets/logo-pmb-inverted@2x.png"
@@ -60,7 +65,7 @@
         <img src="{{ site.baseurl }}/assets/logo-arcub-mono-inverted@2x.png"
              alt="Logo ARCUB"
              width="86" height="50">
-      </a>
+      </a>-->
     </div>
   </div>
 </div>

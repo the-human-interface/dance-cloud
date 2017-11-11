@@ -55,7 +55,7 @@
 
 /* navmenu-footer */
 .navmenu-footer {
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
   font-size: 1.3rem;
 }
 .navmenu-footer a {
@@ -91,7 +91,7 @@
   margin: 1rem;
   vertical-align: bottom;
 }
-.navmenu-credits .logo-pmb {
+.navmenu-credits .logo-arcub {
   margin-left: -1rem;
 }
 
@@ -102,6 +102,30 @@
   }
   .navmenu-body {
     flex-grow: 1;
+  }
+}
+@media (max-width: 1079px) {
+  .navmenu-body,
+  .navmenu-footer {
+    display: none;
+  }
+  .navmenu.is-open {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .navmenu.is-open .navmenu-body,
+  .navmenu.is-open .navmenu-footer {
+    display: block;
+  }
+  .navmenu-is-open {
+    overflow: hidden;
+  }
+  .navmenu-toggle::before {
+    content: '☰';
+  }
+  .navmenu.is-open .navmenu-toggle::before {
+    content: '×'
   }
 }
 
