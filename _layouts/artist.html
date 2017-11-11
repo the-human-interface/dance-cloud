@@ -12,7 +12,6 @@ breadcrumbs:
 
 <!-- {{ page.nume | size }} -->
 
-{% if page.social-media != empty %}
 <div class="leaf-social-media">
 {% for media in page.social-media %}
   {% assign url = media.value %}
@@ -33,8 +32,13 @@ breadcrumbs:
     {% endif %}
   </a>
 {% endfor %}
+
+{% for label in page.sectiune %}
+  <span class="tag">{{ label }}</span>
+{% endfor %}
 </div>
-{% endif %}
+
+
 
 <dl class="dl">
   <dt>Bio</dt>

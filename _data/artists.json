@@ -2,7 +2,7 @@
     {
         "id": "1",
         "nume": "Alex Călin",
-        "sectiune": ["dansatori"],
+        "sectiune": ["dansator"],
         "social-media": [
             {
                 "type": "facebook",
@@ -37,7 +37,7 @@
     {
         "id": "2",
         "nume": "Vlaicu Golcea",
-        "sectiune": ["dansatori"],
+        "sectiune": ["dansator"],
         "social-media": [
         {
             "type": "website",
@@ -63,7 +63,7 @@
     {
         "id": "3",
         "nume": "Răzvan Rotaru",
-        "sectiune": ["coregrafi", "dansatori"],
+        "sectiune": ["coregraf", "dansator"],
         "social-media": [
         {
             "type": "facebook",
@@ -94,7 +94,7 @@
     {
         "id": "4",
         "nume": "Simona Dabija",
-        "sectiune": ["coregrafi", "dansatori"],
+        "sectiune": ["coregraf", "dansator"],
         "social-media": [
         {
             "type": "facebook",
@@ -128,7 +128,7 @@
     {
         "id": "5",
         "nume": "Cristina Lilienfeld",
-        "sectiune": ["coregrafi", "dansatori", "profesori"],
+        "sectiune": ["coregraf", "dansator", "profesor"],
         "social-media": [
         {
             "type": "facebook",
@@ -192,7 +192,7 @@
     {
         "id": "7",
         "nume": "Liana Tugearu",
-        "sectiune": ["dansatori"],
+        "sectiune": ["dansator"],
         "social-media": [],
         "foto": "7 LianaTugearu20124349_medium.jpg",
         "foto_credit": "Georgeta Hatadi",
@@ -214,7 +214,7 @@
     {
         "id": "8",
         "nume": "Andreea-Raluca Tanasescu",
-        "sectiune": ["coregrafi", "profesori"],
+        "sectiune": ["coregraf", "profesor"],
         "social-media": [
         {
             "type": "facebook",
@@ -247,7 +247,7 @@
     {
         "id": "9",
         "nume": "Tímea Kovács",
-        "sectiune": ["coregrafi", "dansatori"],
+        "sectiune": ["coregraf", "dansator"],
         "social-media": [
             {
                 "type": "facebook",
@@ -321,7 +321,7 @@
 {
     "id": "11",
     "nume": "Vanda Ștefănescu",
-    "sectiune": ["coregrafi", "dansatori"],
+    "sectiune": ["coregraf", "dansator"],
     "social-media": [
         {
             "type": "facebook",
@@ -344,7 +344,7 @@
 {
     "id": "12",
     "nume": "Andrea Gavriliu",
-    "sectiune": ["coregrafi", "dansatori"],
+    "sectiune": ["coregraf", "dansator"],
     "social-media": [
         {
             "type": "facebook",
@@ -372,7 +372,7 @@
 {
     "id": "14",
     "nume": "Alexandra Girbea",
-    "sectiune": ["coregrafi", "dansatori"],
+    "sectiune": ["coregraf", "dansator"],
     "social-media": [],
     "foto": "13 Fără titlu - Alexandra Girbea.png",
     "foto_credit": "",
@@ -395,7 +395,7 @@
 {
     "id": "15",
     "nume": "Sergiu Anghel",
-    "sectiune": ["coregrafi", "dansatori", "profesori"],
+    "sectiune": ["coregraf", "dansator", "profesor"],
     "social-media": [
         {
             "type": "website",
@@ -446,7 +446,7 @@
 {
     "id": "16",
     "nume": "Ioana Marchidan",
-    "sectiune": ["coregrafi", "dansatori"],
+    "sectiune": ["coregraf", "dansator"],
     "social-media": [
         {
             "type": "facebook",
@@ -470,7 +470,7 @@
 {
     "id": "17",
     "nume": "Cristian Nanculescu",
-    "sectiune": ["coregrafi", "dansatori"],
+    "sectiune": ["coregraf", "dansator"],
     "social-media": [
         {
             "type": "facebook",
@@ -499,7 +499,7 @@
 {
     "id": "18",
     "nume": "CRISTINA MARIA IUȘAN",
-    "sectiune": ["coregrafi", "dansatori", "profesori"],
+    "sectiune": ["coregraf", "dansator", "profesor"],
     "social-media": [
         {
             "type": "facebook",
@@ -528,7 +528,7 @@
 {
     "id": "19",
     "nume": "Timár Timea",
-    "sectiune": ["dansatori"],
+    "sectiune": ["dansator"],
     "social-media": [],
     "foto": "18 IMG_4700_1 - Timea Timar.jpg",
     "foto_credit": "",
@@ -550,7 +550,7 @@
 {
     "id": "20",
     "nume": "Vlad Iachim",
-    "sectiune": ["coregrafi", "dansatori", "profesori"],
+    "sectiune": ["coregraf", "dansator", "profesor"],
     "social-media": [
         {
             "type": "facebook",
@@ -583,7 +583,7 @@
 {
     "id": "21",
     "nume": "Romulus Neagu",
-    "sectiune": ["coregrafi", "dansatori"],
+    "sectiune": ["coregraf", "dansator"],
     "social-media": [],
     "foto": "20 Romulus Neagu.jpg",
     "foto_credit": "Fernando Rodrigues",
