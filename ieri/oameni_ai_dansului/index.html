@@ -4,8 +4,21 @@ layout: default
 
 <h1>Oameni ai Dansului</h1>
 
-{% for artist in site.data.old_artists %}
-  {{ artist.nume }}
-  <a href="{{ artist.id | datapage_url: '.' }}">{{ artist.id | datapage_url: 'oameni_ai_dansului' }}</a>
-{% endfor %}
+{% assign records = site.data.old_artists %}
 
+<ul class="card-grid">
+{% for record in records %}
+  {% assign title = record.nume %}
+  {% assign url = record.nume | datapage_url: '.' %}
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
+     append:record.fotografii[0] %}
+  <li>
+    <a href="{{ url }}"
+       class="card"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="card-label">{{ title }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>

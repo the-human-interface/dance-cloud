@@ -2,10 +2,26 @@
 layout: default
 ---
 
+
+
 <h1>Artiști</h1>
 
-{% for artist in site.data.artists %}
-  {{ artist.nume }}
-  <a href="{{ artist.nume | datapage_url: '.' }}">{{ artist.nume | datapage_url: 'artisti' }}</a>
+{% assign records = site.data.artists %}
+
+<ul class="card-grid">
+{% for record in records %}
+  {% assign title = record.nume %}
+  {% assign url = record.nume | datapage_url: '.' %}
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
+     append:record.foto %}
+  <li>
+    <a href="{{ url }}"
+       class="card"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="card-label">{{ title }}</span>
+    </a>
+  </li>
 {% endfor %}
+</ul>
 

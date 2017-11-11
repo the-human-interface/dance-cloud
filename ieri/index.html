@@ -7,16 +7,16 @@ layout: default
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
 
 
-<ul class="list-categories">
+<ul class="card-grid card-grid-numbered">
   {% assign choreograph = site.data.choreographers | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:choreograph.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/coregrafi/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Coregrafi/Dansatori</span>
+      <span class="card-label">Coregrafi/Dansatori</span>
     </a>
   </li>
 
@@ -27,9 +27,9 @@ layout: default
      append:collective.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/colective/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Colective</span>
+      <span class="card-label">Colective</span>
     </a>
   </li>
 
@@ -39,9 +39,9 @@ layout: default
      append:organisation.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/organizatii/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Organizații</span>
+      <span class="card-label">Organizații</span>
     </a>
   </li>
 
@@ -51,9 +51,9 @@ layout: default
      append:artist.fotografii[0] %}
   <li>
     <a href="{{ site.baseurl }}/ieri/oameni_ai_dansului/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Oameni ai dansului</span>
+      <span class="card-label">Oameni ai dansului</span>
     </a>
   </li>
 </ul>

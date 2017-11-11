@@ -7,16 +7,16 @@ layout: default
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
 
 
-<ul class="list-categories">
+<ul class="card-grid card-grid-numbered">
   {% assign artist = site.data.artists | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:artist.foto %}
   <li>
     <a href="{{ site.baseurl }}/azi/artisti/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Artisti</span>
+      <span class="card-label">Artisti</span>
     </a>
   </li>
 
@@ -26,9 +26,9 @@ layout: default
      append:organizatie.foto %}
   <li>
     <a href="{{ site.baseurl }}/azi/organizatii/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Organizatii</span>
+      <span class="card-label">Organizatii</span>
     </a>
   </li>
 
@@ -38,9 +38,9 @@ layout: default
      append:spectacol.foto_afis %}
   <li>
     <a href="{{ site.baseurl }}/azi/spectacole/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Spectacole</span>
+      <span class="card-label">Spectacole</span>
     </a>
   </li>
 
@@ -51,9 +51,9 @@ layout: default
      append:film.foto_afis %}
   <li>
     <a href="{{ site.baseurl }}/azi/filme/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Filme/Emisiuni</span>
+      <span class="card-label">Filme/Emisiuni</span>
     </a>
   </li>
 
@@ -64,9 +64,9 @@ layout: default
      append:publicatie.foto_coperta %}
   <li>
     <a href="{{ site.baseurl }}/azi/publicatii/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Publicatii</span>
+      <span class="card-label">Publicatii</span>
     </a>
   </li>
 
@@ -77,9 +77,9 @@ layout: default
      append:festival.foto_afis %}
   <li>
     <a href="{{ site.baseurl }}/azi/festivale/"
-       class="category"
+       class="card"
        style="background-image: url('{{ thumbnail }}')">
-      <span class="category-label">Festivaluri</span>
+      <span class="card-label">Festivaluri</span>
     </a>
   </li>
 </ul>

@@ -48,22 +48,22 @@ page_gen:
 
   - data: 'choreographers'
     template: 'choreograph'
-    name: 'id'
+    name: 'nume'
     dir: 'ieri/coregrafi'
 
   - data: 'collective'
     template: 'collective'
-    name: 'id'
+    name: 'nume'
     dir: 'ieri/colective'
 
   - data: 'old_organisations'
     template: 'old_organisation'
-    name: 'id'
+    name: 'nume'
     dir: 'ieri/organizatii'
 
   - data: 'old_artists'
     template: 'old_artist'
-    name: 'id'
+    name: 'nume'
     dir: 'ieri/oameni_ai_dansului'
 
 # Build settings

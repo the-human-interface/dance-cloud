@@ -409,37 +409,36 @@
 /**
  * Numbered category cards
  */
-.list-categories {
+.card-grid {
   list-style: none;
   margin: 2rem auto;
   padding-left: 0;
   counter-reset: category;
 }
-.list-categories > li {
+.card-grid > li {
   float: left;
 }
 @media (max-width: 1079px) {
-  .list-categories {
+  .card-grid {
     overflow: hidden;
     margin-left: -2rem;
     margin-right: -2rem;
   }
-  .list-categories > li {
+  .card-grid > li {
     margin: 0 2rem 4rem;
   }
 }
 @media (min-width: 1080px) {
-  .list-categories {
+  .card-grid {
     margin-left: -4rem;
     margin-right: -4rem;
   }
-  .list-categories > li {
+  .card-grid > li {
     margin-right: 4rem;
     margin-bottom: 4rem;
   }
 }
-.category {
-  counter-increment: category;
+.card {
   position: relative;
   display: block;
   box-sizing: border-box;
@@ -448,16 +447,32 @@
   
 
   color: #fff;
+  background-color: #000;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.category::before {
+.card::before {
   content: '';
   display: block;
   padding-bottom: 100%; 
+  background: rgba(0,0,0,.2);
 }
-.category::after {
+.card-label {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #fff;
+}
+
+.card-grid-numbered .card {
+  counter-increment: category;
+}
+.card-grid-numbered .card::after {
   content: counter(category, decimal-leading-zero);
   font-size: 12rem;
   font-weight: 900;
@@ -469,15 +484,8 @@
   opacity: .9;
   user-select: none;
 }
-.category-label {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
+.card-grid-numbered .card-label {
   right: 4rem;
-  font-size: 3.6rem;
-  font-weight: 900;
-  line-height: 4rem;
-  color: #fff;
 }
 
 

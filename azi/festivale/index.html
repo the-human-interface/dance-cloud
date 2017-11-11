@@ -2,10 +2,23 @@
 layout: default
 ---
 
-<h1>Festivale</h1>
+<h1>Festivaluri</h1>
 
-{% for festival in site.data.festivals %}
-  {{ festival.titlu }}
-  <a href="{{ festival.id | datapage_url: '.' }}">{{ festival.id | datapage_url: 'festivale' }}</a>
+{% assign records = site.data.festivals %}
+
+<ul class="card-grid">
+{% for record in records %}
+  {% assign title = record.titlu %}
+  {% assign url = record.id | datapage_url: '.' %}
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
+     append:record.foto_afis %}
+  <li>
+    <a href="{{ url }}"
+       class="card"
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="card-label">{{ title }}</span>
+    </a>
+  </li>
 {% endfor %}
-
+</ul>
