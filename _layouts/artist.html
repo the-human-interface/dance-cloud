@@ -130,22 +130,29 @@ layout: default
     z-index: 10;
     top: 0;
     bottom: 0;
-    left: -100%;
-    right: -100%;
+    left: -200%;
+    right: -200%;
+    background-position: top left;
     background-size: auto 100%;
     filter: brightness(20%);
   }
   .leaf-cover img {
     position: relative;
     z-index: 12;
+    height: 100%;
+    width: auto;
+    max-width: none;
+  }
+  .leaf-cover-mask {
+    position: relative;
+    display: inline-block;
+    height: 32rem;
   }
   @media (max-width: 1079px) {
     .leaf-cover {
       margin: -4rem -2rem;
       margin-bottom: 3rem;
-    }
-    .leaf-cover-mask {
-      /*height: 32rem;*/
+      text-align: center;
     }
   }
   @media (min-width: 1080px) {
@@ -154,14 +161,7 @@ layout: default
       overflow: visible;
     }
     .leaf-cover-mask {
-      position: relative;
       height: 56rem;
-      display: inline-block;
-    }
-    .leaf-cover img {
-      height: 100%;
-      width: auto;
-      max-width: none;
     }
   }
 
