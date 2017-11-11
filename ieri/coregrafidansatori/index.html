@@ -2,17 +2,21 @@
 layout: default
 ---
 
-<h1>Festivaluri</h1>
+<div class="listing-header">
+  <a href="{{ site.baseurl }}/ieri"><span class="uppercase">Ieri</span></a>
+  /
+  <h1 class="listing-title">Coregrafi/Dansatori</h1>
+</div>
 
-{% assign records = site.data.festivals %}
+{% assign records = site.data.choreographers %}
 
 <ul class="card-grid">
 {% for record in records %}
-  {% assign title = record.titlu %}
-  {% assign url = record.id | datapage_url: '.' %}
+  {% assign title = record.nume %}
+  {% assign url = record.nume | datapage_url: '.' %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
-     append:record.foto_afis %}
+     append:record.fotografii[0] %}
   <li>
     <a href="{{ url }}"
        class="card"

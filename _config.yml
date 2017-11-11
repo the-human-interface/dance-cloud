@@ -44,12 +44,12 @@ page_gen:
   - data: 'festivals'
     template: 'festival'
     name: 'id'
-    dir: 'azi/festivale'
+    dir: 'azi/festivaluri'
 
   - data: 'choreographers'
     template: 'choreograph'
     name: 'nume'
-    dir: 'ieri/coregrafi'
+    dir: 'ieri/coregrafidansatori'
 
   - data: 'collective'
     template: 'collective'

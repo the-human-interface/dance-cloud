@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<h1>Azi</h1>
+<div class="listing-header">
+  <h1 class="listing-title">Azi</h1>
+</div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
-
+<p>AZI se află într-un proces continuu de conectare a artiştilor şi evenimentelor care au contribuit şi contribuie la vizibilitatea dansului contemporan din Romania.</p>
 
 <ul class="card-grid card-grid-numbered">
   {% assign artist = site.data.artists | first %}
@@ -76,7 +77,7 @@ layout: default
      prepend:site.baseurl |
      append:festival.foto_afis %}
   <li>
-    <a href="{{ site.baseurl }}/azi/festivale/"
+    <a href="{{ site.baseurl }}/azi/festivaluri/"
        class="card"
        style="background-image: url('{{ thumbnail }}')">
       <span class="card-label">Festivaluri</span>

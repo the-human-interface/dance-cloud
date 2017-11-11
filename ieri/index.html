@@ -2,9 +2,13 @@
 layout: default
 ---
 
-<h1>ieri</h1>
+<header class="listing-header">
+  <h1 class="listing-title"><span class="uppercase">Ieri</span></h1>
+</header>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p>
+<div class="paragraph-columns">
+  <p>Documentele prezentate în această secţiune reprezintă numai o selecţie din întreaga cantitate conţinută în Fondul CNDB. Această selecţie este rezultatul conformării legilor de arhivistică şi de proprietate intelectuală în vigoare. Cercetătorii interesaţi de o aprofundare a subiectelor de studiu, pot solicita consultarea listelor complete de documente pe adresa <a href="mailto:fcndb@cndb.ro">fcndb@cndb.ro</a>, completând cererea de acreditare.</p>
+</div>
 
 
 <ul class="card-grid card-grid-numbered">
@@ -13,7 +17,7 @@ layout: default
      prepend:site.baseurl |
      append:choreograph.fotografii[0] %}
   <li>
-    <a href="{{ site.baseurl }}/ieri/coregrafi/"
+    <a href="{{ site.baseurl }}/ieri/coregrafidansatori/"
        class="card"
        style="background-image: url('{{ thumbnail }}')">
       <span class="card-label">Coregrafi/Dansatori</span>

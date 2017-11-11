@@ -148,6 +148,35 @@
 /**
  * Site header
  */
+.listing-header {
+  font-weight: 700;
+  font-size: 5rem;
+  color: gray;
+  letter-spacing: -0.02em;
+}
+@media (min-width: 1080px) {
+  .listing-header {
+    margin-right: -4rem;
+    font-size: 8rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+.listing-header h1,
+.listing-title {
+  font: inherit;
+  color: #000;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.listing-header a {
+  color: inherit;
+}
+
+
+/**
+ * Site header
+ */
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -430,19 +459,17 @@
 }
 @media (min-width: 1080px) {
   .card-grid {
-    margin-left: -4rem;
-    margin-right: -4rem;
+    margin: 2rem -6rem;
   }
   .card-grid > li {
-    margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin: 2rem;
   }
 }
 .card {
   position: relative;
   display: block;
   box-sizing: border-box;
-  width: 36rem;
+  width: 32rem;
   max-width: 100%;
   
 
