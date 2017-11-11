@@ -23,27 +23,27 @@ page_gen:
 
   - data: 'organisations'
     template: 'organisation'
-    name: 'id'
+    name: 'denumire'
     dir: 'azi/organizatii'
 
   - data: 'shows'
     template: 'show'
-    name: 'id'
+    name: 'titlu'
     dir: 'azi/spectacole'
 
   - data: 'films'
     template: 'film'
-    name: 'id'
+    name: 'titlu'
     dir: 'azi/filme'
 
   - data: 'publications'
     template: 'publication'
-    name: 'id'
+    name: 'titlu'
     dir: 'azi/publicatii'
 
   - data: 'festivals'
     template: 'festival'
-    name: 'id'
+    name: 'titlu'
     dir: 'azi/festivaluri'
 
   - data: 'choreographers'
@@ -77,5 +77,3 @@ defaults:
       path: "assets/images"
     values:
       image: true
-  - scope:
-      path: "azi/*/"

@@ -26,7 +26,7 @@ body {
   max-width: 32em;
 }
 
-@media (min-width: 420px) {
+@media (min-width: 768px) {
   .paragraph-columns {
     column-count: 2;
     column-gap: 2rem;

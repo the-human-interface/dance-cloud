@@ -1,108 +1,100 @@
 ---
 layout: default
+breadcrumbs:
+  Home: "/"
+  Azi: "/azi/"
+  Filme/Emisiuni: "../"
 ---
 
+{% include header-default.html cover=page.foto_afis %}
 
-
-{% assign cover = '/assets/photos/' |
-   prepend: site.baseurl |
-   append: page.foto_afis %}
-<div class="leaf-cover">
-  <div class="leaf-cover-mask" data-bg="{{ cover }}">
-    <span class="leaf-cover-bg"
-          style="background-image: url('{{ cover }}')"></span>
-    <img src="{{ cover }}">
-  </div>
-</div>
-
-<h1 class="leaf-title">
-    <span>{{ page.titlu }}</span>
-</h1>
-
-<div>
-    {{ page.descriere}}
+<div class="paragraph-columns">
+  <p>{{ page.descriere}}</p>
 </div>
 
 <dl class="dl">
+  {% if page.trailer != empty %}
+  <dt>Trailer</dt>
+  <dd>
+      <a href="{{ page.trailer }}">{{ page.trailer }}</a>
+  </dd>
+  {% endif %}
 
-    <dt>An</dt>
-    <dd>
-        {{ page.an }}
-    </dd>
+  {% if page.an %}
+  <dt>An</dt>
+  <dd>
+    {{ page.an }}
+  </dd>
+  {% endif %}
 
-    {% if page.durata %}
-    <dt>Durata</dt>
-    <dd>
-        {{ page.durata }}
-    </dd>
-    {% endif %}
+  {% if page.durata %}
+  <dt>Durata</dt>
+  <dd>
+    {{ page.durata }}
+  </dd>
+  {% endif %}
 
-    <dt>Regie</dt>
-    <dd>
-        {{ page.regie }}
-    </dd>
+  {% if page.regie %}
+  <dt>Regie</dt>
+  <dd>
+    {{ page.regie }}
+  </dd>
+  {% endif %}
 
-    {% if page.coregrafie %}
-    <dt>Coregrafie</dt>
-    <dd>
-        {{ page.coregrafie }}
-    </dd>
-    {% endif %}
+  {% if page.coregrafie %}
+  <dt>Coregrafie</dt>
+  <dd>
+    {{ page.coregrafie }}
+  </dd>
+  {% endif %}
 
-    {% if page.producatori %}
-    <dt>Producatori</dt>
-    <dd>
-        {{ page.producatori }}
-    </dd>
-    {% endif %}
+  {% if page.distributie %}
+  <dt>Distribuție</dt>
+  <dd>
+    {{ page.distributie }}
+  </dd>
+  {% endif %}
 
-    {% if page.scenariu %}
-    <dt>Scenariu</dt>
-    <dd>
-        {{ page.scenariu }}
-    </dd>
-    {% endif %}
+  {% if page.producatori %}
+  <dt>Producători</dt>
+  <dd>
+    {{ page.producatori }}
+  </dd>
+  {% endif %}
 
-    {% if page.imagine %}
-    <dt>Imagine</dt>
-    <dd>
-        {{ page.imagine }}
-    </dd>
-    {% endif %}
+  {% if page.scenariu %}
+  <dt>Scenariu</dt>
+  <dd>
+    {{ page.scenariu }}
+  </dd>
+  {% endif %}
 
-    {% if page.sound %}
-    <dt>Sunet</dt>
-    <dd>
-        {{ page.sound }}
-    </dd>
-    {% endif %}
+  {% if page.imagine %}
+  <dt>Imagine</dt>
+  <dd>
+    {{ page.imagine }}
+  </dd>
+  {% endif %}
 
-    {% if page.lights %}
-    <dt>Lumini</dt>
-    <dd>
-        {{ page.lights }}
-    </dd>
-    {% endif %}
+  {% if page.sound %}
+  <dt>Sunet</dt>
+  <dd>
+    {{ page.sound }}
+  </dd>
+  {% endif %}
 
-    {% if page.scenografie %}
-    <dt>Scenografie</dt>
-    <dd>
-        {{ page.scenografie }}
-    </dd>
-    {% endif %}
+  {% if page.lights %}
+  <dt>Lumini</dt>
+  <dd>
+    {{ page.lights }}
+  </dd>
+  {% endif %}
 
-    {% if page.distributie %}
-    <dt>Distributie</dt>
-    <dd>
-        {{ page.distributie }}
-    </dd>
-    {% endif %}
-
-    {% if page.trailer %}
-    <dt>Trailer</dt>
-    <dd>
-        <a href="{{ page.trailer }}">{{ page.trailer }}</a>
-    </dd>
-    {% endif %}
-
+  {% if page.scenografie %}
+  <dt>Scenografie</dt>
+  <dd>
+    {{ page.scenografie }}
+  </dd>
+  {% endif %}
 </dl>
+

@@ -1,49 +1,42 @@
 ---
 layout: default
+breadcrumbs:
+  Home: "/"
+  Azi: "/azi/"
+  Publicații: "../"
 ---
 
-
-
-{% assign cover = '/assets/photos/' |
-   prepend: site.baseurl |
-   append: page.foto_coperta %}
-<div class="leaf-cover">
-  <div class="leaf-cover-mask" data-bg="{{ cover }}">
-    <span class="leaf-cover-bg"
-          style="background-image: url('{{ cover }}')"></span>
-    <img src="{{ cover }}">
-  </div>
-</div>
-
-<h1 class="leaf-title">
-    <span>{{ page.titlu }}</span>
-</h1>
+{% include header-default.html cover=page.foto_coperta %}
 
 <dl class="dl">
+  {% if page.descriere %}
   <dt>Descriere</dt>
   <dd>
-      {{ page.descriere }}
-      {{ page.descriere_sursa }}
+    {{ page.descriere }}
+    {% if page.descriere_sursa %}
+    <br> {{ page.descriere_sursa }}
+    {% endif %}
   </dd>
+  {% endif %}
 
-  {% if page.author %}
+  {% if page.autor %}
   <dt>Autor</dt>
   <dd>
-      {{ page.autor }}
+    {{ page.autor }}
   </dd>
   {% endif %}
 
   {% if page.editura %}
   <dt>Editura</dt>
   <dd>
-      {{ page.editura }}
+    {{ page.editura }}
   </dd>
   {% endif %}
 
   {% if page.data_publicarii %}
   <dt>Data publicării</dt>
   <dd>
-      {{ page.data_publicarii }}
+    {{ page.data_publicarii }}
   </dd>
   {% endif %}
 </dl>

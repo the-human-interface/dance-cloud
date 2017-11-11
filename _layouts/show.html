@@ -1,65 +1,66 @@
 ---
 layout: default
+breadcrumbs:
+  Home: "/"
+  Azi: "/azi/"
+  Spectacole: "../"
 ---
 
+{% include header-default.html cover=page.foto_afis %}
 
-
-{% assign cover = '/assets/photos/' |
-   prepend: site.baseurl |
-   append: page.foto_afis %}
-<div class="leaf-cover">
-  <div class="leaf-cover-mask" data-bg="{{ cover }}">
-    <span class="leaf-cover-bg"
-          style="background-image: url('{{ cover }}')"></span>
-    <img src="{{ cover }}">
-  </div>
-</div>
-
-<h1 class="leaf-title">
-  <span>{{ page.titlu }}</span>
-</h1>
-
-<div>
-    {{ page.descriere}}
+<div class="paragraph-columns">
+  <p>{{ page.descriere}}</p>
 </div>
 
 <dl class="dl">
+  {% if page.trailer != empty %}
+  <dt>Trailer</dt>
+  <dd>
+      <a href="{{ page.trailer }}">{{ page.trailer }}</a>
+  </dd>
+  {% endif %}
 
+  {% if page.an != empty %}
   <dt>An</dt>
   <dd>
     {{ page.an }}
   </dd>
+  {% endif %}
 
+  {% if page.durata != empty %}
   <dt>Durata</dt>
   <dd>
     {{ page.durata }}
   </dd>
+  {% endif %}
 
+  {% if page.regizor != empty %}
   <dt>Regizor</dt>
   <dd>
     {{ page.regizor }}
   </dd>
+  {% endif %}
 
+  {% if page.echipa != empty %}
   <dt>Echipa</dt>
   <dd>
     {{ page.echipa }}
   </dd>
+  {% endif %}
 
-  <dt>Distributie</dt>
+  {% if page.distributie != empty %}
+  <dt>Distribuție</dt>
   <dd>
-      {{ page.distributie }}
+    {{ page.distributie }}
   </dd>
+  {% endif %}
 
-  <dt>Producatori</dt>
+  {% if page.producatori != empty %}
+  <dt>Producători</dt>
   <dd>
     {{ page.producatori }}
   </dd>
-
-  <dt>Trailer</dt>
-  <dd>
-    <a href="{{ page.trailer }}">{{ page.trailer }}</a>
-  </dd>
-
+  {% endif %}
 
   {% if page.date_reprezentatii != empty %}
   <dt>Reprezentații viitoare</dt>

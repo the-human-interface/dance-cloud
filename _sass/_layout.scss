@@ -536,7 +536,13 @@
   font-weight: 900;
   line-height: 4rem;
   color: #fff;
+  max-height: 20rem;
+  overflow: visible;
+  // transition: transform .5s;
 }
+// .card:hover .card-label {
+//   transform: translate(0, -2rem);
+// }
 
 .card-grid-numbered .card {
   counter-increment: category;
@@ -672,6 +678,10 @@
     margin-left: -4rem;
     margin-right: -4rem;
   }
+}
+
+.header-default .leaf-cover {
+  margin-bottom: 2rem;
 }
 
 /* Title */

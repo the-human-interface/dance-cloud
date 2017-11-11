@@ -1,0 +1,20 @@
+<header class="header-default {% unless include.cover %}no-cover{% endunless %}">
+  {% if include.cover != empty %}
+  {% assign cover = '/assets/photos/' | 
+     prepend: site.baseurl | 
+     append: include.cover %}
+  <div class="leaf-cover">
+    <div class="leaf-cover-mask" data-bg="{{ cover }}">
+      <span class="leaf-cover-bg" 
+            style="background-image: url('{{ cover }}')"></span>
+      <img src="{{ cover }}">
+    </div>
+  </div>
+  {% endif %}
+
+  {% include breadcrumbs.html %}
+
+  <h1 class="leaf-title">
+    <span>{{ page.nume | default: page.titlu | default: page.denumire }}</span> 
+  </h1>
+</header>
