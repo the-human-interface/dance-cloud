@@ -1,6 +1,7 @@
 ---
 title: Termeni și Condiții
 layout: default
+permalink: /termeni-si-conditii/
 ---
 
 # Termeni și Condiții
