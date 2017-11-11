@@ -1,0 +1,18 @@
+<header class="header-artist {% unless include.cover %}no-cover{% endunless %}">
+  {% if include.cover %}
+  {% assign cover = '/assets/photos/' | 
+     prepend: site.baseurl | 
+     append: include.cover %}
+  <div class="leaf-cover with-spotlights">
+    <div class="leaf-cover-mask" data-bg="{{ cover }}">
+      <span class="leaf-cover-bg" 
+            style="background-image: url('{{ cover }}')"></span>
+      <img src="{{ cover }}">
+    </div>
+  </div>
+  {% endif %}
+
+  <h1 class="leaf-title">
+    <span>{{ page.nume }}</span> 
+  </h1>
+</header>

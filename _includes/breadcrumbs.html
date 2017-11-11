@@ -1,0 +1,11 @@
+{% if page.breadcrumbs != empty %}
+
+<nav class="breadcrumbs">
+  {% for crumb in page.breadcrumbs %}
+    <a href="{{ crumb[1] }}">{{ crumb[0] }}</a>
+    {% unless forloop.last %}/{% endunless %}
+  {% endfor %}
+  <!-- {{ page.title }} -->
+</nav>
+
+{% endif %}

@@ -1,36 +1,67 @@
 ---
 layout: default
+breadcrumbs:
+  Home: "/"
+  Coregrafi/Dansatori: "../"
 ---
 
 
-{{ page.fotografii }}
-{{ page.documente_foto }}
 
+{% if page.fotografii != empty %}
+<div class="leaf-cover with-gallery">
+  
+  {% for foto in page.fotografii %}
+    <img src="{{ site.baseurl }}/assets/photos/{{ foto }}">
+  {% endfor %}
+
+</div>
+{% endif %}
+
+
+{% include breadcrumbs.html %}
 
 <h1 class="leaf-title">
-    <span>{{ page.nume }}</span>
+  <span>{{ page.nume }}</span>
 </h1>
 
 <dl class="dl">
-    <dt>Descriere</dt>
-    <dd>
-        {{ page.descriere }}
-    </dd>
+  {% if page.descriere != empty %}
+  <dt>Descriere</dt>
+  <dd>
+    {{ page.descriere }}
+  </dd>
+  {% endif %}
 
-    <dt>Bio</dt>
-    <dd>
-        {{ page.bio }}
-    </dd>
+  {% if page.bio != empty %}
+  <dt>Bio</dt>
+  <dd>
+    {{ page.bio }}
+  </dd>
+  {% endif %}
 
-    <dt>Bibliografie</dt>
-    <dd>
-        {{ page.bibliografie }}
-    </dd>
+  {% if page.documente_foto != contains %}
+  <dt>Documente foto</dt>
+  <dd class="full-dd">
+    <div class="dd-gallery">
+      {% for foto in page.documente_foto %}
+        <img src="{{ site.baseurl }}/assets/photos/{{ foto }}">
+      {% endfor %}
+    </div>
+  </dd>
+  {% endif %}
 
-    <dt>Spectacole</dt>
-    {% for spectacol in page.spectacole %}
-    <dd>
-        {{ spectacol }}
-    </dd>
-    {% endfor %}
+
+  {% if page.bibliografie != empty %}
+  <dt>Bibliografie</dt>
+  <dd>{{ page.bibliografie }}</dd>
+  {% endif %}
+
+  {% if page.spectacole != empty %}
+  <dt>Spectacole</dt>
+  {% for spectacol in page.spectacole %}
+  <dd>
+    {{ spectacol }}
+  </dd>
+  {% endfor %}
+  {% endif %}
 </dl>
