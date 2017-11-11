@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Masterclass de dans cu Tokyo
-permalink: /maine/masterclass-de-dans-cu-tokyo
+permalink: /maine/masterclass-de-dans-cu-tokyo/
 breadcrumbs:
   Home: "/"
   Mâine: "/maine/"

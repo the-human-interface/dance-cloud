@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SPECTACOLUL DE TEATRU- DANS FOUR CORNERS
-permalink: /maine/spectacolul-de-teatru-dans-four-corners
+permalink: /maine/spectacolul-de-teatru-dans-four-corners/
 breadcrumbs:
   Home: "/"
   Mâine: "/maine/"

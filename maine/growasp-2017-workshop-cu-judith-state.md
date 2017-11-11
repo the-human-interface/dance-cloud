@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Growasp 2017 - Workshop cu Judith State
-permalink: /maine/growasp-2017-workshop-cu-judith-state
+permalink: /maine/growasp-2017-workshop-cu-judith-state/
 breadcrumbs:
   Home: "/"
   Mâine: "/maine/"

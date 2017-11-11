@@ -1,7 +1,7 @@
 ---
 layout: default
 title: #EmojiPlay
-permalink: /maine/emojiplay
+permalink: /maine/emojiplay/
 breadcrumbs:
   Home: "/"
   Mâine: "/maine/"

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Temps d’Images 2017
-permalink: /maine/temps-dimages-2017
+permalink: /maine/temps-dimages-2017/
 breadcrumbs:
   Home: "/"
   Mâine: "/maine/"
