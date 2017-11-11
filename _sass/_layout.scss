@@ -153,6 +153,30 @@
   font-size: 5rem;
   color: gray;
   letter-spacing: -0.02em;
+  line-height: 1em;
+  margin-bottom: 4rem;
+}
+.listing-header h1,
+.listing-title {
+  margin: 0;
+  font: inherit;
+  color: #000;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1em;
+  vertical-align: bottom;
+}
+.listing-header a {
+  color: inherit;
+  display: inline-block;
+}
+@media (max-width: 1079px) {
+  .listing-header h1,
+  .listing-title {
+    margin-right: -2rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }
 @media (min-width: 1080px) {
   .listing-header {
@@ -161,16 +185,6 @@
     white-space: nowrap;
     overflow: hidden;
   }
-}
-.listing-header h1,
-.listing-title {
-  font: inherit;
-  color: #000;
-  display: inline-block;
-  text-transform: uppercase;
-}
-.listing-header a {
-  color: inherit;
 }
 
 
