@@ -2,8 +2,7 @@
 layout: default
 ---
 
-
-
+<article>
 {% assign cover = '/assets/photos/' | 
    prepend: site.baseurl | 
    append: page.foto %}
@@ -19,6 +18,7 @@ layout: default
   <span>{{ page.nume }}</span>
 </h1>
 
+{% if page.social-media != empty %}
 <div class="leaf-social-media">
 {% for media in page.social-media %}
   {% assign url = media.value %}
@@ -41,6 +41,7 @@ layout: default
   </a>
 {% endfor %}
 </div>
+{% endif %}
 
 <dl class="dl">
   <dt>Bio</dt>
@@ -48,10 +49,12 @@ layout: default
     {{ page.bio }}
   </dd>
 
+  {% if page.proiecte != empty %}
   <dt>Proiecte</dt>
   <dd>
     {{ page.proiecte }}
   </dd>
+  {% endif %}
 
   {% if page.proiecte_viitoare != empty %}
   <dt>Proiecte viitoare</dt>
@@ -69,6 +72,7 @@ layout: default
   {% endif %}
 
   <!-- Contact -->
+  {% if page.contact != empty %}
   <dt>Contact</dt>
   {% for contact in page.contact %}
   <dd>
@@ -81,177 +85,6 @@ layout: default
     {% endif %}
   </dd>
   {% endfor %}
+  {% endif %}
 </dl>
-
-
-
-<style>
-
-  @keyframes spotlight-right {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(500%, 0); }
-  }
-  @keyframes spotlight-left {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(-400%, 0); }
-  }
-  .leaf-cover {
-    position: relative;
-  }
-  .leaf-cover::before,
-  .leaf-cover::after {
-    content: '';
-    position: absolute;
-    z-index: 20;
-    display: block;
-    width: 12rem;
-    height: 12rem;
-    border-radius: 50%;
-    background: rgba(255, 255, 67, 0.8);
-    animation-name: spotlight-right;
-    animation-duration: 8s;
-    animation-easing: cubic-bezier(0.23, 1, 0.32, 1);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-  .leaf-cover::before {
-    bottom: 11rem;
-    left: -6rem;
-  }
-  .leaf-cover::after {
-    bottom: 6rem;
-    right: -20rem;
-    animation-name: spotlight-left;
-    animation-duration: 7s;
-  }
-  .leaf-cover-bg {
-    display: block;
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    bottom: 0;
-    left: -200%;
-    right: -200%;
-    background-position: top left;
-    background-size: auto 100%;
-    filter: brightness(20%);
-  }
-  .leaf-cover img {
-    position: relative;
-    z-index: 12;
-    height: 100%;
-    width: auto;
-    max-width: none;
-  }
-  .leaf-cover-mask {
-    position: relative;
-    display: inline-block;
-    height: 32rem;
-  }
-  @media (max-width: 1079px) {
-    .leaf-cover {
-      margin: -4rem -2rem;
-      margin-bottom: 3rem;
-      text-align: center;
-    }
-  }
-  @media (min-width: 1080px) {
-    .leaf-cover {
-      margin-top: -4rem;
-      overflow: visible;
-    }
-    .leaf-cover-mask {
-      height: 56rem;
-    }
-  }
-
-  /* Title */
-  .leaf-title {
-    position: relative;
-    z-index: 15;
-    min-height: 2.4em;
-    margin-top: -2.4em;
-    line-height: 1.2;
-    font-size: 12rem;
-    font-weight: 600;
-    color: #fff;
-  }
-  .leaf-title span {
-    box-shadow: inset 0 -.68em 0 rgba(0,0,0,.4);
-  }
-  @media (max-width: 1079px) {
-    .leaf-title {
-      margin-top: -3em;
-      font-size: 6rem;
-    }
-  }
-  @media (min-width: 1080px) {
-    .leaf-title {
-      padding-left: 20rem;
-      text-indent: -20rem;
-    }
-  }
-
-  .leaf-social-media {
-    position: relative;
-    z-index: 20;
-  }
-
-  .dl {
-    line-height: 2.7rem;
-  }
-  .dl dt {
-    font-weight: 600;
-    text-transform: lowercase;
-  }
-
-  .dl a {
-    display: inline-block;
-    box-sizing: border-box;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 100%;
-    padding-left: .25em;
-    padding-right: .25em;
-    text-overflow: ellipsis;
-    background: rgba(17, 8, 132, 0.9);
-    color: #fff;
-    vertical-align: top;
-  }
-  .dl a:hover {
-    background: rgba(26, 115, 249, 0.9);
-  }
-
-  @media (max-width: 768px) {
-    .dl dt {
-      display: inline-block;
-      background: #ffff43;
-      margin-top: 2.7rem;
-      min-width: 10rem;
-    }
-  }
-  @media (min-width: 769px) {
-    .dl {
-      overflow: hidden;
-    }
-    .dl dt {
-      box-sizing: border-box;
-      float: left;
-      clear: left;
-      width: 20rem;
-      text-align: right;
-      padding-right: 8rem;
-      box-shadow: inset -10rem 0 0 #ffff43;
-    }
-    .dl dd {
-      margin-left: 20rem;
-    }
-    .dl dt,
-    .dl dt + dd {
-      margin-top: 3rem;
-    }
-  }
-
-
-
-</style>
+</article>
