@@ -2,6 +2,7 @@ from fabric.api import run, cd, env
 
 env['hosts'] = ['dancecloud.ro']
 env['user'] = 'php'
+env['use_ssh_config'] = True
 
 
 def deploy():
