@@ -37,7 +37,7 @@
     {
         "id": "2",
         "nume": "Vlaicu Golcea",
-        "sectiune": ["dansator/performer"],
+        "sectiune": ["dansator/performer, muzician, compozitor, sound designer"],
         "social-media": [
         {
             "type": "website",
@@ -192,7 +192,7 @@
     {
         "id": "7",
         "nume": "Liana Tugearu",
-        "sectiune": ["dansator/performer"],
+        "sectiune": ["dansator/performer, critic, istoric de artă"],
         "social-media": [],
         "foto": "7 LianaTugearu20124349_medium.jpg",
         "foto_credit": "Georgeta Hatadi",
