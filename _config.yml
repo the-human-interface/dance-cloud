@@ -66,11 +66,16 @@ page_gen:
     name: 'nume'
     dir: 'ieri/oameni-ai-dansului'
 
+  - data: 'maine-evenimente'
+    template: 'maine-evenimente'
+    name: 'nume'
+    dir: 'maine'
+
 # Build settings
 markdown: kramdown
 permalink: none
 user: devel
-exclude: ['sandbox', 'fabfile.py']
+exclude: ['sandbox', 'fabfile.py', '*.sh', 'INSTRUCTIONS.md', 'README.me']
 
 defaults:
   - scope:

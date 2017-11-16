@@ -10,40 +10,21 @@ layout: default
 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate repellendus unde a aliquid consectetur natus
     ullam nemo amet esse corporis maiores voluptatem molestias fuga, autem ea numquam repellat provident.</p> -->
 
+{% assign records = site.data['maine-evenimente'] %}
+
 <ul class="card-grid">
+{% for record in records %}
+  {% assign title = record.nume %}
+  {% assign url = record.nume | datapage_url: '.' %}
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
+     append:record.foto %}
   <li>
-    <a href="/maine/cursuri-de-dans-contemporan/"
+    <a href="{{ url }}"
        class="card"
-       style="background-image: url('{{ site.baseurl }}/assets/photos/0572d0febc74cd0ddaa52b4add3e2178.gif')">
-      <span class="card-label">CURSURI DE DANS CONTEMPORAN</span>
+       style="background-image: url('{{ thumbnail }}')">
+      <span class="card-label">{{ title }}</span>
     </a>
   </li>
-  <li>
-    <a href="/maine/temps-dimages-2017"
-       class="card"
-       style="background-image: url('{{ site.baseurl }}/assets/photos/14195914_1116107498480782_7554604206956161281_o.jpg')">
-      <span class="card-label">Temps d’Images 2017</span>
-    </a>
-  </li>
-  <li>
-    <a href="/maine/emojiplay"
-       class="card"
-       style="background-image: url('{{ site.baseurl }}/assets/photos/EmojiPlay_(9).jpg">
-      <span class="card-label">#EmojiPlay</span>
-    </a>
-  </li>
-  <li>
-    <a href="/maine/masterclass-de-dans-cu-tokyo"
-       class="card"
-       style="background-image: url('{{ site.baseurl }}/assets/photos/21765707_1805055952851475_546944875786269445_o.jpg')">
-      <span class="card-label">Masterclass de dans cu Tokyo</span>
-    </a>
-  </li>
-  <li>
-    <a href="/maine/spectacolul-de-teatru-dans-four-corners"
-       class="card"
-       style="background-image: url('{{ site.baseurl }}/assets/photos/179396_610010585693923_195064589_n.jpg')">
-      <span class="card-label">SPECTACOLUL DE TEATRU- DANS FOUR CORNERS"</span>
-    </a>
-  </li>
+{% endfor %}
 </ul>

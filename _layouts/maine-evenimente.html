@@ -1,0 +1,49 @@
+---
+layout: default
+breadcrumbs:
+  Home: "/"
+  Mâine: "/maine/"
+---
+
+{% include header-default.html cover=page.foto %}
+
+<dl class="dl">
+  {% if page.descriere and page.descriere != empty %}
+  <dt>Descriere</dt>
+  <dd>
+    {{ page.descriere | markdownify }}
+  </dd>
+  {% endif %}
+
+  {% if page.link_detalii and page.link_detalii != empty %}
+  <dt>Link detalii</dt>
+    {% for link in page.link_detalii %}
+      <dd><a href="{{ link }}">{{ link }}</a></dd>
+    {% endfor %}
+  {% endif %}
+
+  <!-- Credits -->
+  {% for credit in page.credits %}
+    {% if credit and credit != empty %}
+      <dt>{{ credit[0] }}</dt>
+      <dd>{{ credit[1] }}</dd>
+    {% endif %}
+  {% endfor %}
+
+  <!-- date/time -->
+  <dt>Data/Ora</dt>
+  {% for datetime in page['data/ora'] %}
+    <dd>{{ datetime }}</dd>
+  {% endfor %}
+
+  {% if page.durata and page.durata != empty %}
+  <dt>Durata</dt>
+  <dd>{{ page.durata }}</dd>
+  {% endif %}
+
+  <!-- Location -->
+  <dt>Locație</dt>
+  {% for location in page.locatie %}
+    <dd>{{ location }}</dd>
+  {% endfor %}
+</dl>
