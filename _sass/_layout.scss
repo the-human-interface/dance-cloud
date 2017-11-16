@@ -563,6 +563,20 @@
   right: 4rem;
 }
 
+.card-wip {
+  background: #ffff43;
+}
+.card-wip::before {
+  background: transparent;
+}
+.card-wip .card-label {
+  color: #000;
+}
+.card-wip small {
+  display: block;
+  text-transform: uppercase
+}
+
 
 /**
  * Articles

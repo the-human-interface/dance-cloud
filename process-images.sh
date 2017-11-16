@@ -12,4 +12,6 @@ for x in *.png; do
   convert "${x}" -resize 1200x1200\> "../photos/${x}"
 done
 
+# nu uita sa copii celelalte fisiere de mana
+
 cd $OLDPWD
