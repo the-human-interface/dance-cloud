@@ -818,19 +818,21 @@
     box-shadow: inset -10rem 0 0 #ffff43;
   }
   .dl dd {
-    margin-left: 20rem;
+    float: left;
     max-width: 32em;
+  }
+  .dl dd + dd {
+    margin-left: 20rem;
   }
   .dl dt,
   .dl dt + dd {
     margin-top: 3rem;
   }
-  .dl dt:first-child {
-    margin-top: 0;
-  }
 }
 
 .dl .full-dd {
+  margin-top: 0;
+  float: none;
   margin-left: 0;
   clear: left;
 }
