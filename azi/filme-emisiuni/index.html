@@ -2,21 +2,22 @@
 layout: default
 ---
 
+
 <div class="listing-header">
-  <a href="{{ site.baseurl }}/ieri"><span class="uppercase">Ieri</span></a>
+  <a href="{{ site.baseurl }}/azi"><span class="uppercase">Azi</span></a>
   /
-  <h1 class="listing-title">Oameni ai Dansului</h1>
+  <h1 class="listing-title">Filme/Emisiuni</h1>
 </div>
 
-{% assign records = site.data.old_artists %}
+{% assign records = site.data['azi-filmeemisiuni'] %}
 
 <ul class="card-grid">
 {% for record in records %}
-  {% assign title = record.nume %}
-  {% assign url = record.nume | datapage_url: '.' %}
+  {% assign title = record.titlu %}
+  {% assign url = record.titlu | datapage_url: '.' %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
-     append:record.fotografii[0] %}
+     append:record.foto_afis %}
   <li>
     <a href="{{ url }}"
        class="card"
@@ -26,3 +27,4 @@ layout: default
   </li>
 {% endfor %}
 </ul>
+

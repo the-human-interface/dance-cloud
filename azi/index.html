@@ -9,7 +9,7 @@ layout: default
 <p>AZI se află într-un proces continuu de conectare a artiştilor şi evenimentelor care au contribuit şi contribuie la vizibilitatea dansului contemporan din România.</p>
 
 <ul class="card-grid card-grid-numbered">
-  {% assign artist = site.data.artists | first %}
+  {% assign artist = site.data['azi-artisti'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:artist.foto %}
@@ -21,7 +21,7 @@ layout: default
     </a>
   </li>
 
-  {% assign organizatie = site.data.organisations | first %}
+  {% assign organizatie = site.data['azi-organizatii'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:organizatie.foto %}
@@ -33,7 +33,7 @@ layout: default
     </a>
   </li>
 
-  {% assign spectacol = site.data.shows | first %}
+  {% assign spectacol = site.data['azi-spectacole'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:spectacol.foto_afis %}
@@ -46,12 +46,12 @@ layout: default
   </li>
 
 
-  {% assign film = site.data.films | first %}
+  {% assign film = site.data['azi-filmeemisiuni'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:film.foto_afis %}
   <li>
-    <a href="{{ site.baseurl }}/azi/filme/"
+    <a href="{{ site.baseurl }}/azi/filme-emisiuni/"
        class="card"
        style="background-image: url('{{ thumbnail }}')">
       <span class="card-label">Filme/Emisiuni</span>
@@ -59,7 +59,7 @@ layout: default
   </li>
 
 
-  {% assign publicatie = site.data.publications | first %}
+  {% assign publicatie = site.data['azi-publicatii'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:publicatie.foto_coperta %}
@@ -72,7 +72,7 @@ layout: default
   </li>
 
 
-  {% assign festival = site.data.festivals | last %}
+  {% assign festival = site.data['azi-festivaluri'] | last %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:festival.foto_afis %}

@@ -16,55 +16,55 @@ url: "http://alfa.dancecloud.ro" # the base hostname & protocol for your site
 # Page generation
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
-  - data: 'artists'
+  - data: 'azi-artisti'
     template: 'artist'
     name: 'nume'
     dir: 'azi/artisti'
 
-  - data: 'organisations'
+  - data: 'azi-organizatii'
     template: 'organisation'
     name: 'denumire'
     dir: 'azi/organizatii'
 
-  - data: 'shows'
+  - data: 'azi-spectacole'
     template: 'show'
     name: 'titlu'
     dir: 'azi/spectacole'
 
-  - data: 'films'
+  - data: 'azi-filmeemisiuni'
     template: 'film'
     name: 'titlu'
-    dir: 'azi/filme'
+    dir: 'azi/filme-emisiuni'
 
-  - data: 'publications'
+  - data: 'azi-publicatii'
     template: 'publication'
     name: 'titlu'
     dir: 'azi/publicatii'
 
-  - data: 'festivals'
+  - data: 'azi-festivaluri'
     template: 'festival'
     name: 'titlu'
     dir: 'azi/festivaluri'
 
-  - data: 'choreographers'
+  - data: 'ieri-coregrafidansatori'
     template: 'choreograph'
     name: 'nume'
     dir: 'ieri/coregrafidansatori'
 
-  - data: 'collective'
+  - data: 'ieri-colective'
     template: 'collective'
     name: 'nume'
     dir: 'ieri/colective'
 
-  - data: 'old_organisations'
+  - data: 'ieri-organizatii'
     template: 'old_organisation'
     name: 'nume'
     dir: 'ieri/organizatii'
 
-  - data: 'old_artists'
+  - data: 'ieri-oameniaidansului'
     template: 'old_artist'
     name: 'nume'
-    dir: 'ieri/oameni_ai_dansului'
+    dir: 'ieri/oameni-ai-dansului'
 
 # Build settings
 markdown: kramdown

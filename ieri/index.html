@@ -17,7 +17,7 @@ layout: default
 
 
 <ul class="card-grid card-grid-numbered">
-  {% assign choreograph = site.data.choreographers | first %}
+  {% assign choreograph = site.data['ieri-coregrafidansatori'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:choreograph.fotografii[0] %}
@@ -30,7 +30,7 @@ layout: default
   </li>
 
 
-  {% assign collective = site.data.collective | first %}
+  {% assign collective = site.data['ieri-colective'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:collective.fotografii[0] %}
@@ -42,7 +42,7 @@ layout: default
     </a>
   </li>
 
-  {% assign organisation = site.data.old_organisations[3] %}
+  {% assign organisation = site.data['ieri-organizatii'][3] %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:organisation.fotografii[0] %}
@@ -54,12 +54,12 @@ layout: default
     </a>
   </li>
 
-  {% assign artist = site.data.old_artists | first %}
+  {% assign artist = site.data['ieri-oameniaidansului'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
      append:artist.fotografii[0] %}
   <li>
-    <a href="{{ site.baseurl }}/ieri/oameni_ai_dansului/"
+    <a href="{{ site.baseurl }}/ieri/oameni-ai-dansului/"
        class="card"
        style="background-image: url('{{ thumbnail }}')">
       <span class="card-label">Oameni ai dansului</span>
