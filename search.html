@@ -1,0 +1,41 @@
+---
+layout: default
+title: Caută
+permalink: /search/
+---
+
+<h1 class="sr">Caută</h1>
+
+<form class="search" action="/search/" method="GET">
+  <input type="search" name="q" value="" placeholder="Artiști, spectacole, organizații">
+  <button type="submit">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 13"><g stroke-width="2" stroke="#000" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg>
+    <span class="sr">Caută</span>
+  </button>
+</form>
+
+<script>
+  (function() {
+    var searchInputs = document.querySelectorAll('input[type="search"]');
+    var searchQuery = window.location.search.substr(3);
+    Array.prototype.forEach.call(searchInputs, function(searchInput) {
+      searchInput.value = searchQuery;
+    });
+    document.title = 'Dance Cloud | Caută: "' + searchQuery +'"';
+  }())
+</script>
+
+<div class="google-searchresults">
+  <script>
+    (function() {
+      var cx = '004333319624725174841:zubgdcq_e1o';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:searchresults-only></gcse:searchresults-only>
+</div>

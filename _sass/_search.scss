@@ -1,0 +1,91 @@
+.navmenu-search {
+  input,
+  button {
+    padding: 1rem;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    &:focus {
+      outline-style: solid;
+      outline-width: .2rem;
+      outline-color: #ffff43;
+    }
+  }
+  input {
+    padding-left: 2rem;
+    font: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+  button svg {
+    height: 2em;
+  }
+}
+@media (max-width: 480px) {
+  .navmenu-search {
+    input {
+      max-width: 100%;
+      padding-right: 2.5em;
+      margin-right: -2.5em;
+    }
+  }
+}
+
+
+.search {
+  max-width: 100%;
+
+  input,
+  button {
+    box-sizing: border-box;
+    padding: .25em;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    vertical-align: middle;
+    outline: none;
+  }
+  input {
+    font: inherit;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: inherit;
+    border-bottom: .1em solid #ddd;
+    -webkit-appearance: none;
+            appearance: none;
+    &:focus {
+      background: #ffff43;
+      border-color: #000;
+    }
+  }
+  button {
+    &:focus,
+    &:hover {
+      background: #ffff43;
+    }
+  }
+  button svg {
+    height: 3.6rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .search {
+    margin-bottom: 1rem;
+    input {
+      max-width: 100%;
+      margin-right: -2em;
+      padding-right: 2em;
+      font-size: 2.6rem;
+    }
+    button svg {
+      height: 2.6rem;
+    }
+  }
+}
+
+.cse .gsc-control-cse, .gsc-control-cse {
+  padding: 0!important;
+}
