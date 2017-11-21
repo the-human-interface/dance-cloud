@@ -13,6 +13,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dancecloud.ro" # the base hostname & protocol for your site
 
+
+# Plugins
+# Data Pages Generator, https://github.com/avillafiorita/jekyll-datapage_gen/
+# Sitemap Generator, https://github.com/kinnetica/jekyll-plugins
+
 # Page generation
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
@@ -70,6 +75,12 @@ page_gen:
     template: 'maine-evenimente'
     name: 'nume'
     dir: 'maine'
+
+# Sitemap
+sitemap:
+  exclude: 
+    - "/css/main.css"
+    - "/js/main.js"
 
 # Build settings
 markdown: kramdown
