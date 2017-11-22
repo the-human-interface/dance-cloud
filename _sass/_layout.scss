@@ -796,6 +796,16 @@
   background: rgba(26, 115, 249, 0.9);
 }
 
+.dl ul,
+.dl ol {
+  margin-left: 2rem;
+  list-style: square;
+}
+.dl ul.small {
+  line-height: 2rem;
+  margin-top: .3rem;
+}
+
 @media (max-width: 768px) {
   .dl dt {
     display: inline-block;
@@ -830,6 +840,9 @@
   .dl dt,
   .dl dt + dd {
     margin-top: 3rem;
+  }
+  .dl ul {
+    margin-left: 0;
   }
 }
 

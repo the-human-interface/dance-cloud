@@ -36,7 +36,7 @@ breadcrumbs:
   {% if page.spectacole and page.spectacole != empty %}
   <dt>Spectacole</dt>
   <dd>
-    <ul>
+    <ul class="small">
     {% for spectacol in page.spectacole %}
       <li>{{ spectacol }}</li>
     {% endfor %}
@@ -47,7 +47,7 @@ breadcrumbs:
   {% if page.bibliografie and page.bibliografie != empty %}
     <dt>Bibliografie</dt>
     <dd>
-      <ul>
+      <ul class="small">
         {% for bibliografie in page.bibliografie %}
           <li>{{ bibliografie }}</li>
         {% endfor %}
@@ -55,7 +55,7 @@ breadcrumbs:
     </dd>
   {% endif %}
 
-  {% if page.documente_foto and page.document_foto != empty %}
+  {% if page.documente_foto and page.documente_foto != empty %}
   <dt>Documente foto</dt>
   <dd class="full-dd">
     <div class="dd-gallery">
