@@ -779,23 +779,6 @@
   text-transform: lowercase;
 }
 
-.dl a {
-  display: inline-block;
-  box-sizing: border-box;
-  white-space: nowrap;
-  overflow: hidden;
-  max-width: 100%;
-  padding-left: .25em;
-  padding-right: .25em;
-  text-overflow: ellipsis;
-  background: rgba(17, 8, 132, 0.9);
-  color: #fff;
-  vertical-align: top;
-}
-.dl a:hover {
-  background: rgba(26, 115, 249, 0.9);
-}
-
 .dl ul,
 .dl ol {
   margin-left: 2rem;
@@ -857,8 +840,8 @@
   white-space: nowrap;
   overflow: hidden;
   overflow-x: auto;
-  height: 40rem;
   width: 100vw;
+  height: 20rem;
   margin-left: -4rem;
   margin-right: -4rem;
 }
@@ -871,8 +854,10 @@
 .dd-gallery::-webkit-scrollbar-thumb {
   background-color: #ffff43;
 }
-.dd-gallery:hover {
+.dd-gallery a {
+  display: inline-block;
 }
+.dd-gallery a,
 .dd-gallery img {
   height: 100%;
   width: auto;
@@ -887,6 +872,7 @@
 @media (min-width: 1080px) {
   .dd-gallery {
     width: calc(100vw - 36rem);
+    height: 40rem;
   }
 }
 

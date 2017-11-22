@@ -6,24 +6,7 @@ breadcrumbs:
   Coregrafi/Dansatori: "../"
 ---
 
-
-
-{% if page.fotografii != empty %}
-<div class="leaf-cover with-gallery">
-  
-  {% for foto in page.fotografii %}
-    <img src="{{ site.baseurl }}/assets/photos/{{ foto }}">
-  {% endfor %}
-
-</div>
-{% endif %}
-
-
-{% include breadcrumbs.html %}
-
-<h1 class="leaf-title">
-  <span>{{ page.nume }}</span>
-</h1>
+{% include header-gallery.html gallery=page.fotografii %}
 
 <dl class="dl">
   {% if page.bio != empty %}
@@ -58,11 +41,22 @@ breadcrumbs:
   {% if page.documente_foto and page.documente_foto != empty %}
   <dt>Documente foto</dt>
   <dd class="full-dd">
-    <div class="dd-gallery">
+    <div class="dd-gallery baguette-gallery">
       {% for foto in page.documente_foto %}
-        <img src="{{ site.baseurl }}/assets/photos/{{ foto }}">
+      {% assign fotoURL = site.baseurl | append: '/assets/photos/' | append: foto %}
+      <a href="{{ fotoURL }}">
+        <img src="{{ fotoURL }}">
+      </a>
       {% endfor %}
     </div>
   </dd>
   {% endif %}
 </dl>
+
+<link href="{{ "/css/baguetteBox.min.css" }}" rel="stylesheet" >
+<script src="{{ "/js/baguetteBox.min.js" }}"></script>
+<script>
+  (function() {
+    baguetteBox.run('.baguette-gallery');
+  }())
+</script>

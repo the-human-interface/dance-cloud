@@ -46,6 +46,24 @@ small,
   font-size: 1.5rem;
 }
 
+.hardlink,
+.hardlinks a {
+  display: inline-block;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+  padding-left: .25em;
+  padding-right: .25em;
+  text-overflow: ellipsis;
+  background: rgba(17, 8, 132, 0.9);
+  color: #fff;
+  vertical-align: top;
+}
+.hardlink:hover,
+.hardlinks a:hover {
+  background: rgba(26, 115, 249, 0.9);
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

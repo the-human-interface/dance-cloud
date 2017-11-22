@@ -83,6 +83,7 @@ exclude: ['sandbox', 'fabfile.py', '*.sh', 'INSTRUCTIONS.md', 'README.me']
 
 defaults:
   - scope:
-      path: "assets/images"
+      path: "assets/photos"
     values:
       image: true
+      gallery: true
