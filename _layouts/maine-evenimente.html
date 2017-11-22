@@ -18,7 +18,7 @@ breadcrumbs:
   {% if page.link_detalii and page.link_detalii != empty %}
   <dt>Link detalii</dt>
     {% for link in page.link_detalii %}
-      <dd><a href="{{ link }}">{{ link }}</a></dd>
+      <dd class="hardlinks"><a href="{{ link }}">{{ link }}</a></dd>
     {% endfor %}
   {% endif %}
 
