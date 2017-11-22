@@ -21,52 +21,52 @@ url: "http://dancecloud.ro" # the base hostname & protocol for your site
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
   - data: 'azi-artisti'
-    template: 'artist'
+    template: 'azi-artisti'
     name: 'nume'
     dir: 'azi/artisti'
 
   - data: 'azi-organizatii'
-    template: 'organisation'
+    template: 'azi-organizatii'
     name: 'denumire'
     dir: 'azi/organizatii'
 
   - data: 'azi-spectacole'
-    template: 'show'
+    template: 'azi-spectacole'
     name: 'titlu'
     dir: 'azi/spectacole'
 
   - data: 'azi-filmeemisiuni'
-    template: 'film'
+    template: 'azi-filmeemisiuni'
     name: 'titlu'
     dir: 'azi/filme-emisiuni'
 
   - data: 'azi-publicatii'
-    template: 'publication'
+    template: 'azi-publicatii'
     name: 'titlu'
     dir: 'azi/publicatii'
 
   - data: 'azi-festivaluri'
-    template: 'festival'
+    template: 'azi-festivaluri'
     name: 'titlu'
     dir: 'azi/festivaluri'
 
   - data: 'ieri-coregrafidansatori'
-    template: 'choreograph'
+    template: 'ieri-coregrafidansatori'
     name: 'nume'
     dir: 'ieri/coregrafidansatori'
 
   - data: 'ieri-colective'
-    template: 'collective'
+    template: 'ieri-colective'
     name: 'nume'
     dir: 'ieri/colective'
 
   - data: 'ieri-organizatii'
-    template: 'old_organisation'
+    template: 'ieri-organizatii'
     name: 'nume'
     dir: 'ieri/organizatii'
 
   - data: 'ieri-oameniaidansului'
-    template: 'old_artist'
+    template: 'ieri-oameniaidansului'
     name: 'nume'
     dir: 'ieri/oameni-ai-dansului'
 
