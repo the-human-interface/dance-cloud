@@ -9,32 +9,54 @@ breadcrumbs:
 {% include header-gallery.html gallery=page.fotografii %}
 
 <dl class="dl">
-  {% if page.descriere != empty %}
-  <dt>Descriere</dt>
-  <dd>
-    {{ page.descriere }}
-  </dd>
-  {% endif %}
-
-  {% if page.fondat != empty %}
+  {% if page.fondat and page.fondat != empty %}
     <dt>Fondat</dt>
     <dd>
         {{ page.fondat }}
     </dd>
   {% endif %}
 
-
-  {% if page.fondatori != empty %}
+  {% if page.fondatori and page.fondatori != empty %}
     <dt>Fondatori</dt>
     <dd>
         {{ page.fondatori }}
     </dd>
   {% endif %}
 
-  {% if page.membri != empty %}
+  {% if page.membri and page.membri != empty %}
     <dt>Membri</dt>
     <dd>
       {{ page.membri }}
+    </dd>
+  {% endif %}
+
+  {% if page.istoric and page.istoric != empty %}
+    <dt>Istoric</dt>
+    <dd>
+      {{ page.istoric }}
+    </dd>
+  {% endif %}
+
+
+  {% if page.spectacole and page.spectacole != empty %}
+  <dt>Spectacole</dt>
+  <dd>
+    <ul>
+    {% for spectacol in page.spectacole %}
+      <li>{{ spectacol }}</li>
+    {% endfor %}
+    </ul>
+  </dd>
+  {% endif %}
+
+  {% if page.bibliografie and page.bibliografie != empty %}
+    <dt>Bibliografie</dt>
+    <dd>
+      <ul>
+        {% for bibliografie in page.bibliografie %}
+          <li>{{ bibliografie }}</li>
+        {% endfor %}
+      </ul>
     </dd>
   {% endif %}
 
@@ -47,30 +69,6 @@ breadcrumbs:
       {% endfor %}
     </div>
   </dd>
-  {% endif %}
-
-  {% if page.istoric != empty %}
-    <dt>Istoric</dt>
-    <dd>
-      {{ page.istoric }}
-    </dd>
-  {% endif %}
-
-
-  {% if page.spectacole != empty %}
-    <dt>Spectacole</dt>
-    {% for spectacol in page.spectacole %}
-    <dd>
-        {{ spectacol }}
-    </dd>
-    {% endfor %}
-  {% endif %}
-
-  {% if page.bibliografie != empty %}
-    <dt>Bibliografie</dt>
-    <dd>
-        {{ page.bibliografie }}
-    </dd>
   {% endif %}
 
 </dl>

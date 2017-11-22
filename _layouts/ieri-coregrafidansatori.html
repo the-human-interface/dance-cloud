@@ -26,18 +26,33 @@ breadcrumbs:
 </h1>
 
 <dl class="dl">
-  {% if page.descriere != empty %}
-  <dt>Descriere</dt>
-  <dd>
-    {{ page.descriere }}
-  </dd>
-  {% endif %}
-
   {% if page.bio != empty %}
   <dt>Bio</dt>
   <dd>
-    {{ page.bio }}
+    {{ page.bio | markdownify }}
   </dd>
+  {% endif %}
+
+  {% if page.spectacole and page.spectacole != empty %}
+  <dt>Spectacole</dt>
+  <dd>
+    <ul>
+    {% for spectacol in page.spectacole %}
+      <li>{{ spectacol }}</li>
+    {% endfor %}
+    </ul>
+  </dd>
+  {% endif %}
+
+  {% if page.bibliografie and page.bibliografie != empty %}
+    <dt>Bibliografie</dt>
+    <dd>
+      <ul>
+        {% for bibliografie in page.bibliografie %}
+          <li>{{ bibliografie }}</li>
+        {% endfor %}
+      </ul>
+    </dd>
   {% endif %}
 
   {% if page.documente_foto and page.document_foto != empty %}
@@ -49,20 +64,5 @@ breadcrumbs:
       {% endfor %}
     </div>
   </dd>
-  {% endif %}
-
-
-  {% if page.bibliografie != empty %}
-  <dt>Bibliografie</dt>
-  <dd>{{ page.bibliografie }}</dd>
-  {% endif %}
-
-  {% if page.spectacole != empty %}
-  <dt>Spectacole</dt>
-  {% for spectacol in page.spectacole %}
-  <dd>
-    {{ spectacol }}
-  </dd>
-  {% endfor %}
   {% endif %}
 </dl>
