@@ -7,6 +7,8 @@
     background: transparent;
     vertical-align: bottom;
     box-sizing: border-box;
+    -webkit-appearance: none;
+            appearance: none;
     &:focus {
       outline-style: solid;
       outline-width: .2rem;
@@ -46,6 +48,8 @@
     background: transparent;
     vertical-align: middle;
     outline: none;
+    -webkit-appearance: none;
+            appearance: none;
   }
   input {
     font: inherit;
