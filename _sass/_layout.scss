@@ -816,6 +816,7 @@
   .dl dd {
     float: left;
     max-width: 32em;
+    width: calc(100% - 20rem);
   }
   .dl dd + dd {
     margin-left: 20rem;

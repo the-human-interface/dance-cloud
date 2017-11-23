@@ -72,9 +72,9 @@ breadcrumbs:
   {% for contact in page.contact %}
   <dd>
     {% if contact.type == "email" %}
-      <a href="mailto:{{ contact.value }}">{{ contact.value }}</a>
+      <a class="hardlink" href="mailto:{{ contact.value }}">{{ contact.value }}</a>
     {% elsif contact.type == "telefon" %}
-      <a href="tel:{{ contact.value }}">{{ contact.value }}</a>
+      <a class="hardlink" href="tel:{{ contact.value }}">{{ contact.value }}</a>
     {% else %}
       {{ contact.value }}
     {% endif %}
