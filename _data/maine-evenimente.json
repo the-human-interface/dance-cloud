@@ -139,5 +139,27 @@
         "locatie": [
             "Teatru Fix, Str. Cuza Vodă nr. 10, Iași"
         ]
+    },
+    {
+        "id": "7",
+        "nume": "COUNTERBODY",
+        "foto": "counterbody.jpg",
+        "descriere": "COUNTERBODY este unul din cele 20 de spectacole ale anului 2018 selectate de rețeaua europeană Aerowaves în Twenty18 Artists.\n\nCOUNTERBODY este un spectacol de dans, instalație și muzică în care toate elementele pot fi privite ca particule în mișcare permanentă, permutabile și paralele. Direcția coregrafică este rezultatul unui proces de analiză și lucru cu corpurile celor 8 dansatori care alcătuiesc un organism fluid și fragmentar în același timp. Miza spectacolului este de a înțelege și repera căile demonstrative către o realitate existentă, valabilă științific și filozofic, însă blocată la nivelul percepției.\n\n coregrafie: Simona Deaconescu\n\n dramaturgie și suport curatorial: Olivia Nițiș\n\n compoziție vizuală: Ciprian Ciuclea\n\n muzică originală: Cătălin Crețu\n\n dansatori: Alexandra Bălășoiu, Andreea Belu, Corina Tătărău, Denis Bolborea, George Alexandru Pleșca, Georgeta Corca, Marian „Franke” Octavian, Simona Dabija\n\n light design: Alexandros Raptis & Ionuț Cherana\n\n inginer de sunet: Marian Cîtu\n\n durata: 42 min",
+        "link_detalii": [
+            "http://www.cndb.ro/spectacole/counterbody-24-25-noiembrie/",
+            "https://www.facebook.com/events/133056920792745/",
+            "https://www.facebook.com/events/300974527084588/",
+            "https://vimeo.com/220309255/"
+        ],
+        "credits": {
+            "Organizator": "Tangaj Dance & Centrul Național al Dansului București"
+        },
+        "data/ora": [
+            "24 Noiembrie 2017, ora 19:30",
+            "25 Noiembrie 2017, ora 19:00"
+        ],
+        "locatie": [
+            "CNDB - Sala Stere Popescu, B-dul Mărășești 80-82, sector 4, București"
+        ]
     }
 ]
