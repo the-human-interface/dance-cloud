@@ -72,7 +72,7 @@ page_gen:
 
   - data: 'maine-evenimente'
     template: 'maine-evenimente'
-    name: 'nume'
+    name: 'titlu'
     dir: 'maine'
 
 # Build settings
