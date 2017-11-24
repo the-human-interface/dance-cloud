@@ -1,5 +1,57 @@
 [
     {
+        "id": "7",
+        "nume": "COUNTERBODY",
+        "foto": "counterbody.jpg",
+        "descriere": "COUNTERBODY este unul din cele 20 de spectacole ale anului 2018 selectate de rețeaua europeană Aerowaves în Twenty18 Artists.\n\nCOUNTERBODY este un spectacol de dans, instalație și muzică în care toate elementele pot fi privite ca particule în mișcare permanentă, permutabile și paralele. Direcția coregrafică este rezultatul unui proces de analiză și lucru cu corpurile celor 8 dansatori care alcătuiesc un organism fluid și fragmentar în același timp. Miza spectacolului este de a înțelege și repera căile demonstrative către o realitate existentă, valabilă științific și filozofic, însă blocată la nivelul percepției.",
+        "link_detalii": [
+            "http://www.cndb.ro/spectacole/counterbody-24-25-noiembrie/",
+            "https://www.facebook.com/events/133056920792745/",
+            "https://www.facebook.com/events/300974527084588/",
+            "https://vimeo.com/220309255/"
+        ],
+        "credits": {
+            "Organizator": "Tangaj Dance & Centrul Național al Dansului București",
+            "Coregrafie": "Simona Deaconescu",
+            "Dramaturgie și suport curatorial": "Olivia Nitiș",
+            "Compoziție vizuală": "Ciprian Ciuclea",       
+            "Muzică originală": "Cătălin Crețu",
+            "Dansatori": "Alexandra Bălășoiu, Andreea Belu, Corina Tătărău, Denis Bolborea, George Alexandru Pleșca, Georgeta Corca, Marian „Franke” Octavian, Simona Dabija",
+            "Light design": "Alexandros Raptis & Ionuț Cherana",
+            "Inginer de sunet": "Marian Cîtu",
+            "Durata": "42 min" 
+        },
+        "data/ora": [
+            "24 Noiembrie 2017, ora 19:30",
+            "25 Noiembrie 2017, ora 19:00"
+        ],
+        "locatie": [
+            "CNDB - Sala Stere Popescu, B-dul Mărășești 80-82, sector 4, București"
+        ]
+    },
+    {
+        "id": "8",
+        "nume": "Plus2017 // despre corp, iubire și dans contemporan",
+        "foto": "plusdans2017.jpg",
+        "descriere": "+2017 [despre corp, iubire și dans contemporan] este un proiect colectiv, inițiat de artiști și structuri independente din București, ce îşi propune să crească vizibilitatea dansului contemporan în rândul publicului bucureștean și coeziunea în cadrul sectorului coregrafic independent.\n\nPrima ediţie a proiectului se va desfășura în perioada 25 – 30 noiembrie la Linotip - Centru Independent Coregrafic, Centrul de Teatru Educațional Replika şi Centrul Naţional al Dansului Bucureşti și este realizat cu sprijinul financiar al Centrului Național al Dansului București.\n\n +2017 [despre corp, iubire și dans contemporan] este organizat de Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor și artiștii Andreea Belu şi Andreea Novac, care, fără a impune o direcție tematică sau un concept curatorial, au construit un program complex de evenimente - spectacole, filme, expoziții, întâlniri și discuții - prin care să încurajeze dialogul și schimbul de idei în interiorul comunităţii dansului contemporan din București.\n\n Programul propus de +2017 [despre corp, iubire și dans contemporan] este, în fapt, un display performativ în care vor fi prezentate spectacole și filme de dans produse în 2017, dublate de o serie de discuții și dezbateri la care participă artiștii implicați în proiect și comunitatea dansului contemporan din Bucureşti.\n\n Biletele pot pentru acest eveniment pot fi achiziţionate de pe https://eventbook.ro/program/plus-2017.\n\n Pentru spectacolul COUNTERBODY din data de 25 noiembrie, biletele se achiţionează de pe kompostor.ro.\n\n +2017 [despre corp, iubire și dans contemporan] este un proiect al Asociației DanceSpot, finanțat de Centrul Național al Dansului București.",
+        "link_detalii": [
+            "https://plusdans2017.wordpress.com/",
+            "https://www.facebook.com/events/488038628231203/"
+        ],
+        "credits": {
+            "Inițiatori": "Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor, Andreea Belu și Andreea Novac",
+            "Parteneri": "Bucharest International Dance Film Festival, Centrul de Teatru Educaţional Replika, FIX me a drink, Beans&Dots\n\n Parteneri media: SUB25, FEEDER.ro, Modernism Punct Ro, The Institute" 
+        },
+        "data/ora": [
+            "25 - 30 Noiembrie 2017"
+        ],
+        "locatie": [
+            "Linotip - Centru Independent Coregrafic, Ion Brezoianu nr 23-25, București",
+            "CNDB - Sala Stere Popescu, B-dul Mărășești 80-82, sector 4, București",
+            "Centrul de Teatru Educaţional Replika, Str. Lânăriei 93 - 95, sector 4, București"
+        ]
+    },
+    {
         "id": "1",
         "nume": "CURSURI DE DANS CONTEMPORAN",
         "foto": "0572d0febc74cd0ddaa52b4add3e2178.gif",
@@ -48,29 +100,6 @@
             "Universitatea Sapientia Calea Turzii nr. 4, Cluj- Napoca",
             "White Cuib F.D. Roosevelt nr. 2/1, Cluj- Napoca",
             "ZUG.zone Traian nr. 40-42, Cluj- Napoca"
-        ]
-    },
-    {
-        "id": "3",
-        "nume": "#EmojiPlay",
-        "foto": "EmojiPlay_(9).jpg",
-        "descriere": "Așa cum l-a gândit Gigi Căciuleanu, spectacolul de teatru coregrafic#EmojiPlay îmbină, în mod aparent ludic, un limbaj tri-dimensional (cel al dansActorilor) cu vizuala şi strania (încă!) lume bi-dimensională a acestor foarte tinere „metafore”, numite „emoji”.\nCreatorul spune că spectacolul s-ar putea intitula şi „Do You speak Emoji?” - o întrebare pe care şi-o pune din în ce mai multă lume și la care răspund cei mai tineri locuitori ai planetei.\nSuntem invadaţi de emoticoane de tot felul. Emoţiile sunt re-codificate şi concentrate în imagini stilizate. „Emoji” provine din japoneză: 絵文字sau えもじ  **(E: Imagine și Moji: Literă)**.",
-        "credits": {
-            "DansActori": "Ana Vișan, Irina Strungăreanu, Adrian Nour, Alexandru Călin în alternanță cu Bianca Bor și Bogdan Iacob",
-            "Asistență": "Lelia Marcu-Vlad",
-            "Scenografie video și animație": "Les Ateliers Nomad",
-            "Costume": "Corina Boboc",
-            "Coloana sonor": "Pro-DJ Event",
-            "Light Design": "Cristian Petru Simon",
-            "Producător": "Teatrul Excelsior în parteneriat cu „Gigi Căciuleanu Romania Dance Company”",
-            "Foto": "Adi Bulboacă"
-        },
-        "data/ora": [
-            "18 noiembrie, ora 19.00"
-        ],
-        "durata": "1h",
-        "locatie": [
-            "Teatrul Excelsior, Str. Academiei, nr. 28, București"
         ]
     },
     {
@@ -138,58 +167,6 @@
         ],
         "locatie": [
             "Teatru Fix, Str. Cuza Vodă nr. 10, Iași"
-        ]
-    },
-    {
-        "id": "7",
-        "nume": "COUNTERBODY",
-        "foto": "counterbody.jpg",
-        "descriere": "COUNTERBODY este unul din cele 20 de spectacole ale anului 2018 selectate de rețeaua europeană Aerowaves în Twenty18 Artists.\n\nCOUNTERBODY este un spectacol de dans, instalație și muzică în care toate elementele pot fi privite ca particule în mișcare permanentă, permutabile și paralele. Direcția coregrafică este rezultatul unui proces de analiză și lucru cu corpurile celor 8 dansatori care alcătuiesc un organism fluid și fragmentar în același timp. Miza spectacolului este de a înțelege și repera căile demonstrative către o realitate existentă, valabilă științific și filozofic, însă blocată la nivelul percepției.",
-        "link_detalii": [
-            "http://www.cndb.ro/spectacole/counterbody-24-25-noiembrie/",
-            "https://www.facebook.com/events/133056920792745/",
-            "https://www.facebook.com/events/300974527084588/",
-            "https://vimeo.com/220309255/"
-        ],
-        "credits": {
-            "Organizator": "Tangaj Dance & Centrul Național al Dansului București",
-            "Coregrafie": "Simona Deaconescu",
-            "Dramaturgie și suport curatorial": "Olivia Nitiș",
-            "Compoziție vizuală": "Ciprian Ciuclea",       
-            "Muzică originală": "Cătălin Crețu",
-            "Dansatori": "Alexandra Bălășoiu, Andreea Belu, Corina Tătărău, Denis Bolborea, George Alexandru Pleșca, Georgeta Corca, Marian „Franke” Octavian, Simona Dabija",
-            "Light design": "Alexandros Raptis & Ionuț Cherana",
-            "Inginer de sunet": "Marian Cîtu",
-            "Durata": "42 min" 
-        },
-        "data/ora": [
-            "24 Noiembrie 2017, ora 19:30",
-            "25 Noiembrie 2017, ora 19:00"
-        ],
-        "locatie": [
-            "CNDB - Sala Stere Popescu, B-dul Mărășești 80-82, sector 4, București"
-        ]
-    },
-        {
-        "id": "8",
-        "nume": "Plus2017 // despre corp, iubire și dans contemporan",
-        "foto": "plusdans2017.jpg",
-        "descriere": "+2017 [despre corp, iubire și dans contemporan] este un proiect colectiv, inițiat de artiști și structuri independente din București, ce îşi propune să crească vizibilitatea dansului contemporan în rândul publicului bucureștean și coeziunea în cadrul sectorului coregrafic independent.\n\nPrima ediţie a proiectului se va desfășura în perioada 25 – 30 noiembrie la Linotip - Centru Independent Coregrafic, Centrul de Teatru Educațional Replika şi Centrul Naţional al Dansului Bucureşti și este realizat cu sprijinul financiar al Centrului Național al Dansului București.\n\n +2017 [despre corp, iubire și dans contemporan] este organizat de Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor și artiștii Andreea Belu şi Andreea Novac, care, fără a impune o direcție tematică sau un concept curatorial, au construit un program complex de evenimente - spectacole, filme, expoziții, întâlniri și discuții - prin care să încurajeze dialogul și schimbul de idei în interiorul comunităţii dansului contemporan din București.\n\n Programul propus de +2017 [despre corp, iubire și dans contemporan] este, în fapt, un display performativ în care vor fi prezentate spectacole și filme de dans produse în 2017, dublate de o serie de discuții și dezbateri la care participă artiștii implicați în proiect și comunitatea dansului contemporan din Bucureşti.\n\n Biletele pot pentru acest eveniment pot fi achiziţionate de pe https://eventbook.ro/program/plus-2017.\n\n Pentru spectacolul COUNTERBODY din data de 25 noiembrie, biletele se achiţionează de pe kompostor.ro.\n\n +2017 [despre corp, iubire și dans contemporan] este un proiect al Asociației DanceSpot, finanțat de Centrul Național al Dansului București.",
-        "link_detalii": [
-            "https://plusdans2017.wordpress.com/",
-            "https://www.facebook.com/events/488038628231203/"
-        ],
-        "credits": {
-            "Inițiatori": "Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor, Andreea Belu și Andreea Novac",
-            "Parteneri": "Bucharest International Dance Film Festival, Centrul de Teatru Educaţional Replika, FIX me a drink, Beans&Dots\n\n Parteneri media: SUB25, FEEDER.ro, Modernism Punct Ro, The Institute" 
-        },
-        "data/ora": [
-            "25 - 30 Noiembrie 2017"
-        ],
-        "locatie": [
-            "Linotip - Centru Independent Coregrafic, Ion Brezoianu nr 23-25, București",
-            "CNDB - Sala Stere Popescu, B-dul Mărășești 80-82, sector 4, București",
-            "Centrul de Teatru Educaţional Replika, Str. Lânăriei 93 - 95, sector 4, București"
         ]
     }
 ]
