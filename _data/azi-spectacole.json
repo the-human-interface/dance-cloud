@@ -420,5 +420,24 @@
         "trailer": "https://youtu.be/Js1gWHkMlEQ",
         "descriere": "Três gerações de alunos e intérpretes profissionais encontram-se no palco para projectar o amor em 3008. É nos gestos, na agressividade, no toque ou na simples descoberta do próprio corpo que se vão revelando as relações do amanhã. \n\nComo será o Amor em 3008? Como se viverão as relações humanas no quotidiano ou como é que a tecnologia será usada na comunicação entre as pessoas? Estas foram duas das questões que orientaram a reflexão dos alunos das escolas Infante D. Henrique e Emídio Navarro (Viseu), envolvidos num projecto que, originalmente, foi concebido pelo coreógrafo Paulo Ribeiro e concretizado na década de 90, em Lisboa. A iniciativa é agora retomada com uma nova direcção artística: Romulus Neagu (coreografia) e Rafaela Santos (encenação). O principal objectivo é envolver a comunidade escolar num projecto artístico, construído a partir das referências curriculares e baseado no contributo de todas as disciplinas. Após um longo processo de criação colectiva, alunos e intérpretes profissionais cruzam-se no palco para projectar as vivências no próximo milénio.",
         "date_reprezentatii": []
+    },
+    {
+        "id": "3",
+        "nume": "#EmojiPlay",
+        "foto": "EmojiPlay_(9).jpg",
+        "descriere": "Așa cum l-a gândit Gigi Căciuleanu, spectacolul de teatru coregrafic#EmojiPlay îmbină, în mod aparent ludic, un limbaj tri-dimensional (cel al dansActorilor) cu vizuala şi strania (încă!) lume bi-dimensională a acestor foarte tinere „metafore”, numite „emoji”.\nCreatorul spune că spectacolul s-ar putea intitula şi „Do You speak Emoji?” - o întrebare pe care şi-o pune din în ce mai multă lume și la care răspund cei mai tineri locuitori ai planetei.\nSuntem invadaţi de emoticoane de tot felul. Emoţiile sunt re-codificate şi concentrate în imagini stilizate. „Emoji” provine din japoneză: 絵文字sau えもじ  **(E: Imagine și Moji: Literă)**.",
+        "credits": {
+            "DansActori": "Ana Vișan, Irina Strungăreanu, Adrian Nour, Alexandru Călin în alternanță cu Bianca Bor și Bogdan Iacob",
+            "Asistență": "Lelia Marcu-Vlad",
+            "Scenografie video și animație": "Les Ateliers Nomad",
+            "Costume": "Corina Boboc",
+            "Coloana sonor": "Pro-DJ Event",
+            "Light Design": "Cristian Petru Simon",
+            "Producător": "Teatrul Excelsior în parteneriat cu „Gigi Căciuleanu Romania Dance Company”",
+            "Foto": "Adi Bulboacă"
+        },
+        "data/ora": [],
+        "durata": "1h",
+        "locatie": []
     }
 ]
