@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "titlu": "COUNTERBODY",
+        "titlu": "Counterbody",
         "an": "2017",
         "durata": "60 min",
         "regizor": "Simona Deaconescu",
@@ -16,7 +16,7 @@
     },
     {
         "id": "2",
-        "titlu": "SHORA ",
+        "titlu": "Shora",
         "an": "2017",
         "durata": "50 de minute",
         "regizor": "Mariana Gavriciuc, Oana Zară, Camelia Neagoe, Simona Dabija",
@@ -46,7 +46,7 @@
     },
     {
         "id": "4",
-        "titlu": "Fapte vitejESTI",
+        "titlu": "Fapte vitejEȘTI",
         "an": "2015",
         "durata": "40'",
         "regizor": "Selma Dragos",
@@ -61,7 +61,7 @@
     },
     {
         "id": "5",
-        "titlu": "Nu toti sunt eroi",
+        "titlu": "Nu toți sunt eroi",
         "an": "2014",
         "durata": "50'",
         "regizor": "Cristina Lilienfeld si Smaranda Gabudeanu",
