@@ -1,0 +1,106 @@
+/**
+ * Numbered category cards
+ */
+.card-grid {
+  list-style: none;
+  margin: 2rem auto;
+  padding-left: 0;
+  counter-reset: category;
+}
+.card-grid::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.card-grid > li {
+  float: left;
+}
+@media (max-width: 1079px) {
+  .card-grid {
+    overflow: hidden;
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  .card-grid > li {
+    margin: 0 2rem 4rem;
+  }
+}
+@media (min-width: 1080px) {
+  .card-grid {
+    margin: 2rem -6rem;
+  }
+  .card-grid > li {
+    margin: 2rem;
+  }
+}
+.card {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 32rem;
+  max-width: 100%;
+  
+
+  color: #fff;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card::before {
+  content: '';
+  display: block;
+  padding-bottom: 100%; 
+  background: rgba(0,0,0,.2);
+}
+.card-label {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #fff;
+  max-height: 20rem;
+  overflow: visible;
+  word-break: break-word;
+  hyphens: auto;
+  // transition: transform .5s;
+}
+// .card:hover .card-label {
+//   transform: translate(0, -2rem);
+// }
+
+.card-grid-numbered .card {
+  counter-increment: category;
+}
+.card-grid-numbered .card::after {
+  content: counter(category, decimal-leading-zero);
+  font-size: 12rem;
+  font-weight: 900;
+  line-height: 1;
+  position: absolute;
+  bottom: -.2em;
+  right: -.2em;
+  color: #FFFF43;
+  opacity: .9;
+  user-select: none;
+}
+.card-grid-numbered .card-label {
+  right: 4rem;
+}
+
+.card-wip {
+  background: #ffff43;
+}
+.card-wip::before {
+  background: transparent;
+}
+.card-wip .card-label {
+  color: #000;
+}
+.card-wip small {
+  display: block;
+  text-transform: uppercase
+}
