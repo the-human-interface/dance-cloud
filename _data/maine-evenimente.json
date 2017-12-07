@@ -32,6 +32,9 @@
             "Teatrul Odeon - Calea Victoriei nr. 40-42, 010062 București"
         ]
     },
+
+
+
     {
         "id": "9",
         "titlu": "Gala de Jérôme Bel",
@@ -65,6 +68,9 @@
             "Teatrul Odeon - Calea Victoriei nr. 40-42, 010062 București"
         ]
     },
+
+
+
     {
         "id": "10",
         "titlu": "Ministagiune Centrul Național al Dansului la Craiova",
@@ -75,7 +81,7 @@
             "https://www.facebook.com/events/141155703271499/"
         ],
         "credits": {
-            "Organizator": "Centrul Național al Dansului București (CNDB) și Teatrul Naţional „Marin Sorescu” din Craiova (TNC)",
+            "Organizator": "Centrul Național al Dansului București (CNDB) și Teatrul Naţional „Marin Sorescu” din Craiova (TNC)"
         },
         "data/ora": [
             "13 decembrie, ora 19.00 – CounterBODY, de: Simona Deaconescu\n\n14 decembrie, ora 17.00 – Nud de femeie brunetă, de/cu: Andreea David\n\n14 decembrie, ora 18.30 – 37 minutes of make believe, de/cu: Andreea Novac\n\n15 decembrie, ora 18.00 – Coregrafie de Grup, de: Mihaela Dancs\n\n16 – 17 decembrie, între orele 11.00 și 14.00 –Atelier de dans contemporan cu Andreea Novac"
@@ -84,6 +90,9 @@
             "Teatrul Național Craiova - Strada Alexandru Ioan Cuza, nr.11, 200585 Craiova"
         ]
     },
+
+
+
     {
         "id": "6",
         "titlu": "Totul pentru Endorfine + Yoga cu Dancs",
@@ -108,6 +117,9 @@
             "CNDB - Sala Stere Popescu, B-dul Mărășești 80-82, sector 4, București"
         ]
     },
+
+
+
     {
         "id": "1",
         "titlu": "Cursuri de dans contemporan",
@@ -132,6 +144,9 @@
             "DANCE PRESTIGE STUDIO, Str. Traian Popovici 87, etajul 1 (deasupra magazinului Carrefour Market), București"
         ]
     },
+
+
+
     {
         "id": "2",
         "titlu": "Temps d’Images 2017",
@@ -159,6 +174,9 @@
             "ZUG.zone Traian nr. 40-42, Cluj- Napoca"
         ]
     },
+
+
+
     {
         "id": "5",
         "titlu": "Dans four corners",

@@ -33,7 +33,10 @@
             }
         ],
         "contact_privat": ["alexandrumcalin@gmail.com"]
-    },    
+    },
+
+
+
     {
         "id": "2",
         "nume": "Vlaicu Golcea",
@@ -53,22 +56,25 @@
             "http://agenda.liternet.ro/articol/22296/Ana-Tecar/Hikikomori-amplasamentul-insingurarii-in-afara-unui-cadru-cultural.html"
         ],
         "contact": [
-        {
-            "type": "email",
-            "value": "vlaicugolcea@gmail.com"
-        }
-    ],
+            {
+                "type": "email",
+                "value": "vlaicugolcea@gmail.com"
+            }
+        ],
         "contact_privat": ["vlaicugolcea@gmail.com"]
     },
+
+
+
     {
         "id": "3",
         "nume": "Răzvan Rotaru",
         "sectiune": ["coregraf", "dansator/performer"],
         "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/RotaruMihaiRazvan/?ref=bookmarks"
-        }
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/RotaruMihaiRazvan/?ref=bookmarks"
+            }
         ],
         "foto": "3 karaoke2 - Mihai-Razvan Rotaru.jpg",
         "foto_credit": "Dragoș Ion",
@@ -80,26 +86,29 @@
             "https://www.menshealth.ro/fitness/slabeste-prin-dans/"
         ],
         "contact": [
-        {
-            "type": "email",
-            "value": "mihai.razvan.rotaru@gmail.com"
-        },
-        {
-            "type": "telefon",
-            "value": "0752 828 112"
-        }
-    ],
+            {
+                "type": "email",
+                "value": "mihai.razvan.rotaru@gmail.com"
+            },
+            {
+                "type": "telefon",
+                "value": "0752 828 112"
+            }
+        ],
         "contact_privat": ["mihai.razvan.rotaru@gmail.com"]
     },
+
+
+
     {
         "id": "4",
         "nume": "Simona Dabija",
         "sectiune": ["coregraf", "dansator/performer"],
         "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/dabija.simona"
-        }
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/dabija.simona"
+            }
         ],
         "foto": "4 21686792_1472033446183775_9044922862162538535_o (2) - Simona Dabija.jpg",
         "foto_credit": "Raluca Arhire",
@@ -110,59 +119,62 @@
             "https://radioromaniacultural.ro/counterbody-spectacol-de-dans-la-centrul-national-al-dansului-bucuresti/"
         ],
         "contact": [
-        {
-            "type": "email",
-            "value": "simona.dbj@gmail.com"
-        },
-        {
-            "type": "telefon",
-            "value": "0735296360"
-        },
-        {
-            "type": "adresa",
-            "value": "Str. Moise Nicoară 38, sector 3"
-        }
-    ],
+            {
+                "type": "email",
+                "value": "simona.dbj@gmail.com"
+            },
+            {
+                "type": "telefon",
+                "value": "0735296360"
+            },
+            {
+                "type": "adresa",
+                "value": "Str. Moise Nicoară 38, sector 3"
+            }
+        ],
         "contact_privat": ["simona.dbj@gmail.com"]
     },
+
+
+
     {
         "id": "5",
         "nume": "Cristina Lilienfeld",
         "sectiune": ["coregraf", "dansator/performer", "profesor"],
         "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/dansulcristinei/"
-        },
-        {
-            "type": "website",
-            "value": "www.petec.ro"
-        },
-        {
-            "type": "website",
-            "value": "www.cursuridanscontemporan.ro"
-        }
-    ],
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/dansulcristinei/"
+            },
+            {
+                "type": "website",
+                "value": "www.petec.ro"
+            },
+            {
+                "type": "website",
+                "value": "www.cursuridanscontemporan.ro"
+            }
+        ],
         "foto": "5 14139393_10154407600332482_1044547250_o - Dansul Cristinei Lilienfeld.jpg",
         "foto_credit": "Lavinia Polak",
         "bio": "CRISTINA LILIENFELD a studiat coregrafia si psihologia căutând in permanenta punctul în care cele două discipline se întâlnesc. In ultimii ani a colaborat si continua sa lucreze cu diferiti coregrafi si dansatori dar si cu artisti vizuali si muzicieni facand parte din mai multe grupuri artistice interdisciplinare. Spectacolele ei: “Lay(ers), “Nu toti sunt eroi”, „ Fapte vitejesti”, “Moving Fields”, precum si numeroase spectacole in care danseaza continua sa fie prezentate pe scenele din Bucuresti, din tara si internationale. In anul 2016 a facut parte din programul Dance Roads prin intermediul caruia a calatorit in cinci tari europene prezentand spectacolul Lay(ers). Cristina cauta, atat in activitatea sa artistica cat si in cadrul atelierelor de dans contemporan pe care le sustine să scoată în evidență partea de autenticitate din orice situație cu care intră în contact. ",
         "proiecte": "2017:\r\n- artist invitat in programul Dansliteratura (program de rezidente de creatie interdisciplinare organizat de fundatia Gabriela Turdor)\r\n- Bucharest Contact Improvisation Festival editia a II-a - organizator si participant\r\n- ateliere de dans contemporan si Contact Improvisation in Timisoara si Brasov - profesor\r\n2016:\r\n- artist invitat in turneul Dance Roads cu solo-ul Lay(ers) - Bordeaux, Torino, Cardiff, Arnhem, Bucuresti\r\n- profesor in cadrul cursurilor organizate de CNDB (Totul pentru endorfine, Drop in, modulul Sufing the Space)\r\n- invitat in emisiunea Round Table: prima oara ca invitata a coregrafului Cosmin Manolescu si a doua oara ca invitata a producatorei de film Ada Solomon\r\n- organizator al atelierelor \"Partenering With All Parts\" - profesor Cyrus Khambatta (US) si \"Dialogul sferelor\" - profesoara Elisa Ghion (Italia)\r\n2015:\r\n- artist invitat in rezidenta la Stuttgart Campfest, rezidenta care a presupus lucrul in echipe interdisciplinare (muzicieni, artisti vizuali, performeri, scriitori) timp de o saptamana in urma careia au rezultat doua performance-uri\r\n- colaborator al artistei Irinel Anghel intr-o serie de performance-uri: “All Inclusive”, “Back to the Future”, “Muzele de la muzeu” si “Aeroportul Oniria” prezentate la Muzeul George Enescu, “Caged Birds” prezentat in cadrul festivalului Fringe din Bucuresti la Un Teatru, “Where's Your Freedom” prezentat la Casa Radio, Bucuresti, Apartamentul lui Barba Albastra etc.\r\n- prezenta cu diferite spectacole in festivaluri precum: Infinite Dance Oradea, Temp D'Images Cluj-Napoca, Seattle International Dance Festival, ConectAct Festival Targu Mures, LikeCNDB Festival, Romanian Showcase, \"11 plus 1 independent/contemporan” stagiune teatrul Marin Sorescu din Craiova, Simpozionul International al Muzicii Noi Bucuresti.\r\n2014:\r\n- participant al MAP Sharing Experience Porto in proiectul artistei vizuale Dilmana Yordanova: \"In echilibru total\"\r\n- beneficiar al rezidentelor Artis(n)est - Tescani, Bacau, Zona D, rezidente create de Fundatia Gabriela Tudor, alaturi de Irinel Anghel si Smaranda Gabudeanu\r\n2013:\r\n- beneficiar al rezidentei Artis(n)est Luxembourg la centrul Troi-C-L\r\n- premiu in cadrul Alt Concurs National de Coregrafie organizat de Sectia de coregrafie\r\n- participant la Global Underscore in Lisabona, eveniment de improvizatie international condus de profesoara Nancy Stark Smith\r\n2012:\r\n- E-Motional Recidency Program la Zona D alaturi de Virginia Negru\r\n\r\n- profesor de dans contemporan si Contac Improvisation pentru adulti si copii din 2010 in prezent in diferite locatii precum: Incubator 107, Casa Steiner, Casa cu flori etc.\r\n- prezenta in Noaptea Alba a Galeriilor (NAG) cu diferite lucrari si improvizatii\r\n",
         "proiecte_viitoare": "- prezentare Lay(ers) in cadrul \"11 plus 1 independent/contemporan” stagiunea teatrului Marin Sorescu din Craiova pe 27 februarie 2018\r\n- atelier de dans contemporan \"Building a New Spine\"  modul intensiv - deocamdata in Bucuresti si Timisoara (de-alungul lui 2018)\r\n- turneu cu spectacolul \"Moving Fields\" - martie 2018\r\n- organizare Bucharest Contact Improvisation Festival editia a III-a - iunie 2018\r\n\r\n",
         "presa": [ 
-        "http://www.artactmagazine.ro/interviu-cu-dansatoarea-cristina-lilienfeld.html", 
-        "http://www.autentici.ro/oameni/cristina-lilienfeld.html", 
-        "http://viitorulromaniei.ro/dans-dans-dans-cristina-lilienfeld-duce-coregrafia-si-dansul-romanesc-intr-o-noua-epoca/",
-        "http://revistaartesimeserii.ro/in-pielea-lor-in-pielea-ta/", 
-        "http://seattledances.com/2014/06/sidf-culminates-with-a-bang/",
-        "http://dilemaveche.ro/sectiune/arte-performative/articol/dans-identitate-concept",
-        "https://igormocanu.wordpress.com/2014/01/10/cristina-lilienfeld-layers/",
-        "http://www.garbo.ro/articol/Cultura/15135/femeile-si-corpul-spectacol-de-cristinalilienfeld.html",
-        "http://www.romlit.ro/festivalul_like_cndb_amploare_i_diversitate",
-        "http://agenda.liternet.ro/articol/19744/Gina-Serbanescu/Istoria-se-imbraca-de-la-HS-Nu-toti-sunt-eroi.html",
-        "https://cosminmanolescu.wordpress.com/2015/03/02/inca-nu-e-tarziu/",
-        "http://www.postmodern.ro/articol/cum-fost-%C3%AEn-luna-februarie-la-festivalul-cndb-1",
-        "https://georgeturliu.wordpress.com/2016/05/08/fapte-vitejesti-spectacol-de-dans-si-umbre-pentru-copiiclock-13-mai-la-1800-la-cndb/"
-    ],
+            "http://www.artactmagazine.ro/interviu-cu-dansatoarea-cristina-lilienfeld.html", 
+            "http://www.autentici.ro/oameni/cristina-lilienfeld.html", 
+            "http://viitorulromaniei.ro/dans-dans-dans-cristina-lilienfeld-duce-coregrafia-si-dansul-romanesc-intr-o-noua-epoca/",
+            "http://revistaartesimeserii.ro/in-pielea-lor-in-pielea-ta/", 
+            "http://seattledances.com/2014/06/sidf-culminates-with-a-bang/",
+            "http://dilemaveche.ro/sectiune/arte-performative/articol/dans-identitate-concept",
+            "https://igormocanu.wordpress.com/2014/01/10/cristina-lilienfeld-layers/",
+            "http://www.garbo.ro/articol/Cultura/15135/femeile-si-corpul-spectacol-de-cristinalilienfeld.html",
+            "http://www.romlit.ro/festivalul_like_cndb_amploare_i_diversitate",
+            "http://agenda.liternet.ro/articol/19744/Gina-Serbanescu/Istoria-se-imbraca-de-la-HS-Nu-toti-sunt-eroi.html",
+            "https://cosminmanolescu.wordpress.com/2015/03/02/inca-nu-e-tarziu/",
+            "http://www.postmodern.ro/articol/cum-fost-%C3%AEn-luna-februarie-la-festivalul-cndb-1",
+            "https://georgeturliu.wordpress.com/2016/05/08/fapte-vitejesti-spectacol-de-dans-si-umbre-pentru-copiiclock-13-mai-la-1800-la-cndb/"
+        ],
         "contact": [
         {
             "type": "email",
@@ -189,6 +201,9 @@
         "contact": [],
         "contact_privat": ["raptis.alex@gmail.com"]
     },
+
+
+    
     {
         "id": "7",
         "nume": "Liana Tugearu",
@@ -211,16 +226,19 @@
         "contact": [],
         "contact_privat": ["lianatugearu@gmail.com"]
     },
+
+
+
     {
         "id": "8",
         "nume": "Andreea-Raluca Tanasescu",
         "sectiune": ["coregraf", "profesor"],
         "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/artassociateandrea"
-        }
-    ],
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/artassociateandrea"
+            }
+        ],
         "foto": "8 POOZA PROFIL - Tanasescu Andreea.jpg",
         "foto_credit": "StudioArt",
         "bio": "Andreea Tănăsescu este lector univ. dr. la U.N.A.T.C., coregraf, manager proiecte culturale, director al Asociației Culturale “A&A Associated Artist”. După finalizarea studiilor în domeniul coregrafic (licenţiată  a Universităţii de Teatru şi Film, Bucureşti), obţine un master în Artele Spectacolului la Universitatea Paris 8- Vincennes Saint-Denis, Franţa, susţine doctoratul în muzică (2007) cu teza: “Forme muzicale şi forme coregrafice”, devine evaluator al operelor de artă la Centrul „Pompidou”, Paris. Explorează fenomenele legate de discursul muzical al lucrărilor coregrafice încercând să definească procesele operatorii ale mişcării. Scrie carți și articole printre care: “Sunet, formă și imagine în dansul contemporan”, carte publicată la editura Muzicală, București. Finalizează studiile postdoctorale MIDAS (Institutul Muzical de Studii Doctorale Avansate) din cadrul Universității Naționale de Muzică, București. Ca şi coregraf colaborează cu instituţii culturale precum: Teatrul Bulandra, Bucureşti, Opera Naţională Bucureşti, Teatrul Naţional Bucureşti, Teatrul Odeon, Bucureşti, Teatrul „Excelsior”, București, Teatrul Evreiesc de Stat, București, Teatrul Naţional, Iași, “Studio Trois C-L”, Luxemburg, Teatrul “Jean Pierre Perreault”, Montreal, Canada, Teatrul „Studio 303”, Montreal, Canada, „Teatrul „College de la Salle”, Avignon. Montează spectacole şi piese coregrafice dintre care: “Dublu Joc” , 2013 (Teatrul Bulandra, Bucureşti), “Exil în pământul uitării” 2012, (Teatrul Național, Sala Atelier, 2013), „Light&Shadow (Opera Naţională Bucureşti), Ispitirea Sfântului Anton (Teatrul Naţional Bucureşti- Sala Atelier). Obţine numeroase premii dintre care: Premiul I la concursul coregrafic Internaţional „EuroDans”, (Iaşi 2000), premiul “Amadeus” pentru cel mai bun artist tânăr român al anului (2000), premiul-bursă U.N.E.S.C.O (Montreal 2005), Marele premiu în cadrul Galei Teatrului Tânăr (Bucureşti 2010). ",
@@ -237,13 +255,16 @@
             "http://www.bcu-iasi.ro/noutati-benjamin-fondane"
         ],
         "contact": [
-        {
-            "type": "email",
-            "value": "andreeatan@yahoo.com"
-        }
-    ],
+            {
+                "type": "email",
+                "value": "andreeatan@yahoo.com"
+            }
+        ],
         "contact_privat": ["andreeatan@yahoo.com"]
     },
+
+
+
     {
         "id": "9",
         "nume": "Tímea Kovács",
@@ -267,17 +288,20 @@
             "Raportaj despre Loco-Logomotion Project si Wild Art Nature Camp 2016"
         ],
         "contact": [
-        {
+            {
                 "type": "telefon",
                 "value": "+40744578871"
             },
-        {
+            {
                 "type": "telefon",
                 "value": "+36204578665"
             }    
         ],
         "contact_privat": ["trimkovacs@gmail.com"]
     },
+
+
+
     {
         "id": "10",
         "nume": "Simona Deaconescu",
@@ -318,280 +342,310 @@
         ],
         "contact_privat": ["simona.deaconescu@hotmail.com"]
     },
-{
-    "id": "11",
-    "nume": "Vanda Ștefănescu",
-    "sectiune": ["coregraf", "dansator/performer"],
-    "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/vandastefanescu/"
-        },
-        {
-            "type": "website",
-            "value": "www.vandastefanescu.com"
-        }
-    ],
-    "foto": "11 profil vanda - vanda stefanescu.jpg",
-    "foto_credit": "",
-    "bio": "Coregraf, absolventă a Liceului de Coregrafie Floria Capsali din București, cu o vastă experiență în tehnica dansului contemporan.\nPeste hotare colaborează cu Vortice Dance Company din Portugalia și în trecut cu Massimo Gerardi (Germania), și Stadstheatre Giessen (Germania).\nColaborează cu Antena1 pentru emisiuni precum: \"X Factor\", \"Te cunosc de undeva\", \"Next Star\", etc.\nPe marile ecrane apare in filmele: \"6,9 pe scara Richter\" de Nae Caranfil și \"High Strung Free dance\" de Michael Damian\nPână în prezent a colaborat ca dansator pentru diferite proiecte cu „Teatrul Național de Operetă și Musical Ion Dacian“, „Teatrul Odeon“, „Teatrul Național București“ și „Teatrelli“.\nCa regizor și coregraf și-a pus semnătura pe spectacolele „Essence“, „15 Minute de Faimă“ , \"Luna Tango Concert\", \"Narcotango România 2015\", și altele.\nÎn prezent este manager de proiecte artistice la Casa de Balet.\n",
-    "proiecte": "",
-    "proiecte_viitoare": "23.11.2017 - Gala Dansului Contemporan (Ploiesti) - regizor artistic\n23.11.2017 în cadrul Galei Dansului Contemporan va avea loc reprezentația scurtă a spectacolului \"Essence\" și \"Să mai iubești?\", o nouă lucrare în premieră realizată alături de Valentin Stoica (prim balerin al Opere Naționale București)\n27.11.2017 în cadrul \"Serile tinerilor coregrafi români\" reprezentații cu \"Essence\" (varianta scurtă) și \"Să mai iubești?\" ",
-    "presa": [],
-    "contact": [],
-    "contact_privat": ["vandu.vanda@gmail.com", "vandastefanescu5@gmail.com"]
-},
-{
-    "id": "12",
-    "nume": "Andrea Gavriliu",
-    "sectiune": ["coregraf", "dansator/performer"],
-    "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/gavriliu"
-        }
-    ],
-    "foto": "12 EP1C1137-Edit - Andrea Gavriliu.jpg",
-    "foto_credit": "Cornel Lazia",
-    "bio": "Andrea Gavriliu s-a născut la data de 2 septembrie 1985 în Sfântu Gheorghe, a absolvit în 2008 Facultatea de Teatru și Televiziune din Cluj-Napoca la clasa profesorului Bács Miklós, secția Actorie. Din 2007 și pana în 2014 a fost actriță la Teatrul Tineretului din Piatra Neamț. În anul 2011 a început cursurile de masterat în Artă Coregrafică la UNATC București, clasa prof. dr. Raluca Ianegic, pe parcursul cărora a realizat spectacolul „Zic Zac” care i-a adus în 2014 premiul special al senatului UNITER pentru teatru-dans, în 2017 premiul de excelență UNACOR pentru regie și coregrafie, precum și participări la numeroase festivaluri atât în țară cât și peste hotare. În prezent este coregraf la Teatrul Național „Lucian Blaga” și profesor asociat la Facultatea de Teatru și Televiziune din cadrul Universității „Babeș-Bólyai” din Cluj Napoca.",
-    "proiecte": "2017 – „Eastman Summerintensive”, Gaga, dans contemporan, yoga și kung fu – Compania Eastman Sidi Larbi Cherkaoui, Antwerp (Belgia)\n2016 – Masterclass susținut de coregrafa și dansatoarea Carolyn Carlson, Festivalul Național de Teatru București\n2015 - „Dance Summer School”, dans contemporan, studii coreologice și Flying Low -  Trinity Laban Conservatoire of Music and Dance London (Marea Britanie)",
-    "proiecte_viitoare": "Participări la festivaluri, ateliere.",
-    "presa": [
-        "http://agenda.liternet.ro/articol/22288/Adrian-Tion/Dans-extrem-Organic-Sound-Twist-la-Intalnirile-Internationale-de-la-Cluj-2017.html",
-        "https://www.youtube.com/watch?v=mEJEbyzC_fw&t=1s",
-        "http://stirileprotv.ro/manifestul-tinerei-generatii/interviu-cu-coregrafa-andreea-gavriliu-m-as-vedea-facand-pana-la-adanci-batraneti-spectacole-de-teatru-dans.html"
-    ],
-    "contact": [
-        {
-            "type": "email",
-            "value": "andrea_gavriliu@hotmail.com"
-        }
-    ],
-    "contact_privat": ["andrea_gavriliu@hotmail.com"]
-},
-{
-    "id": "14",
-    "nume": "Alexandra Girbea",
-    "sectiune": ["coregraf", "dansator/performer"],
-    "social-media": [],
-    "foto": "13 Fara titlu - Alexandra Girbea.png",
-    "foto_credit": "",
-    "bio": "Am intrat in lumea dansului dintr-o simpla curiozitate apoi din necesitatea pe care am simtit-o ca practician in Artele Spectacolului. Curiozitatea despre corp si despre miscare si despre conexiunea dintre corp si minte m-a facut sa merg tot mai adanc in cursuri de formare in dans contemporan. Am inceput prin a studia dansul prin tehnica Feldenkrais in Paris si a ramas una dintre abordarile preferate, studiind acum alaturi de Valentina de Piante Niculae. Am organizat in Bucuresti un program educational pentru dansatori profesionisti, Concentric Movement, care as vrea sa se dezvolte in timp. In plan artistic am inceput in 2013 colaborarea cu Timea Kovacs impreuna cu care am initiat proiectul de dans Height Sense. Cu acest proiect am avut trei rezidente artistice, doua dintre ele la Fabrica de Pensule in Cluj si cea de-a treia prin programul E-motional Bodies and Cities in Luxembourg la centrul Trois C-L. De asemenea, am organizat prima instalatie - expozitie performativa din Bucuresti, Skinned, la Casa Carol si in Cluj, la Fabrica de Pensule, Spatiul RAP - un performance interactiv dans-media analog si muzica live, Desemne (cu Danaga si Maria Brudasca). In acelasi indragit spatiu RAP am coordonat si cursuri de dans creativ pentru copii. Pasiunea si interesul m-au pastrat in proximitatea Valentinei de Piante Niculae, in ale carei proiecte iubesc sa ma implic oricand. Cu fiecare experienta traita in acest domeniu iubesc tot mai mult dansul si pe oamenii care il fac sa se intample. ",
-    "proiecte": "Concentric Movement\nA.D.N. - revista online de dans contemporan\nHeight Sense\nSkinned\nDesemne\nH.E.Art - Humans Embodying Art",
-    "proiecte_viitoare": "",
-    "presa": [],
-    "contact": [
-        {
-            "type": "email",
-            "value": "concentricmove@gmail.com"
-        },
-        {
-            "type": "telefon",
-            "value": "0746053059"
-        }
-    ],
-    "contact_privat": ["alecsandra.girbea@gmail.com"]
-},
-{
-    "id": "15",
-    "nume": "Sergiu Anghel",
-    "sectiune": ["coregraf", "dansator/performer", "profesor"],
-    "social-media": [
-        {
-            "type": "website",
-            "value": "www.unacor.com"
-        }
-    ],
-    "foto": "14 sergiu-anghel.9cjfdau3xl - Sergiu Anghel.jpg",
-    "foto_credit": "Sergiu Anghel",
-    "bio": "Născut în data de 12 februarie 1954 în orașul Mediaș. Urmează cursurile Liceelor de Coregrafie din Cluj și din București. Absolvent al Facultății de Litere din București, secția română-franceză cu o lucrare de diplomă în franceză pentru care obține nota maximă: “Athanor - alchimie des archetypes dans l’oeuvre d’Arthur Rimbaud.” Studii de compoziție coregrafică în Statele Unite la Duke University, Carolina de Nord în cadrul ADF (American Dance Festival) , la New-York cu Linda Turnay, Stuart Hodes, Betty Jones, Carman Moore și la Amsterdam Summer University cu Richard Fine. Invitat de USIA (United States Information Agency) în cadrul programului “International visitor Program” 1990. Vicepreședinte al Uniunii Interpreților, Coregrafilor și Criticilor de muzică din România, 1994-1998 Membru fondator și director de proiecte al Fundației „Solidaritatea culturală pentru România” - 2009-2012, Președintele Uniunii Artei coregrafice din Romania. www.unacor.com - 2017-prezent, Director artisitic al Companiei \"Orion Balet\" - 2002-2012, Director al Departamentului Coregrafie din cadrul Universității de Artă Teatrală și Cinematografică I.L.Caragiale - București, - 2010-prezent, președintele Senatului UNATC - prezent. Starea civilă: căsătorit. Copii: un copil, Ioana Sabina Anghel.",
-    "proiecte": "A semnat libretul regia și coregrafia următoarelor spectacole: “Consens” 1974 la teatrul “Țăndărică” din București, în cadrul spectacolelor “Nocturn 91/2” “Oedip” 1977, la teatrul “Țăndărică” din București, în cadrul spectacolelor “Nocturn 91/2” “Țara lumii”, 1980 , la Teatrul Mic din București. “Chemarea copiilor minune”, 1982 la Sala mică a Palatului și pe scena Conservatorului din București. „În țara codrilor de iarbă”, 1983, pe muzică de Laurențiu Profeta la Teatrul liric din Craiova. Din 1993 devine director artistic al Companiei Orion Balet a Centrului de cultura “Tinerimea Română” din București. În această calitate montează spectacolele: “Anotimpuri”, pe muzică de A. Vivaldi și T. Wilbrandt, 1h 30 min., (12 interpreți), spectacol a cărui premieră a avut loc la Iași în cadrul Festivalului Internațional Eurodans, 1993 și reluat în stagiune permanentă la Teatrului Odeon din București. “Barococo Party”, 1h 30 min., spectacol de teatru-dans, (12 interpreți și trei actori) pe muzică de Royon Le Mee, pe un text dramatic de Sergiu Anghel, prezentat în deschiderea Festivalului „George Enescu” , 7 sept. 1995. [“Missa Prophana”] http://www.onlinegallery.ro/events_missa.html https://www.youtube.com/watch?v=mCV7tWgiUyI 1h 10' ) spectacol de dans contemporan - 11 interpreti - muzica de Ariel Ramirez. Premiera oficiala: Cluj, 26 aprilie 1997 - Scenariul regia și coregrafia: Sergiu Anghel “Nostalgia” , 1h 30 min., spectacol de teatru-dans, - 12 interpreți - colaj muzical de Sergiu Anghel. „Schițe pentru o serbare de iarnă” 1h 40 min., - 12 interpreți - spectacol recital, destinat spațiilor neconvenționale. Premiera a fost dedicată Zilei internaționale a dansului: Casa de cultură a Ministerului de Interne, 28 aprilie 2000. „Gala extraordinară a dansului” 2h 45., - 30 de interpreți și 2 actori - spectacol recital susținut de „Orion Balet” și invitații săi, prezentat pe scena Teatrului Odeon din București, 27 ianuarie 2002. „Metropolis”, 50 min., - 24 de interpreți - muzica: A. Piazzola. Producție a Teatrului de balet „Oleg Dansovski” din Constanța. Premiera: Constanța, 1999. „Furtuna” 2h 30 min., - 24 de interpreți și 4 actori - spectacol de teatru-dans, adaptare după W. Shakespeare de Sergiu Anghel. colaj muzical: Sergiu Anghel. Producție a Teatrului de balet „Oleg Danovski” din Constanța. Premiera: Constanța, 25 iunie, 2001. „Adios Tristetza” 1.30 min., 14 interpreți – muzica: colaj de Sergiu Anghel din opera muzicală a lui A. Piazzola. Producție a Teatrului de balet „Oleg Danovski” din Constanța, scenografia și costumele Ana-Maria Munteanu. Premiera: Constanța, 20 iunie 2004. „Visul din vis”, 1.15 min., 9 interpreți, - muzica: preclasică, jazz, contemporană. \"Bloody Body\", https://www.youtube.com/watch?v=Ms_hN8i_FP4 1h, 5 interpreti, muzica: colaj de Sergiu Anghel, coregrafia: Sergiu Anghel, costume: Raluca Botez. \n\nPiese scurte\n\nSoluția, 5 min., - 3 interpreți - muzica: Marius Constant, Producție TVR, 1988. Jocuri triste, 5 min. - 4 interpreți - muzica: Mahavishnu Orchestra, Producție TVR 1988. Singur, 5 min., - 2 interpreți - muzica: Weather Report, Producție TVR, 1988. Orb, 6 min., - 4 interpreți - muzica: Miles Davis, Producție TVR, 1988. Agon, 7 min., - 6 interpreți - muzica: W. Mertens, Producție TVR, 1988. Duh pe deasupra apelor, 9 min., - 5 interpreți - muzica: T. Albinoni, Producție TVR, 1993. Alb, 7 min., - 6 interpreți - muzica: Mihnea Brumariu. Piesă dedicată dispariției premature a coregrafului francez Dominique Bagouet. Imemorial, 5 min., - 2 interpreți - muzica: Toby Twining, Producție TVR, 1993. Noaptea inocenților, 20 min., - 14 interpreți - muzica: Carman Moore, Producție TVR, 1993. Pagini dintr-un jurnal pierdut, 15 min., - 2 interpreți și un actor - muzica: Miles Davis, Producție TVR, 1993. Naufragiu, 5 min., - 2 interpreți - muzica: W. Mertens, Producție TVR, 1993. Cantilena, 20 min., - 9 interpreți - muzica Frescobaldi , Producție TVR, 1995. Quator pentru trei enoriașe și un spirit păgân pe muzică de Frescobaldi, Producție TVR, 1995. Telur, 6 min., - 10 interpreți - , muzica: Loreena McKenith. Dance me, 5 min., - 7 interpreți - muzica: Leonard Cohen. Șlivovițiu, 3 min., - solo - muzica: G. Bregovic. Gospel, 4 min., - solo - muzica: M. Jackson. Viena-vals, 6 min., - 10 interpreți - muzica: Leonard Cohen. Shaman, 6 min., - solo - muzica: T. Twining. Ethno, 7 min., - 9 interpreți - muzica: G. Bregovic.\nFilme TV\n\n„Anotimpuri”, https://www.youtube.com/watch?v=9F9FP5k8iKA2h 15 min., - 30 de interpreți - muzica: A. Vivaldi și T. Wilbrandt. Poem coregrafic. Scenariul și coregrafia: Sergiu Anghel, regia TV Doina Anastasiu, producător, Silvia Ciurescu. Producție TVR, 1991-1995. „Iluminări”, https://www.youtube.com/watch?v=hwisjuISSqQ 45 min., - 14 interpreți și tenor - muzica: B. Britten. Scenariul și coregrafia: Sergiu Anghel, regia TV Doina Anastasiu, realizator Marga Huss Crăciun. Producție TVR, 1996.\nRecitaluri TV\n\n\"Clipa\", 50 min., Coregrafia: Sergiu Anghel. Producție TVR, 1989. \"Peregrinatio\", 1h 5 min., Scenariul și coregrafia: Sergiu Anghel, regia TV Doina Anastasiu, producător Silvia Ciurescu. Producție TVR, 1993.\nFilme\n\nBaletul mecanic, 1h 20 min., Regia: Mihai Popescu, Coregrafia Sergiu Anghel. Film distins cu Premiul I la Festivalul de tehnică cinematografică, Zagreb, 1988. Nostradamus, mișcare scenică și momente de pantomimă: Sergiu Anghel. Premium, https://vimeo.com/13033652 40 min., rol principal, regia Alex Ionescu, producție UNATC Conturul norilor, rol secundar, regia Marius Șopterean. Cum mi-am petrecut sfârșitul lumii, regia C. Mitulescu\nMișcare scenică și coregrafie în cadrul unor piese de teatru\n\nTinerețe fără bătrânețe de E. Covali, regia Cătălina Buzoianu, la Teatrul Tineretului din Piatra Neamț, 1983. Zamolxe de L. Blaga, regia Dinu Cernescu, la Teatrul Giulești, 1984. Furtuna de W. Shakespeare, regia Liviu Ciulei, la Teatrul Bulandra, 1985. Cădere liberă, regia Cornel Todea, la Teatrul Ion Creangă, 1986. Richard III, http://istoric.teatrul-odeon.ro/spectacol/richard-iii?lang=en de W. Shakespeare, regia M. Mănuțiu, la Teatrul Odeon, 1996. Săptămâna luminată, regia M. Mănuțiu, Teatrul Național din Cluj și Teatrul Odeon, 1996. Pericle, de W. Shakespeare, regia A. Hauswater, Teatrul Odeon, 1997. Caravela, regia Tudor Mărăscu, la Teatrul Odeon, 1997. Copacul, regia Grigore Gonța, proiect finanțat de UNESCO, producție UNATC, prezentată la Paris cu ocazia aniversării a 50 de ani de înființarea UNESCO. Les mariés de la Tour Effel, de J. Cocteau, Regia Denis Milos, Nancy, 1999. http://www.theatreuniversitairenancy.com/archives1.html\nRegie de teatru\n\nCartea lui Prospero, adaptare de Sergiu Anghel după piesa Furtuna de W. Shakespeare. Producție UNATC, 1994. Pânza de păianjen, Text dramatic și regie. Producție a Teatrului Evreiesc de Stat. 2003.\nDiverse\nLucrare coregrafică prezentată în deschiderea oficială a Festivalului de muzică ușoară, „Cerbul de Aur” , Brașov, 1993 și 1994. Lucrare coregrafică prezentată în deschiderea oficială a Festivalului de muzică ușoară de la Mamaia, 1998. Lucrare coregrafică prezentată în deschiderea Galelor UNITER din anii: 1992, 1993, 1994. Workshop-ul „ Elemente teatrale în spectacolul de dans contemporan”, Edinbourg, 1998.",
-    "proiecte_viitoare": "",
-    "presa": [
-        "https://www.scribd.com/document/100694899/Simbolismul-Corpului-Uman",
-        "https://www.scribd.com/document/100957299/Icoana-Care-Rade",
-        "https://www.scribd.com/doc/306170132/Symbolism-of-the-Human-Body",
-        "https://www.scribd.com/document/139116555/DANSIND-CU-LUPOAICELE",
-        "https://www.scribd.com/document/155894171/Bloody-Body",
-        "https://www.scribd.com/document/330096127/TEXTUL-Si-Lumile-Sale1",
-        "https://www.scribd.com/document/330096127/TEXTUL-Si-Lumile-Sale1",
-        "https://www.scribd.com/document/168942458/12-Febr-Jurn-Nat",
-        "https://www.scribd.com/document/168942458/12-Febr-Jurn-Nat",
-        "https://www.scribd.com/document/330095792/A-Nevet%C5%91-Ikon",
-        "https://ro.wikipedia.org/wiki/Sergiu_Anghel",
-        "https://www.unacor.com/sergiu-anghel-cv",
-        "https://www.youtube.com/watch?v=teRwJOINWf8",
-        "https://yorick.ro/simona-somacescu-in-dialog-cu-sergiu-anghel/",
-        "http://icr.ro/pagini/sergiu-anghel",
-        "https://www.societateamuzicala.ro/elitele/sergiu-anghel",
-        "http://www.gandul.info/magazin/sergiu-anghel-vrea-sa-dea-in-judecata-quot-tinerimea-romana-quot-278700",
-        "http://www.onlinegallery.ro/regizori/sergiu-anghel",
-        "http://jurnalul.ro/calendar/astazi-e-ziua-ta-sergiu-anghel-144187.html",
-        "https://www1.agerpres.ro/cultura/2017/01/30/unatc-i-l-caragiale-coregraful-mats-ek-si-balerina-ana-laguna-doctor-honoris-causa-15-52-23",
-        "http://www.teatrultineretuluint.ro/main/spectacole/arhiva/1990-1999/cartea-lui-prospero/",
-        "http://www.revistamagazin.ro/content/view/725/21/",
-        "http://sibiuballet.ro/tbs-danseaza-la-opera-nationala-bucuresti-in-cadrul-spectacolului-de-gala-dedicat-lansarii-oficiale-a-uniunii-artei-coregrafice-din-romania/",
-        "http://cinematographicart.ro/15_sumar.html",
-        "http://www.teatrul-odeon.ro/proiect/gale-extraordinare-ale-dansului",
-        "http://www.filarmonicasibiu.ro/ro/liric%20old.htm"
-    ],
-    "contact": [
-        {
-            "type": "email",
-            "value": "alexandrumcalin@gmail.com"
-        }
-    ],
-    "contact_privat": ["sergiuanghel@hotmail.com"]
-},
-{
-    "id": "16",
-    "nume": "Ioana Marchidan",
-    "sectiune": ["coregraf", "dansator/performer"],
-    "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/IoanaMarchidan"
-        }
-    ],
-    "foto": "15 10502043_10206599915493658_6576019165539881015_n - ioana marchidan.jpg",
-    "foto_credit": "Dani Ionita",
-    "bio": "",
-    "proiecte": "",
-    "proiecte_viitoare": "",
-    "presa": [],
-    "contact": [
-        {
-            "type": "email",
-            "value": "ioanamarchidan@gmail.com"
-        }
-    ],
-    "contact_privat": ["ioanamarchidan@gmail.com"]
-},
-{
-    "id": "17",
-    "nume": "Cristian Nanculescu",
-    "sectiune": ["coregraf", "dansator/performer"],
-    "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/cristian.nanculescu"
-        },
-        {
-            "type": "instagram",
-            "value": "https://www.instagram.com/cristiannanculescu/?hl=ro"
-        }
 
-    ],
-    "foto": "16 foto bio - Cristian Nanculescu.jpg",
-    "foto_credit": "Octavian Fedorovici",
-    "bio": "Choreographer and performer, born and based in Bucharest, Romania, with a background in Cartography, working mostly in the last years as performer for various long durational projects and site specific interventions in the context of visual arts. Having the opportunity to perform in places like like HAU Berlin, Tate Modern London, The State Russian Museum/St Petersburg, Venice Biennale, Center George Pompidou, Van Abbemuseum Eindhoven, Documenta Kassel, MUDAM Luxemburg, Museum of Maps Bucharest and others. As well for my personal projects and collaborations I work within the context of performance arts, staging different concepts, in which I use biographies, body movement, space, sound, video, lights, written and spoken text and different aesthetics and expressiveness, using mostly a minimal intervention in terms of scenography and props.",
-    "proiecte": "",
-    "proiecte_viitoare": "",
-    "presa": ["http://www.nineoclock.ro/aesthetics-of-absentees/"],
-    "contact": [
-        {
-            "type": "email",
-            "value": "cristian.nanculescu@gmail.com"
-        }
-    ],
-    "contact_privat": ["cristian.nanculescu@gmail.com"]
-},
-{
-    "id": "18",
-    "nume": "Cristina Maria Iușan",
-    "sectiune": ["coregraf", "dansator/performer", "profesor"],
-    "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/Cristina-Iusan-219506911545994/?ref=bookmarks"
-        }
-    ],
-    "foto": "17 10154989_487401434756539_6204467075267843161_n - Cristina Maria.jpg",
-    "foto_credit": "Daniela Buda",
-    "bio": "Coregraf , dansatoare și actriță a terminat studiile de licență și masterat la Universitatea Națională de Artă teatrală și Cinematografică I.L.Caragiale București,  secția coregrafie și masteratul de arta actorului la Universitatea de Arte Târgu-Mureș. În prezent este lector universitar doctor la Universitatea de Arte din Târgu-Mureș la secția de coregrafie și actorie masterat și colaborator al Teatrului Național Târgu-Mureș\nA participat la diverse workshopuri și ateliere de dans cu coregrafi naționali și internaționali printre care se numără: Yvonne Ramos, Gigi Căciuleanu, Răzvan Mazilu, Massimo Gerardi, Brice Moussete, Igor Kacaaev, Mirva Makinen, Hilde Rustad, Vava Ștefănescu, Valentina del Piante, Milan Mauer, Gabor Halasz. A colaborat cu coregrafi și regizor în spectacole de teatru și  dans precum: Ducu Darie, Sorin Misiriantu, Erwin Simsenshon, Gigi Caciuleanu, Vava Stefanescu, Mihai Manutiu, Valentina del Piante, Alina Nelega, Traian Savinescu, Georgeta Lozinca, Daniela Lemnaru, Felicia Dalu. A făcut parte din mai multe spectacole de teatru și dans în colaborare cu teatre din țară  Folklorica, The land of dreams,Joc fara manual de intrebuintare, Cabaret,  Love Triangle, Oxigen, Orfeu si Euridice, Zorba Grecu, Gaitele, Carmina Burana,Vivaldi si anotimpurile, Don Quijote,  Poveste de Craciun, Femei în pragul unei crize de nervi, etc. A semnat coregrafia și asistența de coregrafie: Love triangle, Cenestezica, Utopia, Crize, Steaua fara nume, Carmina Burana (asistența coregrafie),Vivaldi si anotimpurile (asistența coregrafie) Femei în pragul unei crize de nervi (asistența coregrafie), Metamorphoze, Scufița Roșie, Cartea Junglei, Broken Column, etc.\nÎn prezent joacă în spectacolele Teatrului Național Târgu-Mureș: O scrisoare pierdută, prea multă vorbărie, regia Gavril Cadariu, Vivaldi și Anotimpurile, Coregrafia Gigi Căciuleanu, Femei în pragul unei crize de nervi , regia și coregrafia Răzvan Mazilu.\nA sustinut diferte workshopuri si ateliere de miscare la Universitatea de Arte Targu-Mureș, Universitatea de Arte George Enescu Iași, Festivalul Festin Caracal, etc.",
-    "proiecte": "",
-    "proiecte_viitoare": "",
-    "presa": [
-        "http://agenda.liternet.ro/articol/14573/Mircea-Sorin-Rusu/Spectacolul-miscatorilor-Carmina-Burana.html",
-        "http://agenda.liternet.ro/articol/21853/Edina-Soos/Un-spectacol-coregrafic-inteles-prin-legile-fizicii-Vivaldi-si-Anotimpurile.html",
-        "http://www.teatrunational.ro/evenimente/detalii/article/interviu-cristina-iusan.html",
-        "http://www.teatrunational.ro/evenimente/detalii/article/incerc-sa-traiesc-in-prezent.html?tx_ttnews%5BcalendarYear%5D=2017&tx_ttnews%5BcalendarMonth%5D=9&cHash=2224bb66d80567c1f82496b57eaed4bb"
-    ],    
-    "contact": [
-        {
-            "type": "email",
-            "value": "cristinamariaiusan@gmail.com"
-        }
-    ],
-    "contact_privat": ["cristinamariaiusan@gmail.com"]
-},
-{
-    "id": "19",
-    "nume": "Timár Timea",
-    "sectiune": ["dansator/performer"],
-    "social-media": [],
-    "foto": "18 IMG_4700_1 - Timea Timar.jpg",
-    "foto_credit": "",
-    "bio": "Sunt violonista la Orchestra Filarmonicii de Stat Oradea. Din anul 2010 sunt  dansatoare si la Ansamblul \"Nagyvarad Tancegyuttes\" Oradea.",
-    "proiecte": "Spectacole: Barbarok, Utkozesek, Kata tortenet, Elektra, Nagyvarosi bujdosok etc.",
-    "proiecte_viitoare": "Spectacolul: Senki madara",
-    "presa": [
-        "szigligeti.ro",
-        "oradeaphilharmony.com"
-    ],
-    "contact": [
-        {
-            "type": "email",
-            "value": "timeatimar@icloud.com"
-        }
-    ],
-    "contact_privat": ["timeatimar@icloud.com"]
-},
-{
-    "id": "20",
-    "nume": "Vlad Iachim",
-    "sectiune": ["coregraf", "dansator/performer", "profesor"],
-    "social-media": [
-        {
-            "type": "facebook",
-            "value": "https://www.facebook.com/alegereamiscarii/"
-        }
-    ],
-    "foto": "19 Vlad Iachim - Vlad Iachim.jpg",
-    "foto_credit": "",
-    "bio": "Sunt un artist român care activează în București. Sunt o persoană flexibilă și creativă, într-o permanentă încercare de a mă descoperi și a-mi extinde experiența de viață. Mi-am început pregătirea la Liceul de Coregrafie din București acum mulți ani, în copilărie, studiind dans clasic și dans contemporan. Următorul pas în cariera mea a fost să îmi continui studiile la Universitatea Națională de Artă Teatrală și Cinematografică, absolvind în 2014. M-am specializat în teatru-dans, film, coregrafie și actorie în anii mei de pregătire la această universitate. Se poate spune că am o experiență bogată pe scenă în cadrul unor producții de teatru și teatru-dans. În ultimii 15 ani de activitate mi-am dezvoltat experiența în domeniul artelor performative într-o manieră specială și unică. Activitatea mea artistică a fost și este încă hrănită de experimentele culturale ale multor proiecte de dans, film, muzică, teatru, pantomimă, televiziune și, cel mai important, dezvoltare personală. Activitatea mea e ancorată în miracolul simplu și profund al condiției umane. Dansul, performance-ul, expresia lirică și limbajul scenic în formele sale multiple sunt pentru mine o formă esențială de comunicare, în absența căreia oamenii ar fi prea săraci, prea goi, în pericol de a fi mult prea vulnerabili în fața amenințărilor cotidiene și limitați în expresivitatea lor. Și pentru că nu întotdeauna dansăm, performăm sau depunem eforturi pentru a ne cunoaște pe noi înșine, fac în așa fel încât cercetarea mea artistică să fie bucurie, împărtășire și cunoaștere, pentru oameni și pentru public, ceva menit să fie prețuit și împărțit. Cred că de-a lungul existenței noastre avem nevoie de aceste forme de comunicare, în multe momente, mai mult decât simpla comunicare prin cuvinte. Vă invit să-mi cunoașteți activitatea împărțind cu voi linkurile următoare. Vizionare plăcută!",
-    "proiecte": "",
-    "proiecte_viitoare": "",
-    "presa": [
-        "https://visualcndb.wordpress.com/2008/04/29/cinematograful-de-dans-6/",
-        "http://alternativ.ro/vazut/vlad-iachim-review",
-        "https://www.sensoarte.ro/Opera-4363/visatorul-trezit/",
-        "https://www.sensoarte.ro/Dans-311/sens-in-limbajul-dansului-out-of-functions/",
-        "https://www.sensoarte.ro/Artele-spectacolului-312/sens-in-limbajul-dansului-interart-i-/",
-        "https://www.sensoarte.ro/Artele-spectacolului-313/sens-in-limbajul-dansului-interart-ii-/",
-        "http://main.radioromaniacultural.ro/spectacol_extraordinar_al_grupului_de_muzica_si_dans_contemporan_inter_art-5832",
-        "http://www.romlit.ro/galele_teatrului_odeon"
-    ],
-    "contact": [
-        {
-            "type": "email",
-            "value": "vlad_iachim@yahoo.com"
-        }
-    ],
-    "contact_privat": ["iachim.leadership@gmail.com"]
-},
-{
-    "id": "21",
-    "nume": "Romulus Neagu",
-    "sectiune": ["coregraf", "dansator/performer"],
-    "social-media": [],
-    "foto": "20 Romulus Neagu.jpg",
-    "foto_credit": "Fernando Rodrigues",
-    "bio": "A absolvit cursurile Liceului de Coregrafie Floria Capsali din București. Posterior aprofundează studiul dansului contemporan cu Christine Bastin, Dominique Bagouet, Karine Saporta, Thiery Bae, Héla Fattoumi & Éric Lamoureux, Jeremy Nelson și Joseph Nadj, printre alții. În 1997 beneficiază de o rezidență coregrafică  în Lisabona organizată de Arcub, București și Forum Dança, Lisboa.\n\nÎn intervalul 1989 – 1999 colaborează cu Opera Română Craiova, Orion Balet, Opera Națională București și Ventura Dance Company (Elveția). În 1999 se stabilește în Portugalia și până în 2011 este interpret în Companhia Paulo Ribeiro, participând deasemenea în proiecte conduse de către Karine Ponties, José Wallenstein, Nuno Rebelo, Benvindo Fonseca, John Mowat, Cláudio Hochman, Né Barros, André Braga (Circolando), Ricardo Pais și Madalena Victorino.  \n\nÎn coproducție cu diferite instituții realizează diverse proiecte, printre care se evidențiază: “O ensaio de um Eros possível”, “A invisibilidade das pequenas percepções”, “Alibantes”, “Banco do Tempo”, “Stretto”, în colaborare cu Constantin Georgescu filmul coreografic “Perpetuum…” și “Unbounded”. \nDezvoltă o activitate pedagogică regulară în domeniul dansului, creând diferite proiecte pentru grupuri specifice, comunități de imigranți, persoane cu handicap și grupuri școlare. \n\nArtist Asociat al Teatro Viriato-Viseu(Portugalia) este fondatorul și directorul Asociației Culturale INTRUSO, un proiect de creație și intervenție artística. \n",
-    "proiecte": "\"O ensaio de um Eros possível\"(2006), \"A invisibilidade das pequenas percepções\"(2008), \"Alibantes\"(2011), \"Banco do Tempo\"(2014), \"Perpetuum...\"(2015), \"Unbounded\"(2017).",
-    "proiecte_viitoare": "\"Unbounded\" - Teatro Taborda, Instituto Cultural Romeno, Lisabona. Festival Materiais Diversos, Torres Novas. (2018)\nProiectul PEDRA, colaborare cu Clara Andermatt - Teatro Viriato, Viseu și Teatro Campo Alegre, Porto. (2018)\n\"Nados Vivos\" (titlu provizoriu), premieră - Companhia Nacional de Bailado, Lisabona. (2018)\nQuorum Summer Dance 2018, Quorum Balett, Amadora. ",
-    "presa": [],
-    "contact": [],
-    "contact_privat": "neros001@yahoo.com"
-}
+
+
+    {
+        "id": "11",
+        "nume": "Vanda Ștefănescu",
+        "sectiune": ["coregraf", "dansator/performer"],
+        "social-media": [
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/vandastefanescu/"
+            },
+            {
+                "type": "website",
+                "value": "www.vandastefanescu.com"
+            }
+        ],
+        "foto": "11 profil vanda - vanda stefanescu.jpg",
+        "foto_credit": "",
+        "bio": "Coregraf, absolventă a Liceului de Coregrafie Floria Capsali din București, cu o vastă experiență în tehnica dansului contemporan.\nPeste hotare colaborează cu Vortice Dance Company din Portugalia și în trecut cu Massimo Gerardi (Germania), și Stadstheatre Giessen (Germania).\nColaborează cu Antena1 pentru emisiuni precum: \"X Factor\", \"Te cunosc de undeva\", \"Next Star\", etc.\nPe marile ecrane apare in filmele: \"6,9 pe scara Richter\" de Nae Caranfil și \"High Strung Free dance\" de Michael Damian\nPână în prezent a colaborat ca dansator pentru diferite proiecte cu „Teatrul Național de Operetă și Musical Ion Dacian“, „Teatrul Odeon“, „Teatrul Național București“ și „Teatrelli“.\nCa regizor și coregraf și-a pus semnătura pe spectacolele „Essence“, „15 Minute de Faimă“ , \"Luna Tango Concert\", \"Narcotango România 2015\", și altele.\nÎn prezent este manager de proiecte artistice la Casa de Balet.\n",
+        "proiecte": "",
+        "proiecte_viitoare": "23.11.2017 - Gala Dansului Contemporan (Ploiesti) - regizor artistic\n23.11.2017 în cadrul Galei Dansului Contemporan va avea loc reprezentația scurtă a spectacolului \"Essence\" și \"Să mai iubești?\", o nouă lucrare în premieră realizată alături de Valentin Stoica (prim balerin al Opere Naționale București)\n27.11.2017 în cadrul \"Serile tinerilor coregrafi români\" reprezentații cu \"Essence\" (varianta scurtă) și \"Să mai iubești?\" ",
+        "presa": [],
+        "contact": [],
+        "contact_privat": ["vandu.vanda@gmail.com", "vandastefanescu5@gmail.com"]
+    },
+
+
+
+    {
+        "id": "12",
+        "nume": "Andrea Gavriliu",
+        "sectiune": ["coregraf", "dansator/performer"],
+        "social-media": [
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/gavriliu"
+            }
+        ],
+        "foto": "12 EP1C1137-Edit - Andrea Gavriliu.jpg",
+        "foto_credit": "Cornel Lazia",
+        "bio": "Andrea Gavriliu s-a născut la data de 2 septembrie 1985 în Sfântu Gheorghe, a absolvit în 2008 Facultatea de Teatru și Televiziune din Cluj-Napoca la clasa profesorului Bács Miklós, secția Actorie. Din 2007 și pana în 2014 a fost actriță la Teatrul Tineretului din Piatra Neamț. În anul 2011 a început cursurile de masterat în Artă Coregrafică la UNATC București, clasa prof. dr. Raluca Ianegic, pe parcursul cărora a realizat spectacolul „Zic Zac” care i-a adus în 2014 premiul special al senatului UNITER pentru teatru-dans, în 2017 premiul de excelență UNACOR pentru regie și coregrafie, precum și participări la numeroase festivaluri atât în țară cât și peste hotare. În prezent este coregraf la Teatrul Național „Lucian Blaga” și profesor asociat la Facultatea de Teatru și Televiziune din cadrul Universității „Babeș-Bólyai” din Cluj Napoca.",
+        "proiecte": "2017 – „Eastman Summerintensive”, Gaga, dans contemporan, yoga și kung fu – Compania Eastman Sidi Larbi Cherkaoui, Antwerp (Belgia)\n2016 – Masterclass susținut de coregrafa și dansatoarea Carolyn Carlson, Festivalul Național de Teatru București\n2015 - „Dance Summer School”, dans contemporan, studii coreologice și Flying Low -  Trinity Laban Conservatoire of Music and Dance London (Marea Britanie)",
+        "proiecte_viitoare": "Participări la festivaluri, ateliere.",
+        "presa": [
+            "http://agenda.liternet.ro/articol/22288/Adrian-Tion/Dans-extrem-Organic-Sound-Twist-la-Intalnirile-Internationale-de-la-Cluj-2017.html",
+            "https://www.youtube.com/watch?v=mEJEbyzC_fw&t=1s",
+            "http://stirileprotv.ro/manifestul-tinerei-generatii/interviu-cu-coregrafa-andreea-gavriliu-m-as-vedea-facand-pana-la-adanci-batraneti-spectacole-de-teatru-dans.html"
+        ],
+        "contact": [
+            {
+                "type": "email",
+                "value": "andrea_gavriliu@hotmail.com"
+            }
+        ],
+        "contact_privat": ["andrea_gavriliu@hotmail.com"]
+    },
+
+
+
+    {
+        "id": "14",
+        "nume": "Alexandra Girbea",
+        "sectiune": ["coregraf", "dansator/performer"],
+        "social-media": [],
+        "foto": "13 Fara titlu - Alexandra Girbea.png",
+        "foto_credit": "",
+        "bio": "Am intrat in lumea dansului dintr-o simpla curiozitate apoi din necesitatea pe care am simtit-o ca practician in Artele Spectacolului. Curiozitatea despre corp si despre miscare si despre conexiunea dintre corp si minte m-a facut sa merg tot mai adanc in cursuri de formare in dans contemporan. Am inceput prin a studia dansul prin tehnica Feldenkrais in Paris si a ramas una dintre abordarile preferate, studiind acum alaturi de Valentina de Piante Niculae. Am organizat in Bucuresti un program educational pentru dansatori profesionisti, Concentric Movement, care as vrea sa se dezvolte in timp. In plan artistic am inceput in 2013 colaborarea cu Timea Kovacs impreuna cu care am initiat proiectul de dans Height Sense. Cu acest proiect am avut trei rezidente artistice, doua dintre ele la Fabrica de Pensule in Cluj si cea de-a treia prin programul E-motional Bodies and Cities in Luxembourg la centrul Trois C-L. De asemenea, am organizat prima instalatie - expozitie performativa din Bucuresti, Skinned, la Casa Carol si in Cluj, la Fabrica de Pensule, Spatiul RAP - un performance interactiv dans-media analog si muzica live, Desemne (cu Danaga si Maria Brudasca). In acelasi indragit spatiu RAP am coordonat si cursuri de dans creativ pentru copii. Pasiunea si interesul m-au pastrat in proximitatea Valentinei de Piante Niculae, in ale carei proiecte iubesc sa ma implic oricand. Cu fiecare experienta traita in acest domeniu iubesc tot mai mult dansul si pe oamenii care il fac sa se intample. ",
+        "proiecte": "Concentric Movement\nA.D.N. - revista online de dans contemporan\nHeight Sense\nSkinned\nDesemne\nH.E.Art - Humans Embodying Art",
+        "proiecte_viitoare": "",
+        "presa": [],
+        "contact": [
+            {
+                "type": "email",
+                "value": "concentricmove@gmail.com"
+            },
+            {
+                "type": "telefon",
+                "value": "0746053059"
+            }
+        ],
+        "contact_privat": ["alecsandra.girbea@gmail.com"]
+    },
+
+
+
+    {
+        "id": "15",
+        "nume": "Sergiu Anghel",
+        "sectiune": ["coregraf", "dansator/performer", "profesor"],
+        "social-media": [
+            {
+                "type": "website",
+                "value": "www.unacor.com"
+            }
+        ],
+        "foto": "14 sergiu-anghel.9cjfdau3xl - Sergiu Anghel.jpg",
+        "foto_credit": "Sergiu Anghel",
+        "bio": "Născut în data de 12 februarie 1954 în orașul Mediaș. Urmează cursurile Liceelor de Coregrafie din Cluj și din București. Absolvent al Facultății de Litere din București, secția română-franceză cu o lucrare de diplomă în franceză pentru care obține nota maximă: “Athanor - alchimie des archetypes dans l’oeuvre d’Arthur Rimbaud.” Studii de compoziție coregrafică în Statele Unite la Duke University, Carolina de Nord în cadrul ADF (American Dance Festival) , la New-York cu Linda Turnay, Stuart Hodes, Betty Jones, Carman Moore și la Amsterdam Summer University cu Richard Fine. Invitat de USIA (United States Information Agency) în cadrul programului “International visitor Program” 1990. Vicepreședinte al Uniunii Interpreților, Coregrafilor și Criticilor de muzică din România, 1994-1998 Membru fondator și director de proiecte al Fundației „Solidaritatea culturală pentru România” - 2009-2012, Președintele Uniunii Artei coregrafice din Romania. www.unacor.com - 2017-prezent, Director artisitic al Companiei \"Orion Balet\" - 2002-2012, Director al Departamentului Coregrafie din cadrul Universității de Artă Teatrală și Cinematografică I.L.Caragiale - București, - 2010-prezent, președintele Senatului UNATC - prezent. Starea civilă: căsătorit. Copii: un copil, Ioana Sabina Anghel.",
+        "proiecte": "A semnat libretul regia și coregrafia următoarelor spectacole: “Consens” 1974 la teatrul “Țăndărică” din București, în cadrul spectacolelor “Nocturn 91/2” “Oedip” 1977, la teatrul “Țăndărică” din București, în cadrul spectacolelor “Nocturn 91/2” “Țara lumii”, 1980 , la Teatrul Mic din București. “Chemarea copiilor minune”, 1982 la Sala mică a Palatului și pe scena Conservatorului din București. „În țara codrilor de iarbă”, 1983, pe muzică de Laurențiu Profeta la Teatrul liric din Craiova. Din 1993 devine director artistic al Companiei Orion Balet a Centrului de cultura “Tinerimea Română” din București. În această calitate montează spectacolele: “Anotimpuri”, pe muzică de A. Vivaldi și T. Wilbrandt, 1h 30 min., (12 interpreți), spectacol a cărui premieră a avut loc la Iași în cadrul Festivalului Internațional Eurodans, 1993 și reluat în stagiune permanentă la Teatrului Odeon din București. “Barococo Party”, 1h 30 min., spectacol de teatru-dans, (12 interpreți și trei actori) pe muzică de Royon Le Mee, pe un text dramatic de Sergiu Anghel, prezentat în deschiderea Festivalului „George Enescu” , 7 sept. 1995. [“Missa Prophana”] http://www.onlinegallery.ro/events_missa.html https://www.youtube.com/watch?v=mCV7tWgiUyI 1h 10' ) spectacol de dans contemporan - 11 interpreti - muzica de Ariel Ramirez. Premiera oficiala: Cluj, 26 aprilie 1997 - Scenariul regia și coregrafia: Sergiu Anghel “Nostalgia” , 1h 30 min., spectacol de teatru-dans, - 12 interpreți - colaj muzical de Sergiu Anghel. „Schițe pentru o serbare de iarnă” 1h 40 min., - 12 interpreți - spectacol recital, destinat spațiilor neconvenționale. Premiera a fost dedicată Zilei internaționale a dansului: Casa de cultură a Ministerului de Interne, 28 aprilie 2000. „Gala extraordinară a dansului” 2h 45., - 30 de interpreți și 2 actori - spectacol recital susținut de „Orion Balet” și invitații săi, prezentat pe scena Teatrului Odeon din București, 27 ianuarie 2002. „Metropolis”, 50 min., - 24 de interpreți - muzica: A. Piazzola. Producție a Teatrului de balet „Oleg Dansovski” din Constanța. Premiera: Constanța, 1999. „Furtuna” 2h 30 min., - 24 de interpreți și 4 actori - spectacol de teatru-dans, adaptare după W. Shakespeare de Sergiu Anghel. colaj muzical: Sergiu Anghel. Producție a Teatrului de balet „Oleg Danovski” din Constanța. Premiera: Constanța, 25 iunie, 2001. „Adios Tristetza” 1.30 min., 14 interpreți – muzica: colaj de Sergiu Anghel din opera muzicală a lui A. Piazzola. Producție a Teatrului de balet „Oleg Danovski” din Constanța, scenografia și costumele Ana-Maria Munteanu. Premiera: Constanța, 20 iunie 2004. „Visul din vis”, 1.15 min., 9 interpreți, - muzica: preclasică, jazz, contemporană. \"Bloody Body\", https://www.youtube.com/watch?v=Ms_hN8i_FP4 1h, 5 interpreti, muzica: colaj de Sergiu Anghel, coregrafia: Sergiu Anghel, costume: Raluca Botez. \n\nPiese scurte\n\nSoluția, 5 min., - 3 interpreți - muzica: Marius Constant, Producție TVR, 1988. Jocuri triste, 5 min. - 4 interpreți - muzica: Mahavishnu Orchestra, Producție TVR 1988. Singur, 5 min., - 2 interpreți - muzica: Weather Report, Producție TVR, 1988. Orb, 6 min., - 4 interpreți - muzica: Miles Davis, Producție TVR, 1988. Agon, 7 min., - 6 interpreți - muzica: W. Mertens, Producție TVR, 1988. Duh pe deasupra apelor, 9 min., - 5 interpreți - muzica: T. Albinoni, Producție TVR, 1993. Alb, 7 min., - 6 interpreți - muzica: Mihnea Brumariu. Piesă dedicată dispariției premature a coregrafului francez Dominique Bagouet. Imemorial, 5 min., - 2 interpreți - muzica: Toby Twining, Producție TVR, 1993. Noaptea inocenților, 20 min., - 14 interpreți - muzica: Carman Moore, Producție TVR, 1993. Pagini dintr-un jurnal pierdut, 15 min., - 2 interpreți și un actor - muzica: Miles Davis, Producție TVR, 1993. Naufragiu, 5 min., - 2 interpreți - muzica: W. Mertens, Producție TVR, 1993. Cantilena, 20 min., - 9 interpreți - muzica Frescobaldi , Producție TVR, 1995. Quator pentru trei enoriașe și un spirit păgân pe muzică de Frescobaldi, Producție TVR, 1995. Telur, 6 min., - 10 interpreți - , muzica: Loreena McKenith. Dance me, 5 min., - 7 interpreți - muzica: Leonard Cohen. Șlivovițiu, 3 min., - solo - muzica: G. Bregovic. Gospel, 4 min., - solo - muzica: M. Jackson. Viena-vals, 6 min., - 10 interpreți - muzica: Leonard Cohen. Shaman, 6 min., - solo - muzica: T. Twining. Ethno, 7 min., - 9 interpreți - muzica: G. Bregovic.\nFilme TV\n\n„Anotimpuri”, https://www.youtube.com/watch?v=9F9FP5k8iKA2h 15 min., - 30 de interpreți - muzica: A. Vivaldi și T. Wilbrandt. Poem coregrafic. Scenariul și coregrafia: Sergiu Anghel, regia TV Doina Anastasiu, producător, Silvia Ciurescu. Producție TVR, 1991-1995. „Iluminări”, https://www.youtube.com/watch?v=hwisjuISSqQ 45 min., - 14 interpreți și tenor - muzica: B. Britten. Scenariul și coregrafia: Sergiu Anghel, regia TV Doina Anastasiu, realizator Marga Huss Crăciun. Producție TVR, 1996.\nRecitaluri TV\n\n\"Clipa\", 50 min., Coregrafia: Sergiu Anghel. Producție TVR, 1989. \"Peregrinatio\", 1h 5 min., Scenariul și coregrafia: Sergiu Anghel, regia TV Doina Anastasiu, producător Silvia Ciurescu. Producție TVR, 1993.\nFilme\n\nBaletul mecanic, 1h 20 min., Regia: Mihai Popescu, Coregrafia Sergiu Anghel. Film distins cu Premiul I la Festivalul de tehnică cinematografică, Zagreb, 1988. Nostradamus, mișcare scenică și momente de pantomimă: Sergiu Anghel. Premium, https://vimeo.com/13033652 40 min., rol principal, regia Alex Ionescu, producție UNATC Conturul norilor, rol secundar, regia Marius Șopterean. Cum mi-am petrecut sfârșitul lumii, regia C. Mitulescu\nMișcare scenică și coregrafie în cadrul unor piese de teatru\n\nTinerețe fără bătrânețe de E. Covali, regia Cătălina Buzoianu, la Teatrul Tineretului din Piatra Neamț, 1983. Zamolxe de L. Blaga, regia Dinu Cernescu, la Teatrul Giulești, 1984. Furtuna de W. Shakespeare, regia Liviu Ciulei, la Teatrul Bulandra, 1985. Cădere liberă, regia Cornel Todea, la Teatrul Ion Creangă, 1986. Richard III, http://istoric.teatrul-odeon.ro/spectacol/richard-iii?lang=en de W. Shakespeare, regia M. Mănuțiu, la Teatrul Odeon, 1996. Săptămâna luminată, regia M. Mănuțiu, Teatrul Național din Cluj și Teatrul Odeon, 1996. Pericle, de W. Shakespeare, regia A. Hauswater, Teatrul Odeon, 1997. Caravela, regia Tudor Mărăscu, la Teatrul Odeon, 1997. Copacul, regia Grigore Gonța, proiect finanțat de UNESCO, producție UNATC, prezentată la Paris cu ocazia aniversării a 50 de ani de înființarea UNESCO. Les mariés de la Tour Effel, de J. Cocteau, Regia Denis Milos, Nancy, 1999. http://www.theatreuniversitairenancy.com/archives1.html\nRegie de teatru\n\nCartea lui Prospero, adaptare de Sergiu Anghel după piesa Furtuna de W. Shakespeare. Producție UNATC, 1994. Pânza de păianjen, Text dramatic și regie. Producție a Teatrului Evreiesc de Stat. 2003.\nDiverse\nLucrare coregrafică prezentată în deschiderea oficială a Festivalului de muzică ușoară, „Cerbul de Aur” , Brașov, 1993 și 1994. Lucrare coregrafică prezentată în deschiderea oficială a Festivalului de muzică ușoară de la Mamaia, 1998. Lucrare coregrafică prezentată în deschiderea Galelor UNITER din anii: 1992, 1993, 1994. Workshop-ul „ Elemente teatrale în spectacolul de dans contemporan”, Edinbourg, 1998.",
+        "proiecte_viitoare": "",
+        "presa": [
+            "https://www.scribd.com/document/100694899/Simbolismul-Corpului-Uman",
+            "https://www.scribd.com/document/100957299/Icoana-Care-Rade",
+            "https://www.scribd.com/doc/306170132/Symbolism-of-the-Human-Body",
+            "https://www.scribd.com/document/139116555/DANSIND-CU-LUPOAICELE",
+            "https://www.scribd.com/document/155894171/Bloody-Body",
+            "https://www.scribd.com/document/330096127/TEXTUL-Si-Lumile-Sale1",
+            "https://www.scribd.com/document/330096127/TEXTUL-Si-Lumile-Sale1",
+            "https://www.scribd.com/document/168942458/12-Febr-Jurn-Nat",
+            "https://www.scribd.com/document/168942458/12-Febr-Jurn-Nat",
+            "https://www.scribd.com/document/330095792/A-Nevet%C5%91-Ikon",
+            "https://ro.wikipedia.org/wiki/Sergiu_Anghel",
+            "https://www.unacor.com/sergiu-anghel-cv",
+            "https://www.youtube.com/watch?v=teRwJOINWf8",
+            "https://yorick.ro/simona-somacescu-in-dialog-cu-sergiu-anghel/",
+            "http://icr.ro/pagini/sergiu-anghel",
+            "https://www.societateamuzicala.ro/elitele/sergiu-anghel",
+            "http://www.gandul.info/magazin/sergiu-anghel-vrea-sa-dea-in-judecata-quot-tinerimea-romana-quot-278700",
+            "http://www.onlinegallery.ro/regizori/sergiu-anghel",
+            "http://jurnalul.ro/calendar/astazi-e-ziua-ta-sergiu-anghel-144187.html",
+            "https://www1.agerpres.ro/cultura/2017/01/30/unatc-i-l-caragiale-coregraful-mats-ek-si-balerina-ana-laguna-doctor-honoris-causa-15-52-23",
+            "http://www.teatrultineretuluint.ro/main/spectacole/arhiva/1990-1999/cartea-lui-prospero/",
+            "http://www.revistamagazin.ro/content/view/725/21/",
+            "http://sibiuballet.ro/tbs-danseaza-la-opera-nationala-bucuresti-in-cadrul-spectacolului-de-gala-dedicat-lansarii-oficiale-a-uniunii-artei-coregrafice-din-romania/",
+            "http://cinematographicart.ro/15_sumar.html",
+            "http://www.teatrul-odeon.ro/proiect/gale-extraordinare-ale-dansului",
+            "http://www.filarmonicasibiu.ro/ro/liric%20old.htm"
+        ],
+        "contact": [
+            {
+                "type": "email",
+                "value": "alexandrumcalin@gmail.com"
+            }
+        ],
+        "contact_privat": ["sergiuanghel@hotmail.com"]
+    },
+
+
+
+    {
+        "id": "16",
+        "nume": "Ioana Marchidan",
+        "sectiune": ["coregraf", "dansator/performer"],
+        "social-media": [
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/IoanaMarchidan"
+            }
+        ],
+        "foto": "15 10502043_10206599915493658_6576019165539881015_n - ioana marchidan.jpg",
+        "foto_credit": "Dani Ionita",
+        "bio": "",
+        "proiecte": "",
+        "proiecte_viitoare": "",
+        "presa": [],
+        "contact": [
+            {
+                "type": "email",
+                "value": "ioanamarchidan@gmail.com"
+            }
+        ],
+        "contact_privat": ["ioanamarchidan@gmail.com"]
+    },
+
+
+
+    {
+        "id": "17",
+        "nume": "Cristian Nanculescu",
+        "sectiune": ["coregraf", "dansator/performer"],
+        "social-media": [
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/cristian.nanculescu"
+            },
+            {
+                "type": "instagram",
+                "value": "https://www.instagram.com/cristiannanculescu/?hl=ro"
+            }
+
+        ],
+        "foto": "16 foto bio - Cristian Nanculescu.jpg",
+        "foto_credit": "Octavian Fedorovici",
+        "bio": "Choreographer and performer, born and based in Bucharest, Romania, with a background in Cartography, working mostly in the last years as performer for various long durational projects and site specific interventions in the context of visual arts. Having the opportunity to perform in places like like HAU Berlin, Tate Modern London, The State Russian Museum/St Petersburg, Venice Biennale, Center George Pompidou, Van Abbemuseum Eindhoven, Documenta Kassel, MUDAM Luxemburg, Museum of Maps Bucharest and others. As well for my personal projects and collaborations I work within the context of performance arts, staging different concepts, in which I use biographies, body movement, space, sound, video, lights, written and spoken text and different aesthetics and expressiveness, using mostly a minimal intervention in terms of scenography and props.",
+        "proiecte": "",
+        "proiecte_viitoare": "",
+        "presa": ["http://www.nineoclock.ro/aesthetics-of-absentees/"],
+        "contact": [
+            {
+                "type": "email",
+                "value": "cristian.nanculescu@gmail.com"
+            }
+        ],
+        "contact_privat": ["cristian.nanculescu@gmail.com"]
+    },
+
+
+
+    {
+        "id": "18",
+        "nume": "Cristina Maria Iușan",
+        "sectiune": ["coregraf", "dansator/performer", "profesor"],
+        "social-media": [
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/Cristina-Iusan-219506911545994/?ref=bookmarks"
+            }
+        ],
+        "foto": "17 10154989_487401434756539_6204467075267843161_n - Cristina Maria.jpg",
+        "foto_credit": "Daniela Buda",
+        "bio": "Coregraf , dansatoare și actriță a terminat studiile de licență și masterat la Universitatea Națională de Artă teatrală și Cinematografică I.L.Caragiale București,  secția coregrafie și masteratul de arta actorului la Universitatea de Arte Târgu-Mureș. În prezent este lector universitar doctor la Universitatea de Arte din Târgu-Mureș la secția de coregrafie și actorie masterat și colaborator al Teatrului Național Târgu-Mureș\nA participat la diverse workshopuri și ateliere de dans cu coregrafi naționali și internaționali printre care se numără: Yvonne Ramos, Gigi Căciuleanu, Răzvan Mazilu, Massimo Gerardi, Brice Moussete, Igor Kacaaev, Mirva Makinen, Hilde Rustad, Vava Ștefănescu, Valentina del Piante, Milan Mauer, Gabor Halasz. A colaborat cu coregrafi și regizor în spectacole de teatru și  dans precum: Ducu Darie, Sorin Misiriantu, Erwin Simsenshon, Gigi Caciuleanu, Vava Stefanescu, Mihai Manutiu, Valentina del Piante, Alina Nelega, Traian Savinescu, Georgeta Lozinca, Daniela Lemnaru, Felicia Dalu. A făcut parte din mai multe spectacole de teatru și dans în colaborare cu teatre din țară  Folklorica, The land of dreams,Joc fara manual de intrebuintare, Cabaret,  Love Triangle, Oxigen, Orfeu si Euridice, Zorba Grecu, Gaitele, Carmina Burana,Vivaldi si anotimpurile, Don Quijote,  Poveste de Craciun, Femei în pragul unei crize de nervi, etc. A semnat coregrafia și asistența de coregrafie: Love triangle, Cenestezica, Utopia, Crize, Steaua fara nume, Carmina Burana (asistența coregrafie),Vivaldi si anotimpurile (asistența coregrafie) Femei în pragul unei crize de nervi (asistența coregrafie), Metamorphoze, Scufița Roșie, Cartea Junglei, Broken Column, etc.\nÎn prezent joacă în spectacolele Teatrului Național Târgu-Mureș: O scrisoare pierdută, prea multă vorbărie, regia Gavril Cadariu, Vivaldi și Anotimpurile, Coregrafia Gigi Căciuleanu, Femei în pragul unei crize de nervi , regia și coregrafia Răzvan Mazilu.\nA sustinut diferte workshopuri si ateliere de miscare la Universitatea de Arte Targu-Mureș, Universitatea de Arte George Enescu Iași, Festivalul Festin Caracal, etc.",
+        "proiecte": "",
+        "proiecte_viitoare": "",
+        "presa": [
+            "http://agenda.liternet.ro/articol/14573/Mircea-Sorin-Rusu/Spectacolul-miscatorilor-Carmina-Burana.html",
+            "http://agenda.liternet.ro/articol/21853/Edina-Soos/Un-spectacol-coregrafic-inteles-prin-legile-fizicii-Vivaldi-si-Anotimpurile.html",
+            "http://www.teatrunational.ro/evenimente/detalii/article/interviu-cristina-iusan.html",
+            "http://www.teatrunational.ro/evenimente/detalii/article/incerc-sa-traiesc-in-prezent.html?tx_ttnews%5BcalendarYear%5D=2017&tx_ttnews%5BcalendarMonth%5D=9&cHash=2224bb66d80567c1f82496b57eaed4bb"
+        ],    
+        "contact": [
+            {
+                "type": "email",
+                "value": "cristinamariaiusan@gmail.com"
+            }
+        ],
+        "contact_privat": ["cristinamariaiusan@gmail.com"]
+    },
+
+
+
+    {
+        "id": "19",
+        "nume": "Timár Timea",
+        "sectiune": ["dansator/performer"],
+        "social-media": [],
+        "foto": "18 IMG_4700_1 - Timea Timar.jpg",
+        "foto_credit": "",
+        "bio": "Sunt violonista la Orchestra Filarmonicii de Stat Oradea. Din anul 2010 sunt  dansatoare si la Ansamblul \"Nagyvarad Tancegyuttes\" Oradea.",
+        "proiecte": "Spectacole: Barbarok, Utkozesek, Kata tortenet, Elektra, Nagyvarosi bujdosok etc.",
+        "proiecte_viitoare": "Spectacolul: Senki madara",
+        "presa": [
+            "szigligeti.ro",
+            "oradeaphilharmony.com"
+        ],
+        "contact": [
+            {
+                "type": "email",
+                "value": "timeatimar@icloud.com"
+            }
+        ],
+        "contact_privat": ["timeatimar@icloud.com"]
+    },
+
+
+
+    {
+        "id": "20",
+        "nume": "Vlad Iachim",
+        "sectiune": ["coregraf", "dansator/performer", "profesor"],
+        "social-media": [
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/alegereamiscarii/"
+            }
+        ],
+        "foto": "19 Vlad Iachim - Vlad Iachim.jpg",
+        "foto_credit": "",
+        "bio": "Sunt un artist român care activează în București. Sunt o persoană flexibilă și creativă, într-o permanentă încercare de a mă descoperi și a-mi extinde experiența de viață. Mi-am început pregătirea la Liceul de Coregrafie din București acum mulți ani, în copilărie, studiind dans clasic și dans contemporan. Următorul pas în cariera mea a fost să îmi continui studiile la Universitatea Națională de Artă Teatrală și Cinematografică, absolvind în 2014. M-am specializat în teatru-dans, film, coregrafie și actorie în anii mei de pregătire la această universitate. Se poate spune că am o experiență bogată pe scenă în cadrul unor producții de teatru și teatru-dans. În ultimii 15 ani de activitate mi-am dezvoltat experiența în domeniul artelor performative într-o manieră specială și unică. Activitatea mea artistică a fost și este încă hrănită de experimentele culturale ale multor proiecte de dans, film, muzică, teatru, pantomimă, televiziune și, cel mai important, dezvoltare personală. Activitatea mea e ancorată în miracolul simplu și profund al condiției umane. Dansul, performance-ul, expresia lirică și limbajul scenic în formele sale multiple sunt pentru mine o formă esențială de comunicare, în absența căreia oamenii ar fi prea săraci, prea goi, în pericol de a fi mult prea vulnerabili în fața amenințărilor cotidiene și limitați în expresivitatea lor. Și pentru că nu întotdeauna dansăm, performăm sau depunem eforturi pentru a ne cunoaște pe noi înșine, fac în așa fel încât cercetarea mea artistică să fie bucurie, împărtășire și cunoaștere, pentru oameni și pentru public, ceva menit să fie prețuit și împărțit. Cred că de-a lungul existenței noastre avem nevoie de aceste forme de comunicare, în multe momente, mai mult decât simpla comunicare prin cuvinte. Vă invit să-mi cunoașteți activitatea împărțind cu voi linkurile următoare. Vizionare plăcută!",
+        "proiecte": "",
+        "proiecte_viitoare": "",
+        "presa": [
+            "https://visualcndb.wordpress.com/2008/04/29/cinematograful-de-dans-6/",
+            "http://alternativ.ro/vazut/vlad-iachim-review",
+            "https://www.sensoarte.ro/Opera-4363/visatorul-trezit/",
+            "https://www.sensoarte.ro/Dans-311/sens-in-limbajul-dansului-out-of-functions/",
+            "https://www.sensoarte.ro/Artele-spectacolului-312/sens-in-limbajul-dansului-interart-i-/",
+            "https://www.sensoarte.ro/Artele-spectacolului-313/sens-in-limbajul-dansului-interart-ii-/",
+            "http://main.radioromaniacultural.ro/spectacol_extraordinar_al_grupului_de_muzica_si_dans_contemporan_inter_art-5832",
+            "http://www.romlit.ro/galele_teatrului_odeon"
+        ],
+        "contact": [
+            {
+                "type": "email",
+                "value": "vlad_iachim@yahoo.com"
+            }
+        ],
+        "contact_privat": ["iachim.leadership@gmail.com"]
+    },
+
+
+    
+    {
+        "id": "21",
+        "nume": "Romulus Neagu",
+        "sectiune": ["coregraf", "dansator/performer"],
+        "social-media": [],
+        "foto": "20 Romulus Neagu.jpg",
+        "foto_credit": "Fernando Rodrigues",
+        "bio": "A absolvit cursurile Liceului de Coregrafie Floria Capsali din București. Posterior aprofundează studiul dansului contemporan cu Christine Bastin, Dominique Bagouet, Karine Saporta, Thiery Bae, Héla Fattoumi & Éric Lamoureux, Jeremy Nelson și Joseph Nadj, printre alții. În 1997 beneficiază de o rezidență coregrafică  în Lisabona organizată de Arcub, București și Forum Dança, Lisboa.\n\nÎn intervalul 1989 – 1999 colaborează cu Opera Română Craiova, Orion Balet, Opera Națională București și Ventura Dance Company (Elveția). În 1999 se stabilește în Portugalia și până în 2011 este interpret în Companhia Paulo Ribeiro, participând deasemenea în proiecte conduse de către Karine Ponties, José Wallenstein, Nuno Rebelo, Benvindo Fonseca, John Mowat, Cláudio Hochman, Né Barros, André Braga (Circolando), Ricardo Pais și Madalena Victorino.  \n\nÎn coproducție cu diferite instituții realizează diverse proiecte, printre care se evidențiază: “O ensaio de um Eros possível”, “A invisibilidade das pequenas percepções”, “Alibantes”, “Banco do Tempo”, “Stretto”, în colaborare cu Constantin Georgescu filmul coreografic “Perpetuum…” și “Unbounded”. \nDezvoltă o activitate pedagogică regulară în domeniul dansului, creând diferite proiecte pentru grupuri specifice, comunități de imigranți, persoane cu handicap și grupuri școlare. \n\nArtist Asociat al Teatro Viriato-Viseu(Portugalia) este fondatorul și directorul Asociației Culturale INTRUSO, un proiect de creație și intervenție artística. \n",
+        "proiecte": "\"O ensaio de um Eros possível\"(2006), \"A invisibilidade das pequenas percepções\"(2008), \"Alibantes\"(2011), \"Banco do Tempo\"(2014), \"Perpetuum...\"(2015), \"Unbounded\"(2017).",
+        "proiecte_viitoare": "\"Unbounded\" - Teatro Taborda, Instituto Cultural Romeno, Lisabona. Festival Materiais Diversos, Torres Novas. (2018)\nProiectul PEDRA, colaborare cu Clara Andermatt - Teatro Viriato, Viseu și Teatro Campo Alegre, Porto. (2018)\n\"Nados Vivos\" (titlu provizoriu), premieră - Companhia Nacional de Bailado, Lisabona. (2018)\nQuorum Summer Dance 2018, Quorum Balett, Amadora. ",
+        "presa": [],
+        "contact": [],
+        "contact_privat": "neros001@yahoo.com"
+    }
 ]

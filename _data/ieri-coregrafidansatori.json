@@ -9,6 +9,9 @@
         "fotografii": ["2. Vera proca Ciortea în Sperietoarea de păsări_1962.jpg", "1. Portret Vera Proca Ciortea.jpg", "3. Vera Proca Ciortea în studentie.jpg", "4. Vera Proca Ciortea_Baba ilinca_ 1944.jpg", "5. Vera Proca Ciortea în studentie_Eforie Sud.jpg"],
         "documente_foto": ["1. Recital de muzică s ans contemporan Grupul Gymnsion_1981.jpg", "2. Vera Proca Ciortea_Recital Grupul Gymnasion _1974.jpg"]
     },
+
+
+    
     {
         "id": "2",
         "nume": "Iris Barbura",
@@ -19,6 +22,9 @@
         "fotografii": ["1. Iris Barbura.jpg", "2. Iris Barbura în studio cu elevele.jpg", "3. Iris Barbura în Kinderszen de Schumann.jpg", "4. Iris Barbura în cabina de machiaj.jpg"],
         "documente_foto": ["1. Ilustratie Iris Barbura pentru caiet program 1932.jpg", "2. Program recital Iris Barbura_ 1936.jpg", "3. Program recital Iris Barbura_1938.jpg", "4. Cronica recital de Dans Iris Barbura_Cuvantul_1938.jpg"]
     },
+
+
+    
     {
         "id": "3",
         "nume": "Trixy Checais",
@@ -32,6 +38,9 @@
         "fotografii": ["Trixy_foto_1.jpg", "Trixy_foto_2.jpg"],
         "documente_foto": ["Trixy_doc_1.jpg", "Trixy_doc_2.jpg"]
     },
+
+
+    
     {
         "id": "4",
         "nume": "Stere (Sterian) Popescu",
@@ -44,6 +53,9 @@
         "fotografii": ["Stere_popescu_foto_1.jpg", "Stere_popescu_foto_2.jpg", "Stere_popescu_foto_3.jpg"],
         "documente_foto": ["Stere_Popescu_doc_1.jpg", "Stere_Popescu_doc_2.jpg"]
     },
+
+
+    
     {
         "id": "5",
         "nume": "Miriam Răducanu",
@@ -64,6 +76,9 @@
         "fotografii": ["Miriam_foto_1.jpg", "Miriam_foto_2.jpg"],
         "documente_foto": ["Miriam_doc_1.jpg", "Miriam_doc_2.jpg"]
     },
+
+
+    
     {
         "id": "6",
         "nume": "Lizica Codreanu",
@@ -77,6 +92,9 @@
         "fotografii": ["Lizica_foto_1.jpg", "Lizica_foto_2.jpg"],
         "documente_foto": ["Lizica_doc_1.jpg", "Lizica_doc_2.jpg"]
     },
+
+
+    
     {
         "id": "7",
         "nume": "Ioan Tugearu",
@@ -101,6 +119,9 @@
         "fotografii": ["Tugearu_Foto_1.jpg", "Tugearu_Foto_2.jpg"],
         "documente_foto": ["Tugearu_doc_1.jpg", "Tugearu_doc_2.jpg", "Tugearu_doc_3.jpg", "Tugearu_doc_4.jpg"]
     },
+
+
+    
     {
         "id": "8",
         "nume": "Gigi (Gheorghe) Căciuleanu",
@@ -121,6 +142,9 @@
         "fotografii": ["Caciuleanu_Foto_1.jpg", "Caciuleanu_Foto_2.jpg"],
         "documente_foto": ["Caciuleanu_Doc_1.jpg", "Caciuleanu_Doc_2.jpg"]
     },
+
+
+    
     {
         "id": "9",
         "nume": "Esther Magyar Gonda",
@@ -131,6 +155,9 @@
         "fotografii": ["Esther_Magyar_foto_1.jpg", "Esther_Magyar_foto_2.jpg"],
         "documente_foto": []
     },
+
+
+    
     {
         "id": "10",
         "nume": "Floria Capsali",
