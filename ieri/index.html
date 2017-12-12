@@ -69,9 +69,14 @@ description: >
     </a>
   </li>
 
+
+  {% assign thumbnail = "/assets/photos/" |
+     prepend:site.baseurl |
+     append:'thumbnail-videoteca.jpg' %}
   <li>
     <a href="{{ site.baseurl }}/ieri/videoteca/"
-       class="card">
+       class="card"
+       style="background-image: url('{{ thumbnail }}')">
       <span class="card-label">
         <span>Videotecă</span>
       </span>
