@@ -25,7 +25,7 @@
     height: 2em;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: $screen-xs - 1) {
   .navmenu-search {
     input {
       max-width: 100%;
@@ -75,7 +75,7 @@
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: $screen-sm) {
   .search {
     margin-bottom: 1rem;
     input {

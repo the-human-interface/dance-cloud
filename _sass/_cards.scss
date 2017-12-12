@@ -15,7 +15,7 @@
 .card-grid > li {
   float: left;
 }
-@media (max-width: 1079px) {
+@media (max-width: $screen-md - 1) {
   .card-grid {
     overflow: hidden;
     margin-left: -2rem;
@@ -27,7 +27,7 @@
     max-width: 100%;
   }
 }
-@media (min-width: 1080px) {
+@media (min-width: $screen-md) {
   .card-grid {
     margin: 2rem -6rem;
   }

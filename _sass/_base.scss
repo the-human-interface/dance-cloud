@@ -26,7 +26,7 @@ body {
   max-width: 32em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm) {
   .paragraph-columns {
     column-count: 2;
     column-gap: 2rem;
@@ -35,7 +35,7 @@ body {
     max-width: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: $screen-rt) {
   .paragraph-columns {
     column-count: 3;
   }
@@ -208,7 +208,7 @@ pre {
     padding-left: $spacing-unit / 2;
     @extend %clearfix;
 
-    @media (min-width: 1080px) {
+    @media (min-width: $screen-md) {
       padding-right: $spacing-unit;
       padding-left: $spacing-unit;
     }
