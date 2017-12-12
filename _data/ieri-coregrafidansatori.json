@@ -167,5 +167,49 @@
         "spectacole": [],
         "fotografii": ["1 Floria Capsali în FANTOCHE de Brăiloiu.jpg", "2. Floria Capsali în Feuille Morte_1927.jpg", "3. Floria Capsali în DEMOAZELA MĂRIUȚA de Mijail Jora.jpg", "4. Floria Capsali și Mitiță Dumitrescu în Dans Taranesc.jpg", "5. Floria Capsali în VALS VIENEZ de  Schubert.jpg", "6. Floria Capsali în VASE ETRUSQUE  de Erik Satie.jpg", "7. Floria Capsali în OISEAU TRISTE  de .jpg", "8. Foria Capsali si Alain Sephar în TAMBOURIN CHINOIS de Kreissler.jpg"],
         "documente_foto": ["1. Program Floria Capsali_ 1930.jpg", "2. Program Floria Capsali_1938.jpg", "3. Program Floria Capsali_1939.jpg", "4. Program Floria Capsali _1943.jpg"]
+    },
+
+
+
+    {
+        "id": "11",
+        "nume": "Gabriel NEGRY",
+        "descriere": "",
+        "bio": "Dansator, coregraf, coreolog, teoretician al dansului și ulterior regizor de teatru, Gabriel Negry face parte din pionierii artei coregrafice românești. În 1929, descoperă dansul clasic și ritmic în studioul Floriei Capsali, cu care va susține ulterior remarcabile recitaluri pe scene importante din București. Pasionat de fuziunea dintre teatru și dans, își continuă studiile coregrafice la Paris, unde lucrează cu celebra Liubov Egorova, și studiile de teatru la Viena, la clasa regizorului Max Reinhardt. Interesat de afirmarea și promovarea dansului romînesc, participă activ la evenimentele Asociației Arhivelor Internaționale ale Dansului, primind în 1937 Marele Premiu pentru activitatea sa artistică, precum și pentru organizarea expoziției dedicate dansului românesc la Paris. Gabriel Negry se remarcă, totodată, prin cercetările sale riguroase și lucide în domeniul artei coregrafice naționale și internaționale, publicând primele cărți despre dansul cult românesc, într-o viziune modernă, pledînd pentru acordarea dintre tradiție și modernitatea coregrafică (Dansul, Memoria dansului, Codex Choreic).  În domeniul artei teatrale, s-a remarcat prin contribuția adusă la fondarea Teatrului Tineretului din piatra Neamț, unde a fost regizor între 1960 și 1974. Președinte de onoare al Consiliului Internațional al Dansului din cadrul Unesco, Gabriel Negry a susținut activ cercetarea în domeniul artei coregrafice, pledând pentru constituirea unui „laborator coregrafic unde să fie dezbătute aspecte teoretice ale artei dansului, lucru absolut necesar, deoarece suntem încredințați că la finele acestui secol se va scrie o nouă istorie  a artei coregrafice, după alte criterii decât s-a făcut până acum.” (interviu acordat Lianei Tugearu, în anul 1993)",
+        "bibliografie": [
+            "Negry, Gabriel, „Dansul, Arhanghelul și Miorița. Origina, Arta Populară și Dansul Contemporan”. Editura de artă, București, 1940",
+            "Negry, Gabriel, „Memoria Dansului. Breviar despre arta coregrafică”, Volumul I, Editura Muzicală, București, 1986",
+            "Negry, Gabriel, „Sinteze coregrafice comentate. Editura Little Star Impex S.R.L., București, 1996  ",
+            "„O metropolă a dansului. Convorbire cu Gabriel Negry” , în Liana Tugearu, „O lume întreagă din fărâme. Cronici de dans 1972 – 2012”, Vol. 1, CNDB și Editura EIKON, București, 2015, pp.241-243",
+            "„Gabriel Negry – Schiță de portret”, în Liana Tugearu, „O lume întreagă din fărâme. Cronici de dans 1972 – 2012”, Vol. 2, CNDB și Editura EIKON, București, 2015, pp. 14 -15"
+        ],
+        "spectacole": [
+            "1933/28/04. Recital de dans Floria Capsali și Gabriel Negry. Opera Română",
+            "1933/24/11. „Recital de dans Gabriel Negry” cu concursul d-nelor Mimi Tutunaru și Silvia Enescu. În program: „Simfonia dansului”, „Preludiu Spaniol”, „Narcis”, „Triptic”, „Măști”, „L’Apres-midi d’une faune”, Bal 1881. Coregrafia și regia dansurilor de Gabriel Negry.",
+            "1934. „Grotească pentru trei personagii” (Debussy), „Altar” (Debussy)",
+            "1939. „ Fiul risipitor”, (Prokofiev)",
+            "1939 / 1940. „Mioriţa”, dans cult şi danseme, Coregrafă: Vera Proca-Ciortea, Dansatoare: Grupul 14, Design şi costume: ~, Muzica: Hilda Jerea."
+        ],
+
+        "fotografii": [
+            "1. Gabriel Negry.jpg",
+            "2. Gabriel Negry.jpg",
+            "3. Gabriel Negry Dans japonez.jpg",
+            "4. Gabriel Negry.jpg",
+        ],
+        "documente_foto": [
+            "Program Recital de Dans 07.jpg",
+            "Program Recital de Dans 15.jpg",
+            "Program Recital de Dans 16.jpg",
+            "Program Recital de Dans 18.jpg",
+            "Program Recital de Dans 19.jpg",
+            "Program Recital de Dans 20.jpg",
+            "Program Recital de Dans 22.jpg",
+            "Program Recital de Dans 23.jpg",
+            "Program Recital de Dans 24.jpg",
+            "Program Recital de Dans 25.jpg",
+            "Studio de Dans 25.jpg"
+        ]
     }
+
 ]
