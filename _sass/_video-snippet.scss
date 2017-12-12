@@ -1,0 +1,23 @@
+.video-snippet {
+
+}
+.video-snippet::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.video-snippet-thumbnail {
+    float: left;
+    margin-right: 1rem;
+    width: 20rem;
+    height: 20rem;
+
+}
+.video-snippet-body {
+    margin-left: 21rem;
+}
+
+
+@media (min-width: $screen-sm) {
+
+}
