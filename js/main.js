@@ -30,4 +30,67 @@
       openNavmenu();
   }, false);
 
+}());
+
+(function() {
+
+  var container = document.querySelector('.modals');
+  var activeModal = undefined;
+
+  function getTarget(target) {
+    if (typeof target === "string") {
+      return container.querySelector(target);
+    }
+    if (target.nodeType === 1) {
+      return target;
+    }
+  }
+
+  function closeOnEsc(e) {
+    if (e.keyCode == 27)
+      closeModal();
+  }
+
+  function clickOutside(e) {
+    if (e.target === container) {
+      closeModal();
+    }
+  }
+
+  function openModal(target, callback) {
+    target = getTarget(target);
+
+    document.body.classList.add('modal-is-open');
+    target.classList.add('is-open');
+
+    activeModal = target;
+
+    window.addEventListener('keyup', closeOnEsc, false);
+  }
+
+  function closeModal(callback) {
+    var target = activeModal;
+    document.body.classList.remove('modal-is-open');
+    target.classList.remove('is-open');
+
+    activeModal = undefined;
+
+    window.removeEventListener('keyup', closeOnEsc, false);
+
+    if (Modal.onclose)
+      Modal.onclose();
+
+    if (callback)
+      callback();
+  }
+
+  container.addEventListener('click', clickOutside, false);
+
+  window.Modal = {
+    container: container,
+    active: activeModal,
+    open: openModal,
+    close: closeModal
+  };
+
 }())

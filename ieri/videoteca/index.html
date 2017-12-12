@@ -9,93 +9,91 @@ title: Videotecă
   <h1 class="listing-title">Videotecă</h1>
 </div>
 
+<link href="https://blokkfont-losgordos.netdna-ssl.com/v2/blokkfont.css" rel="stylesheet" type="text/css">
 
 
-<ul class="">
-
-  <li>
+<ul class="no-list list-separated is-loading">
+  <li id="video-template">
 
     <div class="video-snippet">
       <div class="video-snippet-thumbnail">
-        <img src="https://placeholdit.co//i/200x100">
+        <img src="">
       </div>
       <div class="video-snippet-body">
-        <h4><a href="">Video title</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque esse voluptatum est distinctio error eveniet, omnis repellendus, dolores nesciunt non dicta accusamus ea sed similique cupiditate sint explicabo maiores corrupti.</p>
+        <h4 class="video-snippet-title"><a href=""></a></h4>
+        <div class="video-snippet-description"></div>
       </div>
     </div>
-
-
-    <a href="" data-video>
-      div.
-      <h4></h4>
-    </a>
   </li>
-
-
-
-  <li>
-    {% assign url = 'https://vimeo.com/217502349' %}
-    {% assign videoID = url | split: '/' | last %}
-
-    {{ site.vimeoURL | replace:'__videoID__', videoID }}
-    <!-- http://vimeo.com/api/v2/video/217502349.json -->
-    <a href="{{ url }}" data-video="{{ videoID }}">
-      {{ url }}
-    </a>
-  </li>
-  
 </ul>
 
 
 <script>
+
+  // pune intai o lista de linkuri ca pentru no-javascript
+  // trage datele si inlocuiestele
+  // daca exista deja trage din localstorage
+  // ce faci cu skeletul?
+  
   (function() {
-    function createCORSRequest(method, url) {
-      var xhr = new XMLHttpRequest();
-      if ("withCredentials" in xhr) {
+    document.addEventListener('DOMContentLoaded', function() {
+      var videoThumbnails = document.querySelectorAll('[data-video]');
+      var iframe = Modal.container.querySelector('iframe');
+      var currentID = undefined;
+      var fragment = document.createDocumentFragment();
+      var template = document.querySelector('#video-template');
+      var container = template.parentNode;
+      template.parentNode.removeChild(template);
+      template.removeAttribute('id');
 
-        // Check if the XMLHttpRequest object has a "withCredentials" property.
-        // "withCredentials" only exists on XMLHTTPRequest2 objects.
-        xhr.open(method, url, true);
+      function fillTemplate(data) {
+        var elem = template.cloneNode(true);
+        var id = data.uri.split('/').pop();
 
-      } else if (typeof XDomainRequest != "undefined") {
+        var title = elem.querySelector('h4 a');
+        title.innerText = data.name;
+        title.href = 'https://vimeo.com' + data.uri.replace('?r=pad', '');
 
-        // Otherwise, check if XDomainRequest.
-        // XDomainRequest only exists in IE, and is IE's way of making CORS requests.
-        xhr = new XDomainRequest();
-        xhr.open(method, url);
+        var thumbnail = elem.querySelector('img');
+        thumbnail.src = data.pictures.sizes[1].link.replace('?r=pad', '');
 
-      } else {
+        var description = elem.querySelector('.video-snippet-description');
+        description.innerText = data.description;
 
-        // Otherwise, CORS is not supported by the browser.
-        xhr = null;
+        // prevent link from redirecting to vimeo
+        elem.addEventListener('click', function(e) {
+          e.preventDefault();
 
+          if (currentID !== id) {
+            iframe.src = 'https://player.vimeo.com/video/' + id + '?autopause=0&autoplay=1';
+            currentID = id;
+          }
+          Modal.open('#modal-video');
+        }, false);
+
+        fragment.appendChild(elem);
       }
-      return xhr;
-    }
+      Modal.onclose = function() {
+        iframe.src = '';
+        currentID = undefined;
+      }
 
+      // iterate
+      var href = "https://api.vimeo.com/channels/1326053/videos/?access_token={{ site.vimeo.access_token }}";
+      // var href = "https://api.vimeo.com/videos/217502349/?access_token={{ site.vimeo.access_token }}";
 
-
-    var videoThumbnails = document.querySelectorAll('[data-video]');
-
-    Array.prototype.forEach.call(videoThumbnails, function(videoThumbnail) {
-      // prevent link from redirecting to vimeo
-      videoThumbnail.onclick = function() { return false };
-
-      var href = videoThumbnail.getAttribute('href');
-      var id = videoThumbnail.getAttribute('data-video');
-
-
-      var request = new createCORSRequest('GET', href);
-
-      request.setRequestHeader('Access-Control-Allow-Headers', '*');
-      request.setRequestHeader('Content-type', 'application/ecmascript');
-      request.setRequestHeader('Access-Control-Allow-Origin', '*');
+      var request = new XMLHttpRequest();
+      request.open('GET', href, true);
 
       request.onload = function() {
+        console.log(request);
         if (request.status >= 200 && request.status < 400) {
           // Success!
-          var resp = request.responseText;
+
+          var json = JSON.parse(request.responseText);
+          json.data.forEach(fillTemplate);
+          container.appendChild(fragment);
+
         } else {
           // We reached our target server, but it returned an error
         }
@@ -107,43 +105,7 @@ title: Videotecă
 
       request.send();
     });
+
   }())
+
 </script>
-
-
-
-
-<!-- $.ajax({
-          type: 'GET', 
-          url: 'text.html',
-          dataType: 'html',
-          success: function(data) {
-
-            //cross platform xml object creation from w3schools
-            try //Internet Explorer
-              {
-              xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-              xmlDoc.async="false";
-              xmlDoc.loadXML(data);
-              }
-            catch(e)
-              {
-              try // Firefox, Mozilla, Opera, etc.
-                {
-                parser=new DOMParser();
-                xmlDoc=parser.parseFromString(data,"text/xml");
-                }
-              catch(e)
-                {
-                alert(e.message);
-                return;
-                }
-              }
-
-            alert(xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue);
-          }
-    });
-
-
-
- -->

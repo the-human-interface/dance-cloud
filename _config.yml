@@ -87,3 +87,11 @@ defaults:
     values:
       image: true
       gallery: true
+
+# Vimeo
+# use __videoID__ to replace ID
+
+vimeo:
+  access_token: 19a4e5cfeca40523b60d868d10d3a8e5
+  videoURL: "http://vimeo.com/api/v2/video/__videoID__.json"
+  channelURL: "http://vimeo.com/api/v2/channels/__channel__.json"

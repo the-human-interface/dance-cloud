@@ -36,9 +36,11 @@ $screen-rt:        1920px; // retina
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "search",
-        "baguette",
-        "cards"
+  "base",
+  "layout",
+  "search",
+  "baguette",
+  "cards",
+  "modals",
+  "video-snippet"
 ;

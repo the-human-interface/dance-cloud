@@ -179,7 +179,7 @@
  */
 .listing-header {
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 4.8rem;
   color: gray;
   letter-spacing: -0.02em;
   line-height: 1em;
@@ -203,19 +203,14 @@
   .listing-header h1,
   .listing-title {
     margin-right: -2rem;
-    white-space: nowrap;
-    overflow: hidden;
   }
 }
 @media (min-width: $screen-md) {
   .listing-header {
     margin-right: -4rem;
-    font-size: 8rem;
-    white-space: nowrap;
-    overflow: hidden;
+    font-size: 6.4rem;
   }
 }
-
 
 /**
  * Site header
