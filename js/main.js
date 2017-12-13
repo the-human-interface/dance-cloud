@@ -93,4 +93,23 @@
     close: closeModal
   };
 
+}());
+
+
+(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+
+    var btns = document.querySelectorAll('[data-truncate]');
+
+    Array.prototype.forEach.call(btns, function(btn) {
+
+      btn.addEventListener('click', function() {
+        var targetID = btn.getAttribute('data-truncate');
+        document.querySelector(targetID).classList.remove('is-truncated');
+        this.style.display = 'none';
+      });
+
+    });
+
+  });
 }())

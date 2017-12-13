@@ -19,22 +19,28 @@ breadcrumbs:
   {% if page.spectacole and page.spectacole != empty %}
   <dt>Spectacole</dt>
   <dd>
-    <ul>
+    <ul id="list-spectacole" class="list-truncate is-truncated">
     {% for spectacol in page.spectacole %}
       <li>{{ spectacol }}</li>
     {% endfor %}
     </ul>
+    {% if page.spectacole.size >= 4 %}
+      <button class="btn-anchor" data-truncate="#list-spectacole">Vezi toate {{ page.spectacole.size }}</button>
+    {% endif %}
   </dd>
   {% endif %}
 
   {% if page.bibliografie and page.bibliografie != empty %}
     <dt>Bibliografie</dt>
     <dd>
-      <ul>
+      <ul id="list-bibliografie" class="list-truncate is-truncated">
         {% for bibliografie in page.bibliografie %}
           <li>{{ bibliografie }}</li>
         {% endfor %}
       </ul>
+      {% if page.bibliografie.size >= 4 %}
+        <button class="btn-anchor" data-truncate="#list-bibliografie">Vezi toate {{ page.bibliografie.size }}</button>
+      {% endif %}
     </dd>
   {% endif %}
 
