@@ -51,6 +51,26 @@ breadcrumbs:
     </div>
   </dd>
   {% endif %}
+
+  {% if page.video and page.video != empty %}
+    <dt>Video</dt>
+    {% for video in page.video %}
+    <dd>
+      <a class="hardlink" href="{{ video }}" data-video="{{ video }}">{{ video }}</a>
+    </dd>
+    {% endfor %}
+    <dd id="video-template" class="no-max-width">
+      <div class="video-snippet">
+        <div class="video-snippet-thumbnail">
+          <img src="">
+        </div>
+        <div class="video-snippet-body">
+          <h4 class="video-snippet-title"><a href=""></a></h4>
+          <div class="video-snippet-description"></div>
+        </div>
+      </div>
+    </dd>
+  {% endif %}
 </dl>
 
 <link href="{{ "/css/baguetteBox.min.css" }}" rel="stylesheet" >
@@ -58,5 +78,94 @@ breadcrumbs:
 <script>
   (function() {
     baguetteBox.run('.baguette-gallery');
+  }())
+</script>
+<script>
+  (function() {
+    document.addEventListener('DOMContentLoaded', function() {
+      var iframe = Modal.container.querySelector('iframe');
+      var currentID = undefined;
+      var template = document.querySelector('#video-template');
+
+      if (template) {
+
+        var container = template.parentNode;
+        template.parentNode.removeChild(template);
+        template.removeAttribute('id');
+
+        function fillTemplate(originalEl, data) {
+          var elem = template.cloneNode(true);
+          var id = data.uri.split('/').pop();
+
+          var title = elem.querySelector('h4 a');
+          title.innerText = data.name;
+          title.href = 'https://vimeo.com' + data.uri.replace('?r=pad', '');
+
+          var thumbnail = elem.querySelector('img');
+          thumbnail.src = data.pictures.sizes[1].link.replace('?r=pad', '');
+
+          var description = elem.querySelector('.video-snippet-description');
+          description.innerText = data.description;
+
+          // prevent link from redirecting to vimeo
+          elem.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            if (currentID !== id) {
+              iframe.src = 'https://player.vimeo.com/video/' + id + '?autopause=0&autoplay=1';
+              currentID = id;
+            }
+            Modal.open('#modal-video');
+          }, false);
+
+          var originalContainer = originalEl.parentNode;
+
+          originalContainer.parentNode.insertBefore(elem, originalContainer);
+          originalContainer.parentNode.removeChild(originalContainer);
+        }
+        Modal.onclose = function() {
+          iframe.src = '';
+          currentID = undefined;
+        }
+
+        // iterate
+        var videos = document.querySelectorAll('[data-video]');
+
+        Array.prototype.forEach.call(videos, function(video) {
+
+          var href = video.getAttribute('data-video');
+
+          var id = href.split('/').pop();
+
+          var apiURL = "https://api.vimeo.com/videos/" +
+                       id +
+                       "/?access_token={{ site.vimeo.access_token }}";
+
+          var request = new XMLHttpRequest();
+          request.open('GET', apiURL, true);
+
+          request.onload = function() {
+            if (request.status >= 200 && request.status < 400) {
+              // Success!
+
+              var json = JSON.parse(request.responseText);
+
+              fillTemplate(video, json);
+
+            } else {
+              // We reached our target server, but it returned an error
+            }
+          };
+
+          request.onerror = function() {
+            // There was a connection error of some sort
+          };
+
+          request.send();
+        });
+      }
+      
+    });
+
   }())
 </script>

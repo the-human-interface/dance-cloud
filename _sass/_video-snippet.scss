@@ -20,10 +20,10 @@
 }
 .video-snippet-body {
   margin-left: 17rem;
+  max-width: 32em;
 }
 .video-snippet-title {
   margin-bottom: .5rem;
-  max-width: 32em;
   a {
     color: inherit;
   }
@@ -37,9 +37,8 @@
 }
 
 .video-snippet-description {
-  max-height: 4em;
+  // max-height: 4em;
   overflow: hidden;
-  max-width: 32em;
 }
 
 @media (max-width: $screen-xs - 1) {
