@@ -21,7 +21,12 @@ title: Coregrafii/Dansatorii de Ieri
   <li>
     <a href="{{ url }}"
        class="card"
-       style="background-image: url('{{ thumbnail }}')">
+       style="
+       background-image: url('{{ thumbnail }}');
+       {% if title == 'Floria Capsali' or title == 'Gabriel Negry' %}
+       background-position: center top;
+       {% endif %}
+       ">
       <span class="card-label">{{ title }}</span>
     </a>
   </li>
