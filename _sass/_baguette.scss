@@ -1,5 +1,7 @@
 // override baguette settings
 body {
+  &.baguetteBox-open { overflow: hidden; }
+  
   .baguetteBox-button {
     background: transparent!important;
     polyline,
