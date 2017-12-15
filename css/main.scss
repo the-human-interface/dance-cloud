@@ -16,7 +16,7 @@ $spacing-unit:     4rem;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$accent-color:     #ffff43;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -33,13 +33,20 @@ $screen-md:        1080px; // medium
 $screen-lg:        1440px; // large
 $screen-rt:        1920px; // retina
 
+// Placeholder
+@mixin scrollbar($thumb: $accent-color, $track: rgba(0,0,0,.15)) {
+  &::-webkit-scrollbar       { width: 1rem; }
+  &::-webkit-scrollbar-track { background-color: $track; }
+  &::-webkit-scrollbar-thumb { background-color: $thumb; }
+}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "base",
   "layout",
   "search",
-  "baguette",
+  "baguetteBox",
   "cards",
   "modals",
   "video-snippet"

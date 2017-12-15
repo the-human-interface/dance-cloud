@@ -96,6 +96,43 @@
 }());
 
 
+/**
+ * Configure baguetteBox
+ */
+(function() {
+
+  var prevImage;
+
+  function getCaption(a) {
+    var caption = a.querySelector('.photo-caption');
+    if (caption)
+      return caption.innerText;
+    return undefined;
+  }
+
+  function onBaguetteChange(currentIndex, imagesCount, slider) {
+
+    if (prevImage) {
+      prevImage.classList.remove('is-focused');
+    }
+
+    var image = slider.children[currentIndex];
+
+    image.classList.add('is-focused');
+
+    prevImage = image;
+  }
+
+  baguetteBox.run('.baguette-gallery', {
+    captions: getCaption,
+    onChange: onBaguetteChange
+  });
+
+}());
+
+/**
+ * Trucate shows and biography
+ */
 (function() {
   document.addEventListener('DOMContentLoaded', function() {
 

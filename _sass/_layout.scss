@@ -7,16 +7,8 @@
   background: #000;
   color: #fff;
   overflow: auto;
-}
-// this repeat 3 times already
-.navmenu::-webkit-scrollbar {
-  width: 1rem;
-}
-.navmenu::-webkit-scrollbar-track {
-  background-color: rgba(255, 255, 255, .2);
-}
-.navmenu::-webkit-scrollbar-thumb {
-  background-color: #ffff43;
+
+  @include scrollbar ($accent-color, rgba(255,255,255,.2));
 }
 
 .navmenu a {
@@ -260,7 +252,6 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
       border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -517,15 +508,8 @@
   overflow-x: auto;
   height: 20rem;
   background: #f2f2f2;
-}
-.leaf-cover.with-gallery::-webkit-scrollbar {
-  width: 1rem;
-}
-.leaf-cover.with-gallery::-webkit-scrollbar-track {
-  background-color: #d8d8d8;
-}
-.leaf-cover.with-gallery::-webkit-scrollbar-thumb {
-  background-color: #ffff43;
+
+  @include scrollbar;
 }
 .leaf-cover.with-gallery img {
   height: 100%;
@@ -682,15 +666,8 @@
   height: 20rem;
   margin-left: -4rem;
   margin-right: -4rem;
-}
-.dd-gallery::-webkit-scrollbar {
-  width: 1rem;
-}
-.dd-gallery::-webkit-scrollbar-track {
-  background-color: #d8d8d8;
-}
-.dd-gallery::-webkit-scrollbar-thumb {
-  background-color: #ffff43;
+
+  @include scrollbar;
 }
 .dd-gallery a {
   display: inline-block;

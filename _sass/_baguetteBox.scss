@@ -1,0 +1,260 @@
+// Has been modified
+/*!
+ * baguetteBox.js
+ * @author  feimosi
+ * @version %%INJECT_VERSION%%
+ * @url https://github.com/feimosi/baguetteBox.js
+ */
+
+body.baguetteBox-open { overflow: hidden; }
+
+#baguetteBox-overlay {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+  background-color: #222;
+  background-color: rgba(0,0,0,.9);
+  transition: opacity .5s ease;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  .full-image {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem;
+
+    figure {
+      display: inline;
+      margin: 0;      // needed for mobile
+      height: 100%;   // Opera 12 image stretching fix
+    }
+
+    img {
+      // IE8 fix
+      display: inline-block;
+      width: auto;
+      height: auto;
+
+      max-height: 100%;
+      max-width: 100%;
+      vertical-align: middle;
+
+      @supports (object-fit: contain) {
+        width: 100%;
+        height: calc(100% - 7rem); // show a bit of caption
+        object-fit: contain;
+      }
+    }
+
+    figcaption {
+      display: block;
+      white-space: normal;
+      color: #fff;
+      text-align: left;
+
+      @include scrollbar;
+    }
+
+    // Alignment trick. Nice!
+    // &:before {
+    //   content: "";
+    //   display: inline-block;
+    //   height: 50%;
+    //   width: 1px;
+    //   margin-right:-1px;
+    // }
+  }
+
+  @media (max-width: $screen-md - 1) {
+    .full-image {
+      padding-top: 7rem; // height of close button + spacing
+
+      figcaption {
+        margin: 2rem 0;
+      }
+    }
+  }
+
+  @media (min-width: $screen-md) {
+    .full-image {
+      padding: 0;
+      overflow: hidden;
+
+      img {
+        float: right;
+        height: 100vh;
+        width: calc(100vw - 36rem);
+      }
+
+      figcaption {
+        float: left;
+        height: 100vh;
+        width: 36rem;
+        box-sizing: border-box;
+        padding: 2rem;
+        transition: opacity .5s;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+        will-change: opacity;
+        overflow: auto;
+      }
+      &.is-focused {
+        figcaption {
+          visibility: visible;
+          opacity: 1;
+          animation: fadein .3s;
+          animation-delay: .5s;
+        }
+      }
+    }
+  }
+}
+
+#baguetteBox-slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  white-space: nowrap;
+  transition: left .4s ease, transform .4s ease;
+
+  &.bounce-from-right {
+    animation: bounceFromRight .4s ease-out;
+  }
+
+  &.bounce-from-left {
+    animation: bounceFromLeft .4s ease-out;
+  }
+
+  @media (min-width: $screen-md) {
+    // left: 36rem;
+  }
+}
+
+@keyframes bounceFromRight{
+  0% { margin-left: 0; }
+  50% { margin-left: -30px; }
+  100% { margin-left: 0; }
+}
+
+@keyframes bounceFromLeft{
+  0% { margin-left: 0; }
+  50% { margin-left: 30px; }
+  100% { margin-left: 0; }
+}
+
+%arrow-button {
+  top: 50%;
+  top: calc(50% - 2.5rem);
+}
+
+.baguetteBox-button {
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+  width: 7rem;
+  height: 7rem;
+  margin: 0;
+  padding: 2rem;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  font: 1.6em sans-serif;
+  background: transparent;
+  transition: background-color .4s ease;
+
+  polyline,
+  line,
+  path {
+    stroke: #fff;
+    stroke: currentcolor;
+  }
+
+  &:focus,
+  &:hover {
+  }
+
+  &#next-button {
+    @extend %arrow-button;
+    right: 0;
+  }
+
+  &#previous-button {
+    @extend %arrow-button;
+    left: 0;
+    @media (min-width: $screen-md) {
+      left: 36rem;
+    }
+  }
+
+  &#close-button {
+    top: 0;
+    right: 0;
+  }
+}
+
+/*
+    Preloader
+    Borrowed from http://tobiasahlin.com/spinkit/
+*/
+
+.baguetteBox-spinner {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.baguetteBox-double-bounce1,
+.baguetteBox-double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: .6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.baguetteBox-double-bounce2 {
+  animation-delay: -1s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(0);
+  } 50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
