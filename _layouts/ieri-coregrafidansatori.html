@@ -48,12 +48,7 @@ breadcrumbs:
   <dt>Documente foto</dt>
   <dd class="full-dd">
     <div class="dd-gallery baguette-gallery">
-      {% for foto in page.documente_foto %}
-      {% assign fotoURL = site.baseurl | append: '/assets/photos/' | append: foto %}
-      <a href="{{ fotoURL }}">
-        <img src="{{ fotoURL }}">
-      </a>
-      {% endfor %}
+      {% include baguetteBox.html photos=page.documente_foto %}
     </div>
   </dd>
   {% endif %}

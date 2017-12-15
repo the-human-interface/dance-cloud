@@ -106,7 +106,7 @@
   function getCaption(a) {
     var caption = a.querySelector('.photo-caption');
     if (caption)
-      return caption.innerText;
+      return caption.innerHTML;
     return undefined;
   }
 

@@ -1,0 +1,18 @@
+{% comment %}
+  @Array photos   Array of photo filename (with ext), case sensitive
+{% endcomment %}
+
+
+{% for photo in include.photos %}
+{% capture photoURL %}
+  {{ site.baseurl }}/assets/photos/{{ photo }}
+{% endcapture %}
+<a href="{{ photoURL }}">
+  <img src="{{ photoURL }}">
+  {% if site.data.legenda[photo] %}
+    <div class="photo-caption" hidden>
+      {{ site.data.legenda[photo] | markdownify }}
+    </div>
+  {% endif %}
+</a>
+{% endfor %}

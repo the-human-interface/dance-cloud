@@ -1,13 +1,7 @@
 <header class="header-gallery {% unless include.gallery == empty %}no-cover{% endunless %}">
   {% if include.gallery != empty %}
   <div class="leaf-cover with-gallery baguette-gallery">
-    {% for foto in include.gallery %}
-      {% assign fotoURL = site.baseurl | append: '/assets/photos/' | append: foto %}
-      <a href="{{ fotoURL }}">
-        <img src="{{ fotoURL }}">
-        <!-- Caption here -->
-      </a>
-    {% endfor %}
+    {% include baguetteBox.html photos=include.gallery %}
   </div>
   {% endif %}
 
