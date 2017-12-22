@@ -163,6 +163,7 @@ body.baguetteBox-open {
   top: 0;
   right: 0;
   bottom: 0;
+  text-align: center;
   white-space: nowrap;
   transition: left .4s ease, transform .4s ease;
 
@@ -180,15 +181,15 @@ body.baguetteBox-open {
 }
 
 @keyframes bounceFromRight{
-  0% { left: 0; }
-  50% { left: -30px; }
-  100% { left: 0; }
+  0% { margin-right: 0; }
+  50% { margin-right: 30px; }
+  100% { margin-right: 0; }
 }
 
 @keyframes bounceFromLeft{
-  0% { right: 0; }
-  50% { right: 30px; }
-  100% { right: 0; }
+  0% { margin-right: 0; }
+  50% { margin-right: -30px; }
+  100% { margin-right: 0; }
 }
 
 %arrow-button {

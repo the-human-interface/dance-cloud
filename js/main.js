@@ -114,12 +114,9 @@
 
     var image = slider.children[currentIndex];
 
-    console.log(prevIndex, currentIndex);
-
     if (prevIndex !== undefined && prevIndex !== currentIndex) {
       var prevImage = slider.children[prevIndex];
       prevImage.classList.remove('is-focused');
-      console.log('removed', prevImage);
     }
 
     image.classList.add('is-focused');
