@@ -7,6 +7,7 @@
  */
 
 .navmenu-description,
+.navmenu-toggle,
 .navmenu-body,
 .navmenu-footer {
   transition: opacity .5s;
@@ -16,6 +17,7 @@
 body.baguetteBox-open { 
   overflow: hidden;
 
+  .navmenu-toggle,
   .navmenu-description,
   .navmenu-body,
   .navmenu-footer {
@@ -35,9 +37,22 @@ body.baguetteBox-open {
   height: 100%;
   z-index: 1000;
   background-color: #222;
-  background-color: rgba(0,0,0,.9);
-
+  background: linear-gradient(to top right, #000, rgba(0,0,0,.2) 50%);
   transition: opacity .5s ease;
+
+  &::before {
+    content: '';
+    width: 36rem;
+    height: 7rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: url('#{$path-assets}/logo-dancecloud-inverted@2x.png');
+    background-position: 2rem;
+    background-size: 22.2rem 3rem;
+    background-repeat: no-repeat;
+  }
 
   &.visible {
     opacity: 1;
@@ -106,23 +121,6 @@ body.baguetteBox-open {
   }
 
   @media (min-width: $screen-md) {
-
-    background: linear-gradient(to top right, #000, rgba(0,0,0,.2) 50%);
-
-    &::before {
-      content: '';
-      width: 36rem;
-      height: 7rem;
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      background: url('#{$path-assets}/logo-dancecloud-inverted@2x.png');
-      background-position: 2rem;
-      background-size: 22.2rem 3rem;
-      background-repeat: no-repeat;
-    }
-
     .full-image {
       padding: 0;
       overflow: hidden;
