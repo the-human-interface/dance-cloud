@@ -1,5 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+assets: '/assets/'
 ---
 @charset "utf-8";
 
@@ -24,6 +25,9 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
+
+// Paths
+$path-assets:      '{{ site.baseURL }}{{ page.assets }}';
 
 
 // Media query breakpoints

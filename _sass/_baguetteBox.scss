@@ -6,7 +6,22 @@
  * @url https://github.com/feimosi/baguetteBox.js
  */
 
-body.baguetteBox-open { overflow: hidden; }
+.navmenu-description,
+.navmenu-body,
+.navmenu-footer {
+  transition: opacity .5s;
+  will-change: opacity;
+}
+
+body.baguetteBox-open { 
+  overflow: hidden;
+
+  .navmenu-description,
+  .navmenu-body,
+  .navmenu-footer {
+    opacity: 0;
+  }
+}
 
 #baguetteBox-overlay {
   display: none;
@@ -18,9 +33,10 @@ body.baguetteBox-open { overflow: hidden; }
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  z-index: 1000000;
+  z-index: 1000;
   background-color: #222;
   background-color: rgba(0,0,0,.9);
+
   transition: opacity .5s ease;
 
   &.visible {
@@ -81,7 +97,7 @@ body.baguetteBox-open { overflow: hidden; }
 
   @media (max-width: $screen-md - 1) {
     .full-image {
-      padding-top: 7rem; // height of close button + spacing
+      padding-top: 9rem; // height of close button + spacing
 
       figcaption {
         margin: 2rem 0;
@@ -90,6 +106,23 @@ body.baguetteBox-open { overflow: hidden; }
   }
 
   @media (min-width: $screen-md) {
+
+    background: linear-gradient(to top right, #000, rgba(0,0,0,.2) 50%);
+
+    &::before {
+      content: '';
+      width: 36rem;
+      height: 7rem;
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background: url('#{$path-assets}/logo-dancecloud-inverted@2x.png');
+      background-position: 2rem;
+      background-size: 22.2rem 3rem;
+      background-repeat: no-repeat;
+    }
+
     .full-image {
       padding: 0;
       overflow: hidden;
@@ -101,24 +134,23 @@ body.baguetteBox-open { overflow: hidden; }
       }
 
       figcaption {
-        float: left;
-        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
         width: 36rem;
         box-sizing: border-box;
         padding: 2rem;
-        transition: opacity .5s;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 1s;
-        will-change: opacity;
+        padding-top: 9rem;
         overflow: auto;
+        will-change: color;
+        transition: color 1s;
+        transition-delay: .2s;
+        color: rgba(255,255,255,0);
       }
       &.is-focused {
         figcaption {
-          visibility: visible;
-          opacity: 1;
-          animation: fadein .3s;
-          animation-delay: .5s;
+          color: #fff;
         }
       }
     }
@@ -148,15 +180,15 @@ body.baguetteBox-open { overflow: hidden; }
 }
 
 @keyframes bounceFromRight{
-  0% { margin-left: 0; }
-  50% { margin-left: -30px; }
-  100% { margin-left: 0; }
+  0% { left: 0; }
+  50% { left: -30px; }
+  100% { left: 0; }
 }
 
 @keyframes bounceFromLeft{
-  0% { margin-left: 0; }
-  50% { margin-left: 30px; }
-  100% { margin-left: 0; }
+  0% { right: 0; }
+  50% { right: 30px; }
+  100% { right: 0; }
 }
 
 %arrow-button {

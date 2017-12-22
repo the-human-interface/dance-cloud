@@ -101,7 +101,7 @@
  */
 (function() {
 
-  var prevImage;
+  var prevIndex;
 
   function getCaption(a) {
     var caption = a.querySelector('.photo-caption');
@@ -112,15 +112,18 @@
 
   function onBaguetteChange(currentIndex, imagesCount, slider) {
 
-    if (prevImage) {
-      prevImage.classList.remove('is-focused');
-    }
-
     var image = slider.children[currentIndex];
 
-    image.classList.add('is-focused');
+    console.log(prevIndex, currentIndex);
 
-    prevImage = image;
+    if (prevIndex !== undefined && prevIndex !== currentIndex) {
+      var prevImage = slider.children[prevIndex];
+      prevImage.classList.remove('is-focused');
+      console.log('removed', prevImage);
+    }
+
+    image.classList.add('is-focused');
+    prevIndex = currentIndex;
   }
 
   baguetteBox.run('.baguette-gallery', {
