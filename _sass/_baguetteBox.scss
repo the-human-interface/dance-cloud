@@ -289,3 +289,17 @@ body.baguetteBox-open {
     opacity: 1;
   }
 }
+
+.baguette-gallery {
+  a {
+    display: inline-block;
+    height: 100%;
+    outline: none;
+    &:focus {
+      img {
+        outline: .5rem solid $accent-color;
+        outline-offset: -.5rem;
+      }
+    }
+  }
+}
