@@ -295,6 +295,10 @@ body.baguetteBox-open {
     display: inline-block;
     height: 100%;
     outline: none;
+    img {
+      height: 100%;
+      width: auto;
+    }
     &:focus {
       img {
         outline: .5rem solid $accent-color;
