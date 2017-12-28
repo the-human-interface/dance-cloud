@@ -265,6 +265,10 @@ pre {
   white-space: nowrap;
 }
 
+.leading {
+  @extend %vertical-rhythm;
+}
+
 .sr,
 .sr-only { 
   position: absolute; 

@@ -1,0 +1,34 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: .5em .6em;
+  text-decoration: none;
+}
+
+.btn-default {
+  color: #fff;
+  background: darkblue;
+
+  &:visited {
+    color: #fff;
+    background: purple;
+  }
+  &:hover {
+    color: #fff;
+    background: blue;
+  }
+}
+
+// .btn-inverse {
+//   color: #fff;
+//   background: #000;
+  
+//   &:visited {
+//     color: #fff;
+//     background: purple;
+//   }
+//   &:hover {
+//     color: #fff;
+//     background: blue;
+//   }
+// }
