@@ -41,7 +41,10 @@ breadcrumbs:
 <dl class="dl">
   <dt>Bio</dt>
   <dd>
-    {{ page.bio }}
+    <div id="div-bio" class="div-truncate is-truncated">
+      {{ page.bio | markdownify }}
+    </div>
+    <button class="btn-anchor" data-truncate="#div-bio" hidden>Citește mai mult</button>
   </dd>
 
   {% if page.proiecte != empty %}

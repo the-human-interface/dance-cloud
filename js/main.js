@@ -140,13 +140,19 @@
 
     Array.prototype.forEach.call(btns, function(btn) {
 
+      var targetID = btn.getAttribute('data-truncate');
+      var target = document.querySelector(targetID)
+
+      if (target.offsetHeight < target.scrollHeight) {
+        btn.removeAttribute('hidden');
+      }
+
       btn.addEventListener('click', function() {
-        var targetID = btn.getAttribute('data-truncate');
-        document.querySelector(targetID).classList.remove('is-truncated');
+        target.classList.remove('is-truncated');
         this.style.display = 'none';
       });
 
     });
 
   });
-}())
+}());

@@ -41,22 +41,14 @@ breadcrumbs:
   {% if page.spectacole and page.spectacole != empty %}
   <dt>Spectacole</dt>
   <dd>
-    <ul>
-    {% for spectacol in page.spectacole %}
-      <li>{{ spectacol }}</li>
-    {% endfor %}
-    </ul>
+    {% include truncated-list.html id="list-spectacole" list=page.spectacole %}
   </dd>
   {% endif %}
 
   {% if page.bibliografie and page.bibliografie != empty %}
     <dt>Bibliografie</dt>
     <dd>
-      <ul>
-        {% for bibliografie in page.bibliografie %}
-          <li>{{ bibliografie }}</li>
-        {% endfor %}
-      </ul>
+      {% include truncated-list.html id="list-bibliografie" list=page.bibliografie %}
     </dd>
   {% endif %}
 

@@ -13,7 +13,10 @@ breadcrumbs:
   {% if page.descriere != empty %}
   <dt>Descriere</dt>
   <dd>
-    {{ page.descriere | markdownify }}
+    <div id="div-description" class="div-truncate is-truncated">
+      {{ page.descriere | markdownify }}
+    </div>
+    <button class="btn-anchor" data-truncate="#div-description" hidden>Citește mai mult</button>
   </dd>
   {% endif %}
 

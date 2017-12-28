@@ -1,0 +1,8 @@
+<ul id="{{ include.id }}" class="list-truncate is-truncated">
+  {% for item in include.list %}
+    <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+{% if include.list.size >= 4 %}
+  <button class="btn-anchor" data-truncate="#{{ include.id }}">Vezi toate {{ include.list.size }}</button>
+{% endif %}
