@@ -73,10 +73,10 @@ title: Azi
   </li>
 
 
-  {% assign festival = site.data['azi-festivaluri'] | last %}
+  {% assign festival = site.data['azi-festivaluri'] | first %}
   {% assign thumbnail = "/assets/photos/" |
      prepend:site.baseurl |
-     append:festival.foto_afis %}
+     append:festival.foto %}
   <li>
     <a href="{{ site.baseurl }}/azi/festivaluri/"
        class="card"
