@@ -1,6 +1,6 @@
 [
     {
-        "id": "7",
+        "id": "1",
         "titlu": "Curs de dans contemporan / ianuarie - februarie 2018",
         "foto": "curs_novac.jpg",
         "descriere": "Incepem anul 2018 cu un nou modul de dans contemporan ce se va desfasura in lunile ianuarie - februarie, va cuprinde 5 cursuri si este deschis tuturor, indiferent de nivelul de experienta.\n\nNe vom intalni tot in zilele de luni - 15, 22, 29 ianuarie, 5 si 12 februarie, intre orele 19.00 - 21.00, la Centrul National al Dansului Bucuresti (B-dul Marasesti 80 - 82).\n\nPretul modulului este de 290 lei. Inscrierile se fac pe adresa novacandreea@hotmail.com, incepand de acum.\n\nDespre curs:\n\nCursul de dans contemporan abordeaza corpul ca pe un spatiu deschis, de explorat, un spatiu capabil sa surprinda si sa se surprinda, scapand rutinei si obisnuintelor cotidiene. Va propun o intalnire rafinata prin imaginatie, sensibilitate si creativitate, un context pentru idei si corpuri, miscare si dans. Pe langa dimensiunea creativa si artistica, cursul aduce toate beneficiile exercitiului fizic pe care dansul il presupune: o mai buna cunoastere si folosire a propriului corp, lucrul cu greutatea si gravitatia, corectia eventualelor pozitii posturale gresite, ameliorarea durerii, elemente de coordonare, plasament, imaginatie motrica, un antrenament corect si complex.\n\nDespre mine:\n\nSunt coregraf şi performer. Am studiat psihologia şi apoi coregrafia. Sustin cursuri si ateliere de dans contemporan pentru profesionisti si neprofesionisti de peste10 ani, in diferite spatii si orase din tara. Piesele mele „Dance a playful body”, „Pretend we make you happy”, „On tenderness” au fost prezentate pe scene naţionale şi internaţionale. Am studiat si lucrat în străinătate (Italia, Marea Britanie, Olanda, Luxemburg, Austria, Ungaria). Creez si pentru film şi teatru.",
@@ -17,7 +17,24 @@
             "Centrul National al Dansului Bucuresti (B-dul Marasesti 80 - 82)"
         ]
     },
-
+{
+        "id": "2",
+        "titlu": "Partnering - Trust yourself and in others",
+        "foto": "curs_marchidan.jpg",
+        "descriere": "Linotip si anul doi de activitate. O poveste care incepe cu „La multi ani, tuturor!”. Anul asta reluam activitatea cu planuri marete. Alaturi de Ioana Marchidan revenim pe covorul de dans intr-un atelier de partnering adresat incepatorilor si intermediarilor, numai bun sa ne repuna in miscare si in echilibru.\n\nCursul se bazeaza, dupa cum scrie si in titlu, in primul rand pe incredere. Se va lucra in parteneriat, in grup dar si individual. De-a lungul timpului am dezvoltat cateva exercitii de partnering sau mai simplu, lucrul cu celalat/lucrul in pereche, care sa asigure o mai buna cunoastere/constientizare atunci cand lucrezi cu un partener. Acest tip de lucru te face mult mai atent la ce e in jurul tau, mult mai atent la cel de langa tine si implicit la tine. Pornim de la exercitiile clasice pe care bineinteles o sa le trecem, mai ales pentru incalzire si care vor ajuta sa se nasca incet dar sigur conexiuni intre oamenii prezenti la curs. Ele se bazeaza pe puncte de sprijin comun, cunoastrea greutatii celuilalt, se vor schimba partenerii intre ei asta insemnand ca o sa se lucreze cu diferite greutati, inaltimi, intentii, reactii rapide la impulsurile date din afara, protejarea partenerului la factori externi, dezvoltarea atentiei la detalii in lucrul cu partenerul.\n\nPe baza acestor exercitii o sa mergem un pic mai departe si o sa experimentam ceva mai complex si provocator in ceea ce priveste lucrul in parteneriat. Gradul de dificultate al exercitiilor va creste de la un curs la altul. Aceste exercitii creeaza o prezenta si o puternica conexiune intre cursanti si le permite sa raspunda in timp real la stimuli dati de parteneri unde in aceelasi timp sunt si conducatori si condusi.\n\nInscrierile se fac pana pe 16 ianuarie inclusiv!\n\nCost atelier - 300 Ron\n\nPlata se face integral înaintea începerii primului curs prin transfer bancar in contul RO24INGB0000999905843080, deschis la ING Bank, sucursala Bălcescu, LINOTIP UNIVERS ART SRL, reprezentat prin Arcadie Rusu, sau direct la sediu.\n\nÎnscrierile se fac la adresa de email cursurilinotip@gmail.com prin trimiterea confirmării de plată însoțită de o copie de buletin sau direct la sediu LINOTIP\n\nAtentie!\n\n** Se vor lua în calcul doar înscrierile pentru care s-a transmis confirmarea de plata pe email sau pentru cele achitate la sediu.\n\n* Tariful de înscriere la curs se rambursează doar dacă cererea de restituire se face cu cel puţin trei zile înainte de începerea cursului.\n\nContact (info si inscrieri): Hermina Stanciulescu - 0752649159",
+        "link_detalii": [
+            "https://www.facebook.com/events/565891490429885/"
+        ],
+        "credits": {
+            "Coregraf": "Ioana Marchidan",
+        },
+        "data/ora": [
+            "16,23,30 ianuarie | 20:00 - 22:00; 6,13,20 februarie | 20:00 - 22:00"
+        ],
+        "locatie": [
+            "Linotip - Centru Independent Coregrafic (Ion Brezoianu nr 23-25, București)"
+        ]
+    },
 
 
     {
