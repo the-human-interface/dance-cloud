@@ -1,0 +1,53 @@
+.library.baguette-gallery {
+  a {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: inherit;
+    text-decoration: none;
+    overflow: hidden;
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+    }
+  }
+  img {
+    height: auto;
+    width: auto;
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+  .photo-caption {
+    display: block;
+    max-width: 32em;
+  }
+  @media (max-width: $screen-xs - 1) {
+    img {
+      margin-bottom: .5rem;
+    }
+    .photo-caption {
+      margin-left: 0;
+
+      *:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  @media (min-width: $screen-xs) {
+    img {
+      float: left;
+      margin-right: 2rem;
+
+      @supports (object-fit: contain) {
+        width: 20rem;
+        height: 20rem;
+        object-fit: contain;
+        object-position: center top;
+      }
+    }
+    .photo-caption {
+      margin-left: 22rem;
+    }
+  }
+}
+
