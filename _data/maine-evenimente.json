@@ -34,5 +34,23 @@
         "locatie": [
             "Linotip - Centru Independent Coregrafic (Ion Brezoianu nr 23-25, București)"
         ]
-    }
+    },
+    {
+        "id": "3",
+        "titlu": "Lansare Contact Bucharest Festival 2018",
+        "foto": "CBF2018 lansare cover.jpg",
+        "descriere": "Va invitam sa intrati in contact direct cu practica de Contact Improvisation (CI), la un performance ad-hoc, o discutie si un pahar de vin. Nu o sa ne formalizam pe scena, ci o sa ne miscam degajat printre voi pe frecventa unui jam session de muzica electronica, o sa proiectam un film si o sa povestim despre aceasta tehnica de miscare si constientizare corporala.++ Special guests will be present ++\n\nCu acasta ocazie Contact Bucharest Festival lanseaza inscrierile pentru editia 2018, cea de-a treia sesiune de workshop-uri intensive de CI, jam-session-uri, performance-uri, ateliere si proiectii video cu profesori si participanti straini si romani.\n\nBiletele early bird vor fi disponibile de pe 3 februarie pana pe 1 aprilie pe site-ul festivalului: http://contactimprovisation.ro/\n\n// CI este o forma de dans contemporan, dar si de explorare prin miscare dedicata atat dansatorilor si performerilor care vor sa cunoasca si sa experimenteze mai departe de nisa lor profesionala, dar si oricarui om curios de dinamica propriului corp. CI este o comunitate deschisa contactului, dezvoltarii personale prin schimb de experienta, perceptie, energie.\n\nVa asteptam cu drag sa ne cunoastem :)",
+        "link_detalii": [
+            "https://www.facebook.com/events/397760800671844/"
+        ],
+        "credits": {
+            "Organizator": "Contact Bucharest Festival & PETEC",
+        },
+        "data/ora": [
+            "2 februarie 2018, 19.00"
+        ],
+        "locatie": [
+            "Centrul National al Dansului Bucuresti (B-dul Marasesti 80 - 82)"
+        ]
+    }    
 ]
