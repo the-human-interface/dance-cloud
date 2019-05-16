@@ -112,8 +112,8 @@
         ],
         "foto": "4 21686792_1472033446183775_9044922862162538535_o (2) - Simona Dabija.jpg",
         "foto_credit": "Raluca Arhire",
-        "bio": "Simona Dabija colaborează ca dansator în spectacolele Aftertaste și Couterbody (Tangaj Dance), precum și în filmul de dans Sonder. Se alatură proiectului inițiat de Thomas Steyart pentru realizarea spectacolului Solatium la WASP-Working Art Space and Production. În prezent, colaborează cu Circul Globus, împreuna cu artiști și creatori ai companiei Cirque du Soleil. Colaborează cu Teatrul Odeon în calitate de actor-performer în două spectacolele Casanova si Kafka- 5 vise, regizate de Dragos Galgotiu.",
-        "proiecte": "Counterbody, Sonder(short dance film), Aftertaste (Producții Tangaj Dance) SHORA (proiect finanțat de AFCN), Solatium( producție WASP and 4Culture), Casanova, Kafka( producții Teatrul Odeon) ",
+        "bio": "Simona Dabija colaborează ca dansator în spectacolele Aftertaste și Couterbody (Tangaj Dance), precum și în filmul de dans Sonder. Se alatură proiectului inițiat de Thomas Steyart pentru realizarea spectacolului Solatium la WASP-Working Art Space and Production. În prezent, colaborează cu Circul Globus, împreună cu artiști și creatori ai companiei Cirque du Soleil. Colaborează cu Teatrul Odeon în calitate de actor-performer în spectacolele Casanova si Kafka- 5 vise, regizate de Dragos Galgotiu.",
+        "proiecte": "Counterbody, Sonder (short dance film), Aftertaste (Producții Tangaj Dance) SHORA (proiect finanțat de AFCN), Solatium( producție WASP and 4Culture), Casanova, Kafka( producții Teatrul Odeon) ",
         "proiecte_viitoare": "http://reactor-cluj.com/shora-dans-contemporan/\r\nhttps://www.facebook.com/events/291108754711658/",
         "presa": [
             "https://radioromaniacultural.ro/counterbody-spectacol-de-dans-la-centrul-national-al-dansului-bucuresti/"
@@ -129,7 +129,7 @@
             },
             {
                 "type": "adresa",
-                "value": "Str. Moise Nicoară 38, sector 3"
+                "value": 
             }
         ],
         "contact_privat": ["simona.dbj@gmail.com"]
