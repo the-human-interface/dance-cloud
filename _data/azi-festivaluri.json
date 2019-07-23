@@ -6,10 +6,10 @@
         "titlu": "Infinite Dance Festival",
         "website": "http://idf.szigligeti.ro/index.php?s=1&lang=ro",
         "organizatori": "Ansamblul Nagyvárad - Teatrul Szigligeti",
-        "descriere": "Infinite Dance Festival, organizat de Teatrul „Szigligeti Színház” Oradea, este un festival de dans, al cărui scop este să atragă atenția asupra diversității posibilităților de exprimare prin arta mișcării și a dansului.\nÎn cele cinci zile ale festivalului, au urcat pe scena Teatrului „Szigligeti Színház” trupe recunoscute pe plan autohton şi internaţional, precum: Ansamblul Folcloric Maghiar de Stat (Budapesta), Centrul Național al Dansului (București), Feledi Projekt (Ungaria), M Studio (Sfântu Gheorghe), respectiv Compania András Lóránt (România).\nMulticoloră, dinamică şi exclusivă – aşa poate fi caracterizată și a doua ediţie a festivalului Infinite Dance Festival, în programul căreia intră atât spectacolele de dans popular cât şi balet, respectiv dans contemporan. Pe lângă spectacolele trupelor profesioniste, festivalul a cuprins gala academiilor de dans, workshop-uri şi concerte.\n",
+        "descriere": "Infinite Dance Festival, organizat de Teatrul „Szigligeti Színház” Oradea, este un festival al cărui scop este să atragă atenția asupra diversității posibilităților de exprimare prin arta mișcării și a dansului.\nPe parcursul celor trei ediții, au urcat pe scena Inifinite Dance Festival trupe recunoscute pe plan autohton şi internaţional, precum: Ansamblul Folcloric Maghiar de Stat (Budapesta), Centrul Național al Dansului (București), Feledi Projekt (Ungaria), M Studio (Sfântu Gheorghe), Compania András Lóránt (România).\nÎn programul festivalului sunt incluse spectacolele de dans popular, dans clasic și dans contemporan. Pe lângă spectacolele trupelor profesioniste, festivalul cuprinde gala academiilor de dans din România și Ungaria, workshop-uri şi concerte.\n",
         "foto": "2 facebook-288 - Táncegyüttes Nagyvárad.jpg",
         "foto_credit": "Fulop-Crisan Oliver",
-        "email": ""
+        "email": "festival@szigligeti.ro"
     },
 
 
@@ -31,29 +31,29 @@
         "id": "5",
         "titlu": "Plus2017 | despre corp, iubire și dans contemporan",
         "foto": "plusdans2017.jpg",
-        "descriere": "+2017 [despre corp, iubire și dans contemporan] este un proiect colectiv, inițiat de artiști și structuri independente din București, ce îşi propune să crească vizibilitatea dansului contemporan în rândul publicului bucureștean și coeziunea în cadrul sectorului coregrafic independent.\n\nPrima ediţie a proiectului se va desfășura în perioada 25 – 30 noiembrie la Linotip - Centru Independent Coregrafic, Centrul de Teatru Educațional Replika şi Centrul Naţional al Dansului Bucureşti și este realizat cu sprijinul financiar al Centrului Național al Dansului București.\n\n +2017 [despre corp, iubire și dans contemporan] este organizat de Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor și artiștii Andreea Belu şi Andreea Novac, care, fără a impune o direcție tematică sau un concept curatorial, au construit un program complex de evenimente - spectacole, filme, expoziții, întâlniri și discuții - prin care să încurajeze dialogul și schimbul de idei în interiorul comunităţii dansului contemporan din București.\n\n Programul propus de +2017 [despre corp, iubire și dans contemporan] este, în fapt, un display performativ în care vor fi prezentate spectacole și filme de dans produse în 2017, dublate de o serie de discuții și dezbateri la care participă artiștii implicați în proiect și comunitatea dansului contemporan din Bucureşti.\n\n Biletele pot pentru acest eveniment pot fi achiziţionate de pe https://eventbook.ro/program/plus-2017.\n\n Pentru spectacolul COUNTERBODY din data de 25 noiembrie, biletele se achiţionează de pe kompostor.ro.\n\n +2017 [despre corp, iubire și dans contemporan] este un proiect al Asociației DanceSpot, finanțat de Centrul Național al Dansului București.",
+        "descriere": "+2017 [despre corp, iubire și dans contemporan] a fost un proiect colectiv, inițiat de artiști și structuri independente din București, ce îşi propune să crească vizibilitatea dansului contemporan în rândul publicului bucureștean și coeziunea în cadrul sectorului coregrafic independent.\n\nPrima ediţie a proiectului s-a desfășurat în perioada 25 – 30 noiembrie 2017 la Linotip - Centru Independent Coregrafic, Centrul de Teatru Educațional Replika şi Centrul Naţional al Dansului Bucureşti și a fost realizat cu sprijinul financiar al Centrului Național al Dansului București.\n\n +2017 [despre corp, iubire și dans contemporan] este organizat de Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor și artiștii Andreea Belu şi Andreea Novac, care, fără a impune o direcție tematică sau un concept curatorial, au construit un program complex de evenimente - spectacole, filme, expoziții, întâlniri și discuții - prin care să încurajeze dialogul și schimbul de idei în interiorul comunităţii dansului contemporan din București.\n\n Programul propus de +2017 [despre corp, iubire și dans contemporan] este, în fapt, un display performativ în care vor fi prezentate spectacole și filme de dans produse în 2017, dublate de o serie de discuții și dezbateri la care participă artiștii implicați în proiect și comunitatea dansului contemporan din Bucureşti.",
         "link_detalii": [
             "https://plusdans2017.wordpress.com/",
-            "https://www.facebook.com/events/488038628231203/"
+            ""
         ],
         "credits": {
             "Inițiatori": "Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor, Andreea Belu și Andreea Novac",
             "Parteneri": "Bucharest International Dance Film Festival, Centrul de Teatru Educaţional Replika, FIX me a drink, Beans&Dots\n\n Parteneri media: SUB25, FEEDER.ro, Modernism Punct Ro, The Institute" 
         },
         "data/ora": [
-            "25 - 30 Noiembrie 2017"
+            ""
         ],
         "locatie": [
-            "Linotip - Centru Independent Coregrafic, Ion Brezoianu nr 23-25, București",
-            "CNDB - Sala Stere Popescu, B-dul Mărășești 80-82, sector 4, București",
-            "Centrul de Teatru Educaţional Replika, Str. Lânăriei 93 - 95, sector 4, București"
+            "",
+            "",
+            ""
         ]
     },
         {
         "id": "6",
-        "titlu": "Temps d’Images 2017",
+        "titlu": "Temps d’Images",
         "foto": "14195914_1116107498480782_7554604206956161281_o.jpg",
-        "descriere": "Inițiat în anul 2002 de către Canalul de televiziune ARTE din Franța, festivalul Temps d’Images s-a dezvoltat treptat la nivel european printr-un parteneriat cu 10 operatori culturali. Festivalul Temps d’Images din România a avut prima ediție în 2008 și de atunci a evoluat constant, dezvoltându-se inițial ca o platformă interdisciplinară care susținea forme artistice inovatoare reunind teatru, dans și artă video. Ca membru al rețelei europene cu același nume, acesta și-a găsit în timp o specificitate locală, susținând creații artistice care adaugă artei o lectură în cheie civică ca mijloc de înțelegere a societății contemporane aflate în continuă schimbare. Ca oportunitate de dezvoltare a scenei locale și naționale, festivalul reprezintă pentru artiștii din România o posibilitate de producție de noi spectacole, intervenții artistice sau performance-uri și de difuzare a acestora. Colectiv A realizează anual în cadrul festivalului câte o nouă producție și suține lansarea tinerilor regizori preocupați de interdisciplinaritate.",
+        "descriere": "Inițiat în anul 2002 de către Canalul de televiziune ARTE din Franța, festivalul Temps d’Images s-a dezvoltat treptat la nivel european, printr-un parteneriat cu 10 operatori culturali. Festivalul Temps d’Images din România a avut prima ediție în 2008 și de atunci a evoluat constant, dezvoltându-se inițial ca o platformă interdisciplinară care susținea forme artistice inovatoare reunind teatru, dans și artă video. Ca membru al rețelei europene cu același nume, acesta și-a găsit în timp o specificitate locală, susținând creații artistice care adaugă artei o lectură în cheie civică ca mijloc de înțelegere a societății contemporane aflate în continuă schimbare. Ca oportunitate de dezvoltare a scenei locale și naționale, festivalul reprezintă pentru artiștii din România o posibilitate de producție de noi spectacole, intervenții artistice sau performance-uri și de difuzare a acestora. Colectiv A realizează anual, în cadrul festivalului, câte o nouă producție și suține lansarea tinerilor regizori preocupați de interdisciplinaritate.",
         "link_detalii": [
             "http://tempsdimages.ro/editions/tdi-2017/despre/editorial/"
         ],
@@ -61,19 +61,19 @@
             "Organizator": "Organizația ColectivA"
         },
         "data/ora": [
-            "5 – 12 NOIEMBRIE",
-            "21, 23, 28, 30 noiembrie, 5, 7, 12, 14 decembrie // 19.00 - 21.00"
+            "",
+            ""
         ],
         "locatie": [
-            "Casa Tranzit George Barițiu nr. 16, Cluj- Napoca",
-            "Fabrica de Pensule / Sala Studio  Fabrica de Pensule, et. 1 | Henri Barbusse nr. 59-61, Cluj- Napoca",
-            "Cinema Dacia  Strada Bucegi 11, Cluj-Napoca",
-            "Galeria Plan B  Fabrica de Pensule, parter | Henri Barbusse nr. 59-61, Cluj- Napoca",
-            "REACTOR de creație și experiment Petőfi Sándor nr. 4, Cluj- Napoca",
-            "Sala RAP  Fabrica de Pensule, et. 2 | Henri Barbusse nr. 59-61, Cluj-Napoca",
-            "Universitatea Sapientia Calea Turzii nr. 4, Cluj- Napoca",
-            "White Cuib F.D. Roosevelt nr. 2/1, Cluj- Napoca",
-            "ZUG.zone Traian nr. 40-42, Cluj- Napoca"
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
         ]
     }
 ]
