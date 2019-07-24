@@ -1,17 +1,18 @@
 [
     {
-        "id": "1",
-        "titlu": "Counterbody",
+        
+        "id": "21",
+        "titlu": "COUNTERBODY",
         "an": "2017",
-        "durata": "60 min",
+        "durata": "42 min",
         "regizor": "Simona Deaconescu",
-        "echipa": "Dramaturgia și suportul curatorial: Olivia Nițiș\nCoregrafia: Simona Deaconescu\nCompoziţia vizuală: Ciprian Ciuclea \nMuzica: Cătălin Creţu\n",
-        "distributie": "Alexandra Bălășoiu, Andreea Belu, Corina Tătărău, Denis Bolborea, George Alexandru Pleșca, Georgeta Corca, Marian „Franke” Octavian şi Simona Dabija",
-        "producatori": "Tangaj Dance si CNDB",
-        "foto": "1 image-2017-05-10-21758234-41-counterbody - Simona Dabija.jpg",
-        "foto_credit": "",
+        "echipa": "Olivia Nițis (suport dramaturgic), Cătălin Crețu (muzică originală), Ciprian Ciuclea (compoziție vizuală), Alexandros Raptis (light design), Marian Cîtu (sound design)",
+        "distributie": "Andreea Belu, Corina Mitrovici, Denis Bolborea, Alexandra Bălășoiu, Simona Dabija, Marian \"Franke\" Octavian, Georgeta Corca, George Alexandru Pleșca",
+        "producatori": "Asociația Tangaj Dance, Centrul Național al Dansului București",
+        "foto": "17 Afis_RO - Tangaj Dance.jpg",
+        "foto_credit": "Ciprian Ciuclea",
         "trailer": "https://vimeo.com/221423709",
-        "descriere": "Counterbody este un spectacol de dans, instalație și muzică în care toate elementele pot fi privite ca particule în mișcare permanentă, permutabile și paralele. Conform coregrafei Simona Deaconescu, spectacolul caută un corp nou care funcționează pe principiul contradicțiilor, o combinație tensionată de fragilitate și super putere, alienat și conectat cu exteriorul, dezorganizat și fluid, capabil să absoarbă și să transforme fluxul de informație în moduri halucinante.",
+        "descriere": "COUNTERBODY este un spectacol de dans, instalație și muzică, în care toate elementele pot fi privite ca particule în mișcare permanentă, permutabile și paralele. Direcția coregrafică este rezultatul unui proces de analiză și lucru cu corpurile celor 8 dansatori, care alcătuiesc un organism fluid și fragmentar, în același timp. Miza spectacolului este de a înțelege și repera căile demonstrative către o realitate existentă, valabilă științific și filozofic, însă blocată la nivelul percepției. Spectacolul are ca punct de pornire încercările de deconstrucție, destructurare, decorporalizare prin procese de relativizare asumate în dans, dar și printr-un concept care include straturi multiple de decodificare. Instalația, textul și muzica originală descompun și recompun spațiile de mișcare, accentuând permanenta relație de transfer corp-spațiu. Corp fizic și mental, paralel, dual, contradictoriu.",
         "date_reprezentatii": []
     },
 
@@ -306,19 +307,6 @@
 
     
     {
-        "id": "21",
-        "titlu": "COUNTERBODY",
-        "an": "2017",
-        "durata": "42 min",
-        "regizor": "Simona Deaconescu",
-        "echipa": "Olivia Nițis (suport dramaturgic), Cătălin Crețu (muzică originală), Ciprian Ciuclea (compoziție vizuală), Alexandros Raptis (light design), Marian Cîtu (sound design)",
-        "distributie": "Andreea Belu, Corina Mitrovici, Denis Bolborea, Alexandra Bălășoiu, Simona Dabija, Marian \"Franke\" Octavian, Georgeta Corca, George Alexandru Pleșca",
-        "producatori": "Asociația Tangaj Dance, Centrul Național al Dansului București",
-        "foto": "17 Afis_RO - Tangaj Dance.jpg",
-        "foto_credit": "Ciprian Ciuclea",
-        "trailer": "https://vimeo.com/221423709",
-        "descriere": "COUNTERBODY este un spectacol de dans, instalație și muzică, în care toate elementele pot fi privite ca particule în mișcare permanentă, permutabile și paralele. Direcția coregrafică este rezultatul unui proces de analiză și lucru cu corpurile celor 8 dansatori, care alcătuiesc un organism fluid și fragmentar, în același timp. Miza spectacolului este de a înțelege și repera căile demonstrative către o realitate existentă, valabilă științific și filozofic, însă blocată la nivelul percepției. Spectacolul are ca punct de pornire încercările de deconstrucție, destructurare, decorporalizare prin procese de relativizare asumate în dans, dar și printr-un concept care include straturi multiple de decodificare. Instalația, textul și muzica originală descompun și recompun spațiile de mișcare, accentuând permanenta relație de transfer corp-spațiu. Corp fizic și mental, paralel, dual, contradictoriu.",
-        "date_reprezentatii": []
     },
 
 
