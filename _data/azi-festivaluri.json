@@ -25,10 +25,20 @@
         "email": ""
     },
 
-
+     
+        "id": "3",
+        "titlu": "Contact Bucharest Festival",
+        "foto": "CBF2018 Poster.png",
+        "descriere": "Our desire is to create each year a framework for learning and practicing Contact Improvisation as an art and dance form. We invite experienced teachers and dancers to facilitate the process through intensive classes, workshops, discussions, laboratories and jam sessions structured in a detailed schedule and supported by a friendly team.Contact Improvisation festivals bring together dancers, performers, somatic practitioners, free movers, improvisation artists and people that want to discover and explore their body intelligence and new ways of expressing their artistic side. They offer a practice space where discipline is playful, precision is alive and freedom is a responsibility. Festivals are based on a preset structure in which we can actively learn, exchange ideas and skills, meet and discuss with people with similar or different movement background, or just dance, be present, and hold space for each other.Our festival is happening in the middle of Bucharest, close to the daily movement of city life. This inspires us to appreciate time, space and clarity both in organization and dance. Find out which part suites best your desires, needs and curiosity: pre-festival // festival intensive // post-festival",   
+        "link_detalii": [
+            "http://contactimprovisation.ro/"
+        ],
+        "credits": {
+            "Organizator": "Contact Bucharest Festival & PETEC"
+        },
     
     {
-        "id": "3",
+        "id": "4",
         "titlu": "Plus2017 | despre corp, iubire și dans contemporan",
         "foto": "plusdans2017.jpg",
         "descriere": "+2017 [despre corp, iubire și dans contemporan] a fost un proiect colectiv, inițiat de artiști și structuri independente din București, ce îşi propune să crească vizibilitatea dansului contemporan în rândul publicului bucureștean și coeziunea în cadrul sectorului coregrafic independent.\n\nPrima ediţie a proiectului s-a desfășurat în perioada 25 – 30 noiembrie 2017 la Linotip - Centru Independent Coregrafic, Centrul de Teatru Educațional Replika şi Centrul Naţional al Dansului Bucureşti și a fost realizat cu sprijinul financiar al Centrului Național al Dansului București.\n\n +2017 [despre corp, iubire și dans contemporan] este organizat de Linotip – Centru Independent Coregrafic, Tangaj Dance, Fundația Gabriela Tudor și artiștii Andreea Belu şi Andreea Novac, care, fără a impune o direcție tematică sau un concept curatorial, au construit un program complex de evenimente - spectacole, filme, expoziții, întâlniri și discuții - prin care să încurajeze dialogul și schimbul de idei în interiorul comunităţii dansului contemporan din București.\n\n Programul propus de +2017 [despre corp, iubire și dans contemporan] este, în fapt, un display performativ în care vor fi prezentate spectacole și filme de dans produse în 2017, dublate de o serie de discuții și dezbateri la care participă artiștii implicați în proiect și comunitatea dansului contemporan din Bucureşti.",
@@ -50,7 +60,7 @@
         ]
     },
         {
-        "id": "4",
+        "id": "5",
         "titlu": "Temps d’Images",
         "foto": "14195914_1116107498480782_7554604206956161281_o.jpg",
         "descriere": "Inițiat în anul 2002 de către Canalul de televiziune ARTE din Franța, festivalul Temps d’Images s-a dezvoltat treptat la nivel european, printr-un parteneriat cu 10 operatori culturali. Festivalul Temps d’Images din România a avut prima ediție în 2008 și de atunci a evoluat constant, dezvoltându-se inițial ca o platformă interdisciplinară care susținea forme artistice inovatoare reunind teatru, dans și artă video. Ca membru al rețelei europene cu același nume, acesta și-a găsit în timp o specificitate locală, susținând creații artistice care adaugă artei o lectură în cheie civică ca mijloc de înțelegere a societății contemporane aflate în continuă schimbare. Ca oportunitate de dezvoltare a scenei locale și naționale, festivalul reprezintă pentru artiștii din România o posibilitate de producție de noi spectacole, intervenții artistice sau performance-uri și de difuzare a acestora. Colectiv A realizează anual, în cadrul festivalului, câte o nouă producție și suține lansarea tinerilor regizori preocupați de interdisciplinaritate.",
