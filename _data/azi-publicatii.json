@@ -37,5 +37,49 @@
         "foto_credit": "Sergiu Anghel",
         "descriere": "Introducere în scenotehnică și compendiu de scenarii coregrafice",
         "descriere_sursa": ""
+    },
+    
+    
+    
+    {
+        "id": "4",
+        "titlu": "Experimentalismul în coregrafia românească a anilor '60- '90",
+        "autor": "Liana Tugearu",
+        "editura": "Caligraf ",
+        "data_publicarii": "2004, București",
+        "foto_coperta": "experimentalismul_liana-tugearu.jpg",
+        "foto_credit": "Cos Aelenei",
+        "descriere": "Prezentul text a fost unul dintre capitolele unui catalog de înaltă ținută, intitulat Experiment în arta românească după 1960, editat de Centrul International de Artă Contemporană (la acea dată Centrul Soros pentru Arta Contemporană), care cuprindea toate domeniile artei. Conținutul acestei cărți, acum de sine stătătoare, putea fi adus cu ușurință la zi, dacă m-aș fi folosit de cronicile pe care le-am scris, în toți acești ani care au urmat și până astăzi ăn paginile României Literare. Mi s-a părut, însă, că textul are o anume rotunjime și că se oprește la sfârșitul unei etape în care se simțeau premisele celei următoare, care merita o tratare aparte, întrucât nevoia de experiment, atâta timp ținută sub obroc, a făcut pur și simplu explozie, întrupându-se în nenumărate și neașteptate forme de spectacol, pentru care termenul de spectacol de dans devine neîncăpător. Liana Tugearu",
+        "descriere_sursa": ""
+    },
+    
+    
+    
+     
+    {
+        "id": "5",
+        "titlu": "O lume întreagă din fărâme - volumul I",
+        "autor": "Liana Tugearu",
+        "editura": "Centrul Național al Dansului/ C.N.I. Coresi",
+        "data_publicarii": "2012 - București",
+        "foto_coperta": "o-lume-intreaga-din-faramae_vol1_liana-tugearu.jpg",
+        "foto_credit": "",
+        "descriere": "O lume întreagă din fărâme – cronici de dans 1972-2012 – o culegere de articole publicate în mare majoritate la revista România Literară – este echivalentul unui dicționar de artă coregrafică sau a unei istorii a dansului a ultimilor patruzeci de ani. Autoarea Liana Tugearu face parte din acea categorie specială de oameni care mișcă lumea. Ne oferă tuturor, specialiști sau nu, o carte rară în adevăratul sens al cuvântului: o carte document al cărei conținut consistent și inedit întregește peisajul cultural al României de azi. Vava Ștefănescu",
+        "descriere_sursa": ""
+    },
+    
+    
+    
+    {
+        "id": "6",
+        "titlu": "O lume întreagă din fărâme - volumul II",
+        "autor": "Liana Tugearu",
+        "editura": "Centrul Național al Dansului/ C.N.I. Coresi",
+        "data_publicarii": "2012 - București",
+        "foto_coperta": "o-lume-intreaga-din-faramae_vol2_liana-tugearu.jpg",
+        "foto_credit": "Lorin Niculae",
+        "descriere": "O lume întreagă din fărâme – cronici de dans 1972-2012 – o culegere de articole publicate în mare majoritate la revista România Literară – este echivalentul unui dicționar de artă coregrafică sau a unei istorii a dansului a ultimilor patruzeci de ani. Autoarea Liana Tugearu face parte din acea categorie specială de oameni care mișcă lumea. Ne oferă tuturor, specialiști sau nu, o carte rară în adevăratul sens al cuvântului: o carte document al cărei conținut consistent și inedit întregește peisajul cultural al României de azi. Vava Ștefănescu",
+        "descriere_sursa": ""
     }
+    
 ]
