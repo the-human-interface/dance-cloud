@@ -655,14 +655,8 @@
         "id": "22",
         "nume": "Ioan Tugearu",
         "sectiune": ["coregraf/profesor/dansator"],
-        "social-media": [
+        "social-media": []
             {
-                "type": "",
-                "value": ""
-            },
-            {
-                "type": "",
-                "value": ""
             }
 
         ],
@@ -672,24 +666,49 @@
         "proiecte_viitoare": "",
         "presa":[
             "https://ro.wikipedia.org/wiki/Ioan_Tugearu"
-            "https://www.libertatea.ro/monden/video-exclusivcand-pasiunea-e-mai-presus-de-varsta-legendarul-balerin-ioan-tugearu-lectie-de-dans-la-80-de-ani-pe-scena-operei-nationale-2046814"
-	        "http://www.romlit.ro/despreioan_tugearu"
-	        "https://www.ziarulmetropolis.ro/gala-aniversara-ioan-tugearu-pe-scena-operei-nationale-bucuresti/"
-	        "http://revistamuzicala.radioromaniacultural.ro/?p=24882"
+            "https://www.libertatea.ro/monden/video-exclusivcand-pasiunea-e-mai-presus-de-varsta-legendarul-balerin-ioan-      tugearu-lectie-de-dans-la-80-de-ani-pe-scena-operei-nationale-2046814"
+	    "http://www.romlit.ro/despreioan_tugearu"
+	    "https://www.ziarulmetropolis.ro/gala-aniversara-ioan-tugearu-pe-scena-operei-nationale-bucuresti/"
+	    "http://revistamuzicala.radioromaniacultural.ro/?p=24882"
             "http://www.romlit.ro/carmina_burana_de_carl_orff_la_opera_naional_din_iai"
-	        "http://www.eazi.ro/exclusiv/octogenarul-ioan-tugearu-aniversat-pe-scena-onb"
+	    "http://www.eazi.ro/exclusiv/octogenarul-ioan-tugearu-aniversat-pe-scena-onb"
+
+        ],
+        "contact": [],
+        "contact_privat": []
+    },
+
+
+
+    {
+        "id": "23",
+        "nume": "Simona Paraschivu",
+        "sectiune": ["coregraf/profesor/dansator"],
+        "social-media": [
+            {
+                "type": "facebook",
+                "value": "https://www.facebook.com/mandache.simona.3"
+            },
+
+        ],
+        "foto": "foto-profil_simona_paraschivu.jpg",
+        "foto_credit": "Raluca Mandache",
+        "bio": "Simona s-a născut pe 21 noiembrie 1987 și a început experiența ei cu dansul  la 3 ani, ca, mai apoi, să continue studiile la Liceul de Coregrafie ” Floria Capsali”, București, U.N.A.T.C., București, unde a obținut și diploma de master în Coregrafie. Din 2007 predă consecvent cursuri de dans contemporan pentru copii și adolescenți și din 2013 este profesor de dans contemporan la liceul de Coregrafie ”Floria Capsali” din București, unde elevii pregătiți de ea au obținut burse la YAGP Paris și YAGP New York. În tot acest timp, a colaborat ca profesor, interpret și coregraf cu Centrul Național al Dansului București, Teatrul Național București,  ARCUB,  Teatrul Bulandra, Teatrul Nottara,  Teatrul Evreiesc de Stat din București, Teatrul de pe Lipscani, Centrul Cultural din Buftea, Godot Café – Teatru, Teatrul Țăndărică. În afară de cursurile predate, în prezent, Simona lucrează la propriile coregrafii, folosind ca tehnici Fall and Recover și Floor Work, fiind interesată de relația dintre mișcare și resorturile umane interioare care o declanșează.",
+        "proiecte": "”Reenactment Lizica Codreanu”, produs de Centrul Național al Dansului; coregrafi: Simona Paraschivu, Doina Georgescu, spectacolul de dans contemporan ”Și Julieta”, susținut la Teatrul Național București, produs de Asociația Culturală Grecească din București; coregraf: Amalia Strinopoulou, spectacolul de dans contemporan ”Asediații Liberi”, susținut la Teatrul Național București, produs de Asociația Culturală Grecească din București; coregraf: Amalia Strinopoulou, spectacolul de dans contemporan ”Poveste fără nume”, susținut la ARCUB București, produs de Asociația Nostos din București; coregraf: Amalia Strinopoulou, spectacolul de dans contemporan ”Troienele”, susținut la Teatrul Național  București, produs de Nostos din București; coregraf: Amalia Strinopoulou, spectacolul  de dans”Exil în pământul uitării”, produs de Teatrul Evreiesc de Stat, București; coregrafia: Andreea Tănăsescu, spectacolul de teatru ”Orfeu și Euridice”, produs de Teatrul Bulandra; regizor: Alexandru Darie, seria de ateliere ”Reframe Thinking”, concepute de Reframe Thinking; coregraf și profesor de dans invitat",
+        "presa":[
+            "http://reframethinking.com/interviu-simona-paraschivu-coregraf-si-profesor-de-balet/
+            "https://igormocanu.wordpress.com/2015/02/24/like-cndb-1-reenacting-lizica-codreanu-liceul-floria-capsali-din-bucuresti/
+
+
 
         ],
         "contact":[
             {
-                "type":"",
-                "value": ""
+                "type":"email",
+                "value": "simonacristinamandache@yahoo.com"
             },
             {
-                "type": "",
-                "value": ""
-            }
         ],
-        "contact_privat": [""]
-    },
+        "contact_privat": ["simonacristinamandache@yahoo.com"]
+    }
 
