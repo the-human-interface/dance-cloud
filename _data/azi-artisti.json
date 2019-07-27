@@ -494,7 +494,7 @@
         ],
         "foto": "15 10502043_10206599915493658_6576019165539881015_n - ioana marchidan.jpg",
         "foto_credit": "Dani Ionita",
-        "bio": "Ioana Marchidan este coregrafă, dansatoare, actriță, performer și directorul artistic al Centrului Independent Coregrafic Linotip. A performat, în calitate de dansatoare și actriță, în peste 20 de spectacole, pe scene de stat (Opera Națională București, Teatrul Național București, Teatrul Odeon, Teatrul Bulandra, Teatrul Metropolis, Teatrul Foarte Mic, Centrul Național al Dansului) și independente, din țară și din străinătate. A lucrat sub coordonarea lui Gigi Căciuleanu, Sergiu Anghel, Florin Fieroiu și Arcadie Rusu. A colaborat cu regizorul Radu Afrim la spectacolul „Hai iu iu NU hey you you“ (Maria Tănase remix). A colaborat cu subsTANZ/Massimo Gerardi, Tangaj Collective, Kulturammt Stadt Koln, Dresden, Choreographisches Centrum Heildelberg și în producția „Tetrad“, coregrafia subsTANZ/ Massimo Gerardi, Hellerau – Europäische Zentrum der Künste Dresden. În 2013 a fost unul din performerii Venice Bienalle, "An Immaterial Retrospective of the Venice Biennale"(Alexandra Pirici & Manuel Pelmus). Mai târziu, Ioana a început să creeze coregrafiile proprii: “ 2 femei contemporane”, "Reverse Discourse” (proiect care face parte din rezidența E-MOTIONAL Residency at Forum Dança Lisbon) și Stabat Mater (Premiu pentru "cel mai bun spectacol" la Festivalul International Undercloud, Ro). Din 2016 este directoarea Asociației Dance Spot și director artistic la Linotip- Centru Independent Coregrafic. Discursul pe care Ioana îl caută în creațiile personale este acela de a se provoca pe ea,în contextul problemelor care o înconjoară zi de zi. Vorbește despre feminism și despre influența educației în felul în care o femeie este percepută în Europa de Sud-Est și nu numai. Un corp angajat în societate.",
+        "bio": "Ioana Marchidan este coregrafă, dansatoare, actriță, performer și directorul artistic al Centrului Independent Coregrafic Linotip. A performat, în calitate de dansatoare și actriță, în peste 20 de spectacole, pe scene de stat (Opera Națională București, Teatrul Național București, Teatrul Odeon, Teatrul Bulandra, Teatrul Metropolis, Teatrul Foarte Mic, Centrul Național al Dansului) și independente, din țară și din străinătate. A lucrat sub coordonarea lui Gigi Căciuleanu, Sergiu Anghel, Florin Fieroiu și Arcadie Rusu. A colaborat cu regizorul Radu Afrim la spectacolul „Hai iu iu NU hey you you“ (Maria Tănase remix). A colaborat cu subsTANZ/Massimo Gerardi, Tangaj Collective, Kulturammt Stadt Koln, Dresden, Choreographisches Centrum Heildelberg și în producția „Tetrad“, coregrafia subsTANZ/ Massimo Gerardi, Hellerau – Europäische Zentrum der Künste Dresden. În 2013 a fost unul din performerii Venice Bienalle, An Immaterial Retrospective of the Venice Biennale"(Alexandra Pirici & Manuel Pelmus). Mai târziu, Ioana a început să creeze coregrafiile proprii: "2 femei contemporane”, "Reverse Discourse” (proiect care face parte din rezidența E-MOTIONAL Residency at Forum Dança Lisbon) și Stabat Mater (Premiu pentru "cel mai bun spectacol" la Festivalul International Undercloud, Ro). Din 2016 este directoarea Asociației Dance Spot și director artistic la Linotip- Centru Independent Coregrafic. Discursul pe care Ioana îl caută în creațiile personale este acela de a se provoca pe ea,în contextul problemelor care o înconjoară zi de zi. Vorbește despre feminism și despre influența educației în felul în care o femeie este percepută în Europa de Sud-Est și nu numai. Un corp angajat în societate.",
         "proiecte": "",
         "proiecte_viitoare": "",
         "presa": [],
@@ -648,11 +648,11 @@
         "contact": [],
         "contact_privat": "neros001@yahoo.com"
     }
-]
 
 
 
-"id": "22",
+    {
+        "id": "22",
         "nume": "Ioan Tugearu",
         "sectiune": ["coregraf/profesor/dansator"],
         "social-media": [
