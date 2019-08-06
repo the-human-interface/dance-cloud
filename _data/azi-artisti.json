@@ -12,7 +12,6 @@
                 "type": "website",
                 "value": "alexcalin.ro"
             }
-
         ],
         "foto": "1emoji1 - Alexandru Călin.jpg",
         "foto_credit": "",
@@ -223,7 +222,7 @@
             "http://www.romlit.ro/dans_contemporan_noi_creaii",
             "http://www.romlit.ro/bienala_regional_de_coregrafie"
         ],
-        "contact": [],
+        // "contact": [],
         "contact_privat": ["lianatugearu@gmail.com"]
     },
 
@@ -669,8 +668,8 @@
             "http://www.romlit.ro/carmina_burana_de_carl_orff_la_opera_naional_din_iai",
 	        "http://www.eazi.ro/exclusiv/octogenarul-ioan-tugearu-aniversat-pe-scena-onb"
         ],
-        "contact": [],
-        "contact_privat": []
+        // "contact": [],
+        // "contact_privat": []
     },
 
 
