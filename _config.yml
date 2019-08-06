@@ -79,7 +79,7 @@ page_gen:
 markdown: kramdown
 permalink: none
 user: devel
-exclude: ['sandbox', 'fabfile.py', '*.sh', 'INSTRUCTIONS.md', 'README.me']
+exclude: ['sandbox', 'fabfile.py', '*.sh', 'INSTRUCTIONS.md', 'README.me', 'sitemap.xml']
 
 defaults:
   - scope:
