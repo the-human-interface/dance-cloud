@@ -25,17 +25,15 @@
         "email": ""
     },
 
-     
+    
+    {
         "id": "3",
         "titlu": "Contact Bucharest Festival",
-        "website":"http://contactimprovisation.ro/"
-        "organizatori": "Contact Bucharest Festival & Asociația PETEC"
+        "website":"http://contactimprovisation.ro/",
+        "organizatori": "Contact Bucharest Festival & Asociația PETEC",
         "descriere": "Dorința noastră este de a crea în fiecare an un cadru pentru învățarea și practicarea tehnicii de mișcare Contact Improvisation ca formă de artă și dans. Invităm profesori și dansatori cu experiență să faciliteze procesul prin intermediul cursurilor intensive, atelierelor, discuțiilor, laboratoarelor și jam-session-urilor, structurate într-un program detaliat și susținute de o echipă prietenoasă. Festivalurile de COntacrt Improvisation reunesc dansatori, artiști interpreți, practicanți somatici și oameni care doresc să descopere și să exploreze inteligența corporală și noi modalități de a-și exprima latura artistică.",   
-        "foto": "CBF2018 Poster.png",
-       
-   {
-           
-        },
+        "foto": "CBF2018 Poster.png"
+    },
     
     {
         "id": "4",
